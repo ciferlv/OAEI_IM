@@ -51,12 +51,14 @@ public class StopWords {
 
         for (char ch : delimit.toCharArray()) {
 
-            str.replace(ch, ' ');
+            str = str.replace(ch, ' ');
         }
-
-        String[] strArray = str.split("\\s*");
+        System.out.println(str);
+        String[] strArray = str.split("\\s+");
 
         for (String tempStr : strArray) {
+
+            System.out.println(tempStr);
 
             if (!stopWordSet.contains(tempStr)) {
 

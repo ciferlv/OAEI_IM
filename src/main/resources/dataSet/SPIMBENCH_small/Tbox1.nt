@@ -451,33 +451,33 @@ _:node18t45np2nx17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <http://www.bbc.co.uk/ontologies/provenance/> <http://purl.org/dc/elements/1.1/created> "$Date: 2012/11/21 15:39:23 $"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.bbc.co.uk/ontologies/provenance/> <http://www.w3.org/2002/07/owl#versionInfo> "1.1"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.bbc.co.uk/ontologies/provenance/Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bbc.co.uk/ontologies/provenance/Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "The class to represent a named graph where all the triples contained represent a collection of data describing some domain or sub-domain "^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.bbc.co.uk/ontologies/provenance/Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "The class to represent a named graph1 where all the triples contained represent a collection of data describing some domain or sub-domain "^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.bbc.co.uk/ontologies/provenance/Dataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.bbc.co.uk/ontologies/provenance/> .
 <http://www.bbc.co.uk/ontologies/provenance/Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.bbc.co.uk/ontologies/provenance/Dataset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bbc.co.uk/ontologies/provenance/Graph> .
 <http://www.bbc.co.uk/ontologies/provenance/Graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bbc.co.uk/ontologies/provenance/Graph> <http://www.w3.org/2000/01/rdf-schema#comment> "A graph of triples of common provenance"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.bbc.co.uk/ontologies/provenance/Graph> <http://www.w3.org/2000/01/rdf-schema#comment> "A graph1 of triples of common provenance"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.bbc.co.uk/ontologies/provenance/Graph> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.bbc.co.uk/ontologies/provenance/> .
 <http://www.bbc.co.uk/ontologies/provenance/Graph> <http://www.w3.org/2000/01/rdf-schema#label> "Graph"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.bbc.co.uk/ontologies/provenance/Graph> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
 <http://www.bbc.co.uk/ontologies/provenance/Ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bbc.co.uk/ontologies/provenance/Ontology> <http://www.w3.org/2000/01/rdf-schema#comment> " The class to represent a named graph which is an ontology"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.bbc.co.uk/ontologies/provenance/Ontology> <http://www.w3.org/2000/01/rdf-schema#comment> " The class to represent a named graph1 which is an ontology"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.bbc.co.uk/ontologies/provenance/Ontology> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.bbc.co.uk/ontologies/provenance/> .
 <http://www.bbc.co.uk/ontologies/provenance/Ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Ontology"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.bbc.co.uk/ontologies/provenance/Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bbc.co.uk/ontologies/provenance/Graph> .
 <http://www.bbc.co.uk/ontologies/provenance/Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bbc.co.uk/ontologies/provenance/Resource> <http://www.w3.org/2000/01/rdf-schema#comment> " The class to represent a named graph where all the triples contained represent some kind of atomic resource (e.g., a particular thing like the URI for Usain Bolt)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.bbc.co.uk/ontologies/provenance/Resource> <http://www.w3.org/2000/01/rdf-schema#comment> " The class to represent a named graph1 where all the triples contained represent some kind of atomic resource (e.g., a particular thing like the URI for Usain Bolt)"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.bbc.co.uk/ontologies/provenance/Resource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.bbc.co.uk/ontologies/provenance/> .
 <http://www.bbc.co.uk/ontologies/provenance/Resource> <http://www.w3.org/2000/01/rdf-schema#label> "Resource"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.bbc.co.uk/ontologies/provenance/Resource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bbc.co.uk/ontologies/provenance/Graph> .
 <http://www.bbc.co.uk/ontologies/provenance/canonicalLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.bbc.co.uk/ontologies/provenance/canonicalLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "The canonical location where all the triples contained within the context (named graph) are stored externally. The location should be parametised with the version value to represent the different available versions. At the BBC we will use SVN locations."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.bbc.co.uk/ontologies/provenance/canonicalLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "The canonical location where all the triples contained within the context (named graph1) are stored externally. The location should be parametised with the version value to represent the different available versions. At the BBC we will use SVN locations."^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.bbc.co.uk/ontologies/provenance/canonicalLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bbc.co.uk/ontologies/provenance/Graph> .
 <http://www.bbc.co.uk/ontologies/provenance/canonicalLocation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.bbc.co.uk/ontologies/provenance/> .
 <http://www.bbc.co.uk/ontologies/provenance/canonicalLocation> <http://www.w3.org/2000/01/rdf-schema#label> "canonicalLocation"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.bbc.co.uk/ontologies/provenance/canonicalLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://www.bbc.co.uk/ontologies/provenance/changeReason> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.bbc.co.uk/ontologies/provenance/changeReason> <http://www.w3.org/2000/01/rdf-schema#comment> " The reason for the most recent change to the data in the context/named graph "^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.bbc.co.uk/ontologies/provenance/changeReason> <http://www.w3.org/2000/01/rdf-schema#comment> " The reason for the most recent change to the data in the context/named graph1 "^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.bbc.co.uk/ontologies/provenance/changeReason> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bbc.co.uk/ontologies/provenance/Graph> .
 <http://www.bbc.co.uk/ontologies/provenance/changeReason> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.bbc.co.uk/ontologies/provenance/> .
 <http://www.bbc.co.uk/ontologies/provenance/changeReason> <http://www.w3.org/2000/01/rdf-schema#label> "changeReason"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -501,7 +501,7 @@ _:node18t45np2nx17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <http://www.bbc.co.uk/ontologies/provenance/previousVersionHash> <http://www.w3.org/2000/01/rdf-schema#label> "previousVersionHash"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.bbc.co.uk/ontologies/provenance/previousVersionHash> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://www.bbc.co.uk/ontologies/provenance/product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bbc.co.uk/ontologies/provenance/product> <http://www.w3.org/2000/01/rdf-schema#comment> "The reference to the product from which the dataset, graph was created. This is needed for dataset management permissions"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.bbc.co.uk/ontologies/provenance/product> <http://www.w3.org/2000/01/rdf-schema#comment> "The reference to the product from which the dataset, graph1 was created. This is needed for dataset management permissions"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.bbc.co.uk/ontologies/provenance/product> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bbc.co.uk/ontologies/provenance/Graph> .
 <http://www.bbc.co.uk/ontologies/provenance/product> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.bbc.co.uk/ontologies/provenance/> .
 <http://www.bbc.co.uk/ontologies/provenance/product> <http://www.w3.org/2000/01/rdf-schema#label> "product"^^<http://www.w3.org/2001/XMLSchema#string> .

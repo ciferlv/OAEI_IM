@@ -5,9 +5,10 @@ package instance.matching.pr.unit;
  */
 public class CounterPart {
 
-    String subject1, subject2;
+    private String subject1, subject2;
 
-    public CounterPart() {}
+    public CounterPart() {
+    }
 
     public CounterPart(String uri1, String uri2) {
 
@@ -23,4 +24,11 @@ public class CounterPart {
         return String.valueOf(buffer);
     }
 
+    public String getSubject1() {
+        return subject1;
+    }
+
+    public String getSubject2() {
+        return subject2;
+    }
 }

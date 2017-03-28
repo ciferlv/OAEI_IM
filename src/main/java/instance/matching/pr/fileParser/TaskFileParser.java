@@ -1,4 +1,4 @@
-package instance.matching.pr;
+package instance.matching.pr.fileParser;
 
 import instance.matching.pr.unit.StopWords;
 import instance.matching.pr.unit.Triples;
@@ -83,7 +83,7 @@ public class TaskFileParser {
                 objectString = object.asResource().getURI();
             } else if (object.isLiteral()) {
 
-                objectString = object.asLiteral().getLexicalForm();
+                objectString = sw.formatWords(object.asLiteral().getLexicalForm());
                 if (objectString.equals("")) continue;
             } else {
                 continue;

@@ -51,5 +51,7 @@ public class Alignment {
         return String.valueOf(bf);
     }
 
-
+    public List<CounterPart> getCounterPartList() {
+        return counterPartList;
+    }
 }

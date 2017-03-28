@@ -1,4 +1,4 @@
-package instance.matching.pr;
+package instance.matching.pr.fileParser;
 
 import instance.matching.pr.unit.Alignment;
 import instance.matching.pr.unit.CounterPart;
