@@ -12,9 +12,9 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.*;
 
-import static instance.matching.helper.VariableDef.CLASS_TYPE;
-import static instance.matching.helper.VariableDef.DATA_TYPE_PROPERTY;
-import static instance.matching.helper.VariableDef.OBJECT_TYPE_PROPERTY;
+import static instance.matching.pr.unit.VariableDef.CLASS_TYPE;
+import static instance.matching.pr.unit.VariableDef.DATA_TYPE_PROPERTY;
+import static instance.matching.pr.unit.VariableDef.OBJECT_TYPE_PROPERTY;
 
 /**
  * Created by xinzelv on 3/19/17.
@@ -161,6 +161,7 @@ public class TaskFileParser {
                     if (targetType.contains(tempType)) {
                         targetSubject.add(subject);
                         break;
+
                     }
                 }
             }

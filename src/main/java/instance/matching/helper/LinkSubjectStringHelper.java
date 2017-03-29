@@ -1,6 +1,6 @@
 package instance.matching.helper;
 
-import static instance.matching.helper.VariableDef.LINK_SIGNAL;
+import static instance.matching.pr.unit.VariableDef.LINK_SIGNAL;
 
 /**
  * Created by ciferlv on 17-3-6.

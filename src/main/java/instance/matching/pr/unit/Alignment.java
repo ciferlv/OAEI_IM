@@ -17,7 +17,7 @@ public class Alignment {
     private List<CounterPart> counterPartList = Collections.synchronizedList(new ArrayList<CounterPart>());
 
 
-    public void addCounterPart(CounterPart counterPart) {
+    public synchronized void addCounterPart(CounterPart counterPart) {
 
         counterPartList.add(counterPart);
     }
@@ -38,6 +38,7 @@ public class Alignment {
         }
 
     }
+
 
     public String toString() {
 

@@ -2,6 +2,8 @@ package instance.matching.pr.unit;
 
 import java.util.*;
 
+import static instance.matching.pr.nlp.CalSimilarity.calObjSetSim;
+
 /**
  * Created by xinzelv on 3/19/17.
  */
@@ -13,9 +15,6 @@ public class Triples {
 
     private Set<String> type = new HashSet<String>();
 
-    public Triples() {
-    }
-
     public Triples(String tempSubject, String tempPredicate, String tempObject) {
 
         this.subject = tempSubject;
@@ -25,7 +24,6 @@ public class Triples {
 
     public void addObjectToPredicate(String tempObject, String tempPredicate) {
 
-//        System.out.println(tempPredicate);
         if (tempPredicate.equals("type")) {
 
             type.add(tempObject);
@@ -50,6 +48,24 @@ public class Triples {
         }
     }
 
+    public double calSimToTri(Triples tri, PredPairList ppl) {
+
+        double sim = 0;
+
+        Map<String, Set<String>> preObj = tri.getPredicateObject();
+
+        for (PredPair pp : ppl.getPredPairList()) {
+
+            Set<String> objSet1 = predicateObject.get(pp.getPred1());
+            Set<String> objSet2 = preObj.get(pp.getPred2());
+
+            sim += calObjSetSim(objSet1, objSet2);
+        }
+        return sim / ppl.size();
+    }
+
+
+    @Override
     public String toString() {
 
         StringBuffer out = new StringBuffer("subject: ");

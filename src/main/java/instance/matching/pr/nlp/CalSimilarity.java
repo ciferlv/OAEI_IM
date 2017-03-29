@@ -9,7 +9,7 @@ import static instance.matching.pr.nlp.EditDistance.editDistance;
  */
 public class CalSimilarity {
 
-    public static double calculate(Set<String> obj1Set, Set<String> obj2Set) {
+    public static double calObjSetSim(Set<String> obj1Set, Set<String> obj2Set) {
 
         double max = -1.0;
 

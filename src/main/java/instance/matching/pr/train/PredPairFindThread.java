@@ -11,7 +11,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-import static instance.matching.pr.nlp.CalSimilarity.calculate;
+import static instance.matching.pr.nlp.CalSimilarity.calObjSetSim;
 
 /**
  * Created by ciferlv on 17-3-29.
@@ -73,7 +73,7 @@ public class PredPairFindThread implements Runnable {
                 Map.Entry entry2 = (Map.Entry) iter2.next();
                 String pre2 = (String) entry2.getKey();
                 Set<String> obj2 = (Set<String>) entry2.getValue();
-                if (calculate(obj1, obj2) > 0.7) {
+                if (calObjSetSim(obj1, obj2) > 0.7) {
                     predPairList.add(new PredPair(pre1, pre2));
                 }
             }

@@ -67,4 +67,12 @@ public class PredPair implements Comparable {
     public void setTime(int time) {
         this.time = time;
     }
+
+    public String getPred1() {
+        return pred1;
+    }
+
+    public String getPred2() {
+        return pred2;
+    }
 }

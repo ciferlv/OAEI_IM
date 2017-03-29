@@ -2,8 +2,10 @@ package instance.matching.pr;
 
 import instance.matching.pr.fileParser.AlignFileParser;
 import instance.matching.pr.fileParser.TaskFileParser;
+import instance.matching.pr.train.AlignmentFinder;
 import instance.matching.pr.train.PredPairFinder;
 import instance.matching.pr.unit.Alignment;
+import instance.matching.pr.unit.PredPairList;
 import instance.matching.pr.unit.Triples;
 import org.dom4j.DocumentException;
 import org.slf4j.Logger;
@@ -15,7 +17,7 @@ import java.util.Map;
 import java.util.Random;
 import java.util.Set;
 
-import static instance.matching.helper.VariableDef.initialSamplePersent;
+import static instance.matching.pr.unit.VariableDef.initialSamplePersent;
 
 /**
  * Created by xinzelv on 17-3-27.
@@ -66,6 +68,12 @@ public class prMatching {
 //        logger.info(ppf.getPredPairList().toString());
 
         logger.info(ppf.getPredPairList().toString());
+        PredPairList ppl = ppf.getPredPairList();
+
+        AlignmentFinder af = new AlignmentFinder(graph1,graph2,targetSubject1,targetSubject2,ppl);
+        af.findAlignment();
+        logger.info(af.getResultAlignment().toString());
+
     }
 
 

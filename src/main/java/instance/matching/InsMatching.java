@@ -15,7 +15,7 @@ import java.util.Map;
 
 import static instance.matching.pr.nlp.EditDistance.editDistance;
 import static instance.matching.helper.LinkSubjectStringHelper.linkSubjectString;
-import static instance.matching.helper.VariableDef.SIMILAR_RATE;
+import static instance.matching.pr.unit.VariableDef.SIMILAR_RATE;
 
 /**
  * Created by ciferlv on 17-3-4.

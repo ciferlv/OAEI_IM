@@ -41,10 +41,26 @@ public class PredPairList {
         } else tempPP.setTime(tempPP.getTime() + 1);
     }
 
+    public void resize(int size) {
+
+        for (int i = predPairList.size() - 1; i >= size; i--) {
+
+            predPairList.remove(i);
+        }
+
+    }
+
+    public int size() {
+
+        return predPairList.size();
+    }
+
     @Override
-     public synchronized String toString() {
+    public synchronized String toString() {
 
         StringBuffer buffer = new StringBuffer();
+
+        buffer.append("size: " + size() + "\n");
 
         for (PredPair pp : predPairList) {
 
@@ -53,8 +69,11 @@ public class PredPairList {
         return String.valueOf(buffer);
     }
 
-     public void sort() {
+    public void sort() {
         Collections.sort(predPairList);
     }
 
+    public List<PredPair> getPredPairList() {
+        return predPairList;
+    }
 }
