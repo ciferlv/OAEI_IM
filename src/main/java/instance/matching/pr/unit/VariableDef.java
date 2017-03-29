@@ -75,11 +75,11 @@ public class VariableDef {
 
     public static final char LINK_SIGNAL = '@';
 
-    public static final String CLASS_TYPE = "http://www.w3.org/2002/07/owl#Class";
+    public static final String CLASS_TYPE = "http://www.w3.org/2002/07/owl#class";
 
-    public static final String OBJECT_TYPE_PROPERTY = "http://www.w3.org/2002/07/owl#ObjectProperty";
+    public static final String OBJECT_TYPE_PROPERTY = "http://www.w3.org/2002/07/owl#objectproperty";
 
-    public static final String DATA_TYPE_PROPERTY = "http://www.w3.org/2002/07/owl#DatatypeProperty";
+    public static final String DATA_TYPE_PROPERTY = "http://www.w3.org/2002/07/owl#datatypeproperty";
 
     public static double initialSamplePersent = 0.1;
 }

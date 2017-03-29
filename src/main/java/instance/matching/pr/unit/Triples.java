@@ -59,7 +59,10 @@ public class Triples {
             Set<String> objSet1 = predicateObject.get(pp.getPred1());
             Set<String> objSet2 = preObj.get(pp.getPred2());
 
-            sim += calObjSetSim(objSet1, objSet2);
+            if (objSet1 != null && objSet2 != null) {
+                sim += calObjSetSim(objSet1, objSet2);
+            }
+
         }
         return sim / ppl.size();
     }

@@ -7,6 +7,7 @@ import instance.matching.pr.train.PredPairFinder;
 import instance.matching.pr.unit.Alignment;
 import instance.matching.pr.unit.PredPairList;
 import instance.matching.pr.unit.Triples;
+import instance.matching.pr.utility.PrintAlignment;
 import org.dom4j.DocumentException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -65,14 +66,38 @@ public class prMatching {
 
         PredPairFinder ppf = new PredPairFinder(alignmentSample, graph1, graph2);
         ppf.findPredPair();
-//        logger.info(ppf.getPredPairList().toString());
-
-        logger.info(ppf.getPredPairList().toString());
         PredPairList ppl = ppf.getPredPairList();
+        logger.info(ppl.toString());
 
-        AlignmentFinder af = new AlignmentFinder(graph1,graph2,targetSubject1,targetSubject2,ppl);
+        AlignmentFinder af = new AlignmentFinder(graph1, graph2, targetSubject1, targetSubject2, ppl);
         af.findAlignment();
-        logger.info(af.getResultAlignment().toString());
+        Alignment resultAlignment = af.getResultAlignment();
+        logger.info(resultAlignment.toString());
+
+        String head = "<?xml version='1.0' encoding='utf-8' standalone='no'?>\n"
+                + "<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'\n"
+                + "\t\t xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' \n"
+                + "\t\t xmlns:xsd='http://www.w3.org/2001/XMLSchema#'\n"
+                + "\t\t xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>\n"
+                + "<CounterPart>\n"
+                + "\t<xml>yes</xml>\n"
+                + "\t<level>0</level>\n"
+                + "\t<type>**</type>\n"
+                + "\t<onto1>\n"
+//                + "\t\t<Ontology rdf:about=\"http://big.csr.unibo.it/sabine-eng.owl\" >\n"
+                + "\t\t\t<location>null</location>\n"
+//                + "\t\t</Ontology>\n"
+                + "\t</onto1>\n"
+                + "\t<onto1>\n"
+//                + "\t\t<Ontology rdf:about=\"http://big.csr.unibo.it/sabine-ita.owl\">\n"
+                + "\t\t\t<location>null</location>\n"
+//                + "\t\t</Ontology>\n"
+                + "\t</onto1>\n";
+        String resultFilePath = "target/result.txt";
+        PrintAlignment pa = new PrintAlignment(resultFilePath, resultAlignment);
+        pa.setHead(head);
+        pa.setTail("</Alignment>\n</rdf:RDF>");
+        pa.print();
 
     }
 

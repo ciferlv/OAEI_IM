@@ -7,6 +7,7 @@ import java.io.PrintWriter;
  */
 public class PrintMethodHelper {
 
+    private String head;
     public static String toRDF(String entity1, String entity2, String relation, String measure) {
         String out = "\t<map>\n" +
                 "\t\t<Cell>\n" +
@@ -21,13 +22,14 @@ public class PrintMethodHelper {
 
     public static void printHead(PrintWriter outStream,String head) {
 
-
         outStream.print(head);
     }
 
     public static void printTail(PrintWriter outStream) {
 
-        outStream.println("</CounterPart>");
+        outStream.println("</Alignment>");
         outStream.println("</rdf:RDF>");
     }
+
+
 }

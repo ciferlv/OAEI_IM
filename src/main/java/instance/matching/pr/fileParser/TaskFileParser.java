@@ -108,10 +108,17 @@ public class TaskFileParser {
             queue.offer(str);
         }
 
+        targetType.clear();
         while (!queue.isEmpty()) {
 
             String str = queue.peek();
             queue.poll();
+
+            if (!targetType.contains(str.toLowerCase())) {
+                targetType.add(str.toLowerCase());
+            } else {
+                continue;
+            }
 
             String queryString =
                     "PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>" +
@@ -127,12 +134,12 @@ public class TaskFileParser {
 
                 QuerySolution soln = results.nextSolution();
                 String tempSubject = soln.get("subject").toString();
-                if (!targetType.contains(tempSubject)) {
-                    targetType.add(tempSubject);
-                    queue.offer(tempSubject);
-                }
+                queue.offer(tempSubject);
+
             }
         }
+
+
     }
 
     private void classifySubject() {
