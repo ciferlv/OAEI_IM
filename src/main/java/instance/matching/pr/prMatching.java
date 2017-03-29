@@ -64,7 +64,7 @@ public class prMatching {
 
         PredPairFinder ppf = new PredPairFinder(alignmentSample, graph1, graph2);
         ppf.findPredPair();
-        logger.info(ppf.getPredPairList().toString());
+        logger.info(ppf.getPredPairList() .toString());
     }
 
 
