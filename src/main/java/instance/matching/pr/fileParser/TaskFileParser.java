@@ -74,16 +74,16 @@ public class TaskFileParser {
             Property predicate = stmt.getPredicate();
             RDFNode object = stmt.getObject();
 
-            String subjectString = subject.toString();
-            String predicateString = predicate.getLocalName();
+            String subjectString = subject.toString().toLowerCase();
+            String predicateString = predicate.getLocalName().toLowerCase();
 
             String objectString = null;
             if (object.isResource()) {
 
-                objectString = object.asResource().getURI();
+                objectString = object.asResource().getURI().toLowerCase();
             } else if (object.isLiteral()) {
 
-                objectString = sw.formatWords(object.asLiteral().getLexicalForm());
+                objectString = sw.formatWords(object.asLiteral().getLexicalForm().toLowerCase());
                 if (objectString.equals("")) continue;
             } else {
                 continue;

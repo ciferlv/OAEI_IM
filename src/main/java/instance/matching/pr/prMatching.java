@@ -2,6 +2,7 @@ package instance.matching.pr;
 
 import instance.matching.pr.fileParser.AlignFileParser;
 import instance.matching.pr.fileParser.TaskFileParser;
+import instance.matching.pr.train.PredPairFinder;
 import instance.matching.pr.unit.Alignment;
 import instance.matching.pr.unit.Triples;
 import org.dom4j.DocumentException;
@@ -60,11 +61,11 @@ public class prMatching {
             alignmentSample.addCounterPart(refAligns.findCounterPart(index));
         }
 
-//        logger.info("list alignmentSample : \n"+alignmentSample.toString());
-
         PredPairFinder ppf = new PredPairFinder(alignmentSample, graph1, graph2);
         ppf.findPredPair();
-        logger.info(ppf.getPredPairList() .toString());
+//        logger.info(ppf.getPredPairList().toString());
+
+        logger.info(ppf.getPredPairList().toString());
     }
 
 

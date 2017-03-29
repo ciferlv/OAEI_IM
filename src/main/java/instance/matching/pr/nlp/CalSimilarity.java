@@ -2,12 +2,12 @@ package instance.matching.pr.nlp;
 
 import java.util.Set;
 
-import static instance.matching.pr.nlp.EditDistanceHelper.editDistance;
+import static instance.matching.pr.nlp.EditDistance.editDistance;
 
 /**
  * Created by xinzelv on 17-3-28.
  */
-public class calSimilarity {
+public class CalSimilarity {
 
     public static double calculate(Set<String> obj1Set, Set<String> obj2Set) {
 

@@ -16,6 +16,7 @@ public class CounterPart {
         subject2 = uri2;
     }
 
+    @Override
     public String toString() {
 
         StringBuffer buffer = new StringBuffer();
@@ -24,11 +25,11 @@ public class CounterPart {
         return String.valueOf(buffer);
     }
 
-    public String getSubject1() {
+    public synchronized String getSubject1() {
         return subject1;
     }
 
-    public String getSubject2() {
+    public synchronized String getSubject2() {
         return subject2;
     }
 }

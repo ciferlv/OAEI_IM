@@ -1,18 +1,24 @@
 package instance.matching.pr.unit;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
+
 
 /**
  * Created by xinzelv on 17-3-28.
  */
 public class PredPairList {
 
-    private List<PredPair> predPairList = new ArrayList<PredPair>();
+    private Logger logger = LoggerFactory.getLogger(PredPairList.class);
+    private List<PredPair> predPairList = Collections.synchronizedList(new ArrayList<PredPair>());
 
 
-    public PredPair contains(PredPair pp) {
+    public synchronized PredPair contains(PredPair pp) {
 
         Iterator<PredPair> iter = predPairList.iterator();
 
@@ -26,24 +32,29 @@ public class PredPairList {
         return null;
     }
 
-    public void add(PredPair pp) {
+    public synchronized void add(PredPair pp) {
 
+        if (pp == null) return;
         PredPair tempPP = contains(pp);
         if (tempPP == null) {
-            predPairList.add(tempPP);
+            predPairList.add(pp);
         } else tempPP.setTime(tempPP.getTime() + 1);
     }
 
-    public String toString() {
+    @Override
+     public synchronized String toString() {
 
         StringBuffer buffer = new StringBuffer();
 
         for (PredPair pp : predPairList) {
 
-            buffer.append(pp.toString()+"\n");
+            buffer.append(pp.toString() + "\n");
         }
         return String.valueOf(buffer);
     }
 
+     public void sort() {
+        Collections.sort(predPairList);
+    }
 
 }

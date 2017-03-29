@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static instance.matching.pr.nlp.EditDistanceHelper.editDistance;
+import static instance.matching.pr.nlp.EditDistance.editDistance;
 import static instance.matching.helper.LinkSubjectStringHelper.linkSubjectString;
 import static instance.matching.helper.VariableDef.SIMILAR_RATE;
 

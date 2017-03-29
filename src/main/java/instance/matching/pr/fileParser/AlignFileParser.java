@@ -7,9 +7,7 @@ import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 
-import java.util.HashSet;
 import java.util.Iterator;
-import java.util.Set;
 
 /**
  * Created by xinzelv on 17-3-27.
@@ -46,8 +44,8 @@ public class AlignFileParser {
             Element entity1Element = cellElement.element("entity1");
             Element entity2Element = cellElement.element("entity2");
 
-            String uri1 = entity1Element.attribute(0).getValue();
-            String uri2 = entity2Element.attribute(0).getValue();
+            String uri1 = entity1Element.attribute(0).getValue().toLowerCase();
+            String uri2 = entity2Element.attribute(0).getValue().toLowerCase();
 
 
             aligns.addCounterPart(new CounterPart(uri1,uri2));

@@ -10,5 +10,14 @@ are
 was
 am
 s
+x
+xx
+xxx
+xxxx
+xxxxx
+xxxxxx
+xxxxxxx
+xxxxxxxx
+
 
 

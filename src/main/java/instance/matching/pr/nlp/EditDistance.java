@@ -8,9 +8,9 @@ import static instance.matching.helper.TrimStringHelper.trimString;
 /**
  * Created by ciferlv on 17-3-5.
  */
-public class EditDistanceHelper {
+public class EditDistance {
 
-    static Logger logger = LoggerFactory.getLogger(EditDistanceHelper.class);
+    static Logger logger = LoggerFactory.getLogger(EditDistance.class);
 
     public static double editDistance(String str1, String str2) {
 

@@ -22,9 +22,9 @@ public class PredPair implements Comparable {
         if (o instanceof PredPair) {
 
             if (this.time < ((PredPair) o).time) {
-                return -1;
-            } else if (this.time > ((PredPair) o).time) {
                 return 1;
+            } else if (this.time > ((PredPair) o).time) {
+                return -1;
             }
         }
 
