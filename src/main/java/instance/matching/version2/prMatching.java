@@ -1,13 +1,9 @@
 package instance.matching.version2;
 
 import instance.matching.version2.eval.CalPerRecF1;
-import instance.matching.version2.fileParser.AlignFileParser;
-import instance.matching.version2.fileParser.TaskFileParser;
-import instance.matching.version2.train.AlignmentFinder;
-import instance.matching.version2.train.PredPairFinder;
 import instance.matching.version2.unit.Alignment;
+import instance.matching.version2.unit.Document;
 import instance.matching.version2.unit.PredPairList;
-import instance.matching.version2.unit.Triples;
 import instance.matching.version2.utility.PrintAlignment;
 import org.dom4j.DocumentException;
 import org.slf4j.Logger;
@@ -15,11 +11,12 @@ import org.slf4j.LoggerFactory;
 
 import java.io.FileNotFoundException;
 import java.util.HashSet;
-import java.util.Map;
-import java.util.Random;
 import java.util.Set;
 
-import static instance.matching.version2.utility.VariableDef.initialSamplePersent;
+import static instance.matching.version2.fileParser.AlignFileParser.parseAlignFile;
+import static instance.matching.version2.fileParser.TaskFileParser.parseTaskFile;
+import static instance.matching.version2.train.AlignmentFinder.findResultAlign;
+import static instance.matching.version2.train.PredPairFinder.findPredPair;
 
 /**
  * Created by xinzelv on 17-3-27.
@@ -40,39 +37,23 @@ public class prMatching {
         Set<String> targetType2 = new HashSet<String>();
         targetType2.add("http://www.okkam.org/ontology_person2.owl#Person");
 
-        TaskFileParser taskFileParser1 = new TaskFileParser(taskFilePath1, targetType1);
-        TaskFileParser taskFileParser2 = new TaskFileParser(taskFilePath2, targetType2);
+        Document doc1 = new Document(targetType1);
+        Document doc2 = new Document(targetType2);
 
-        AlignFileParser alignFileParser = new AlignFileParser(refAlignFilePath);
+        parseTaskFile(taskFilePath1, doc1);
+        parseTaskFile(taskFilePath2, doc2);
 
+        Alignment refAlign = new Alignment();
+        parseAlignFile(refAlignFilePath, refAlign);
 
-        Alignment refAlign = alignFileParser.getAligns();
+        Alignment alignSample = refAlign.generateSample();
 
-        Map<String, Triples> graph1 = taskFileParser1.getGraph();
-        Map<String, Triples> graph2 = taskFileParser2.getGraph();
-        Set<String> targetSubject1 = taskFileParser1.getTargetSubject();
-        Set<String> targetSubject2 = taskFileParser2.getTargetSubject();
-
-
-        Alignment alignSample = new Alignment();
-        Random r = new Random();
-
-        int sampleSize = (int) (refAlign.size() * initialSamplePersent);
-
-        while (alignSample.size() < sampleSize) {
-
-            int index = r.nextInt(refAlign.size());
-            alignSample.addCounterPart(refAlign.findCounterPart(index));
-        }
-
-        PredPairFinder ppf = new PredPairFinder(alignSample, graph1, graph2);
-        ppf.findPredPair();
-        PredPairList ppl = ppf.getPredPairList();
+        PredPairList ppl = new PredPairList();
+        findPredPair(alignSample, doc1, doc2, ppl);
         logger.info(ppl.toString());
 
-        AlignmentFinder af = new AlignmentFinder(graph1, graph2, targetSubject1, targetSubject2, ppl);
-        af.findAlign();
-        Alignment resultAlign = af.getResultAlign();
+        Alignment resultAlign = new Alignment();
+        findResultAlign(doc1, doc2, ppl, resultAlign);
         logger.info(resultAlign.toString());
 
         String head = "<?xml version='1.0' encoding='utf-8' standalone='no'?>\n"
@@ -100,7 +81,7 @@ public class prMatching {
         pa.setTail("</Alignment>\n</rdf:RDF>");
         pa.print();
 
-        CalPerRecF1 cprf = new CalPerRecF1(refAlign,resultAlign);
+        CalPerRecF1 cprf = new CalPerRecF1(refAlign, resultAlign);
     }
 
 

@@ -6,6 +6,8 @@ import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Iterator;
 
@@ -14,20 +16,22 @@ import java.util.Iterator;
  */
 public class AlignFileParser {
 
-    private String filePath;
+    private static Logger logger = LoggerFactory.getLogger(AlignFileParser.class);
 
-    Alignment aligns = new Alignment();
-
-    public AlignFileParser(String filePath) throws DocumentException {
-
-        this.filePath = filePath;
-        parseAlignFile();
-    }
-
-    public void parseAlignFile() throws DocumentException {
+    public static void parseAlignFile(String filePath, Alignment aligns) {
 
         SAXReader reader = new SAXReader();
-        Document document = reader.read(filePath);
+        Document document = null;
+
+        try {
+
+            document = reader.read(filePath);
+        } catch (DocumentException e) {
+
+            logger.info("Can't find alignment file!");
+            logger.error(e.getMessage());
+        }
+
         Element root = document.getRootElement();
 
         Iterator<Element> alignmentIterator = root.elements("Alignment").iterator();
@@ -47,13 +51,7 @@ public class AlignFileParser {
             String uri1 = entity1Element.attribute(0).getValue().toLowerCase();
             String uri2 = entity2Element.attribute(0).getValue().toLowerCase();
 
-
-            aligns.addCounterPart(new CounterPart(uri1,uri2));
-
+            aligns.addCounterPart(new CounterPart(uri1, uri2));
         }
-    }
-
-    public Alignment getAligns() {
-        return aligns;
     }
 }

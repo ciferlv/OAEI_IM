@@ -1,6 +1,7 @@
 package instance.matching.version2.train;
 
 import instance.matching.version2.unit.Alignment;
+import instance.matching.version2.unit.Document;
 import instance.matching.version2.unit.PredPairList;
 import instance.matching.version2.unit.Triples;
 import org.slf4j.Logger;
@@ -18,32 +19,18 @@ import static instance.matching.version2.utility.ThreadEndJudge.terminateThread;
  */
 public class AlignmentFinder {
 
-    Logger logger = LoggerFactory.getLogger(AlignmentFinder.class);
+    private static Logger logger = LoggerFactory.getLogger(AlignmentFinder.class);
 
-    private Alignment resultAlign = new Alignment();
+    public static void findResultAlign(Document doc1,
+                                       Document doc2,
+                                       PredPairList ppl,
+                                       Alignment resultAlign) {
 
-    private Map<String, Triples> graph1 = null;
-    private Map<String, Triples> graph2 = null;
+        Map<String, Triples> graph1 = doc1.getGraph();
+        Map<String, Triples> graph2 = doc2.getGraph();
 
-    private Set<String> targetSubject1 = null;
-    private Set<String> targetSubject2 = null;
-
-    private PredPairList predPairList = null;
-
-    public AlignmentFinder(Map<String, Triples> graph1,
-                           Map<String, Triples> graph2,
-                           Set<String> tarSub1,
-                           Set<String> tarSub2,
-                           PredPairList ppl) {
-
-        this.graph1 = graph1;
-        this.graph2 = graph2;
-        this.predPairList = ppl;
-        this.targetSubject1 = tarSub1;
-        this.targetSubject2 = tarSub2;
-    }
-
-    public void findAlign() {
+        Set<String> targetSubject1 = doc1.getTargetSubject();
+        Set<String> targetSubject2 = doc2.getTargetSubject();
 
         ExecutorService cachedThreadPool = Executors.newCachedThreadPool();
 
@@ -54,14 +41,10 @@ public class AlignmentFinder {
 
                 Triples tri2 = graph2.get(sub2);
                 Runnable run = new Thread(
-                        new AlignmentFinderThread(tri1,tri2,predPairList, resultAlign));
+                        new AlignmentFinderThread(tri1, tri2, ppl, resultAlign));
                 cachedThreadPool.execute(run);
             }
         }
         terminateThread(cachedThreadPool, logger);
-    }
-
-    public Alignment getResultAlign() {
-        return resultAlign;
     }
 }

@@ -6,6 +6,9 @@ import org.slf4j.LoggerFactory;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Random;
+
+import static instance.matching.version2.utility.VariableDef.initialSamplePersent;
 
 /**
  * Created by xinzelv on 17-3-27.
@@ -39,6 +42,20 @@ public class Alignment {
 
     }
 
+    public Alignment generateSample() {
+
+        Alignment sample = new Alignment();
+        Random r = new Random();
+
+        int sampleSize = (int) (size() * initialSamplePersent);
+
+        while (sample.size() < sampleSize) {
+
+            int index = r.nextInt(size());
+            sample.addCounterPart(findCounterPart(index));
+        }
+        return sample;
+    }
 
     public String toString() {
 

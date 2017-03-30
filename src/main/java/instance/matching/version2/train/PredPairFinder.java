@@ -16,25 +16,12 @@ import static instance.matching.version2.utility.ThreadEndJudge.terminateThread;
  */
 public class PredPairFinder {
 
-    private Logger logger = LoggerFactory.getLogger(PredPairFinder.class);
+    private static Logger logger = LoggerFactory.getLogger(PredPairFinder.class);
 
-    private Alignment sample = null;
-    private Map<String, Triples> graph1 = null;
-    private Map<String, Triples> graph2 = null;
-    private PredPairList predPairList = null;
+    public static void findPredPair(Alignment sample, Document doc1, Document doc2,PredPairList ppl) {
 
-    public PredPairFinder(Alignment sample,
-                          Map<String, Triples> graph1,
-                          Map<String, Triples> graph2) {
-
-        this.sample = sample;
-        this.graph1 = graph1;
-        this.graph2 = graph2;
-
-        predPairList = new PredPairList();
-    }
-
-    public void findPredPair() {
+        Map<String, Triples> graph1 = doc1.getGraph();
+        Map<String, Triples> graph2 = doc2.getGraph();
 
         List<CounterPart> counterPartList = sample.getCounterPartList();
         ExecutorService cachedThreadPool = Executors.newCachedThreadPool();
@@ -42,13 +29,13 @@ public class PredPairFinder {
         for (CounterPart cp : counterPartList) {
 
             Runnable run = new Thread(
-                    new PredPairFindThread(cp, graph1, graph2, predPairList));
+                    new PredPairFindThread(cp, graph1, graph2, ppl));
             cachedThreadPool.execute(run);
         }
 
-        terminateThread(cachedThreadPool,logger);
-        predPairList.sort();
-        predPairList.resize(3);
+        terminateThread(cachedThreadPool, logger);
+        ppl.sort();
+        ppl.resize(3);
     }
 
     //    public void findPredPair() {
@@ -144,8 +131,4 @@ public class PredPairFinder {
 //        }
 //        predPairList.sort();
 //    }
-
-    public PredPairList getPredPairList() {
-        return predPairList;
-    }
 }

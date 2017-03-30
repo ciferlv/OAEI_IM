@@ -51,6 +51,7 @@ public class Triples {
     public double calSimToTri(Triples tri, PredPairList ppl) {
 
         double sim = 0;
+        int cnt = 0;
 
         Map<String, Set<String>> preObj = tri.getPredicateObject();
 
@@ -61,10 +62,11 @@ public class Triples {
 
             if (objSet1 != null && objSet2 != null) {
                 sim += calObjSetSim(objSet1, objSet2);
+                cnt++;
             }
 
         }
-        return sim / ppl.size();
+        return sim / cnt;
     }
 
 

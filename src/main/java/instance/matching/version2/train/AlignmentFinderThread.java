@@ -4,11 +4,15 @@ import instance.matching.version2.unit.Alignment;
 import instance.matching.version2.unit.CounterPart;
 import instance.matching.version2.unit.PredPairList;
 import instance.matching.version2.unit.Triples;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Created by xinzelv on 17-3-29.
  */
-public class AlignmentFinderThread implements Runnable{
+public class AlignmentFinderThread implements Runnable {
+
+    private Logger logger = LoggerFactory.getLogger(AlignmentFinderThread.class);
 
     private Triples tri1 = null;
     private Triples tri2 = null;
@@ -29,9 +33,11 @@ public class AlignmentFinderThread implements Runnable{
 
     public void run() {
 
-        if( tri1.calSimToTri(tri2,predPairList) > 0.65)
-        {
-            alignment.addCounterPart(new CounterPart(tri1.getSubject(),tri2.getSubject()));
+        double value = tri1.calSimToTri(tri2, predPairList);
+
+        if (value > 0.85) {
+//            logger.info(String.valueOf(value));
+            alignment.addCounterPart(new CounterPart(tri1.getSubject(), tri2.getSubject()));
         }
     }
 }

@@ -15,13 +15,14 @@ import java.util.Set;
  */
 public class StopWords {
 
-    private Logger logger = LoggerFactory.getLogger(StopWords.class);
+    private static Logger logger = LoggerFactory.getLogger(StopWords.class);
 
-    private String filePath = "src/main/resources/config/stopwords.txt";
+    private static String filePath = "src/main/resources/config/stopwords.txt";
 
-    private Set<String> stopWordSet = new HashSet<String>();
+    private static Set<String> stopWordSet = new HashSet<String>();
 
-    public StopWords() {
+    public static void getStopWords() {
+
         try {
             FileReader fr = new FileReader(filePath);
             BufferedReader br = new BufferedReader(fr);
@@ -37,13 +38,12 @@ public class StopWords {
         } catch (IOException e) {
             logger.error(e.getMessage());
         }
+
     }
 
-    public Set<String> getStopWordSet() {
-        return stopWordSet;
-    }
+    public static String formatWords(String str) {
 
-    public String formatWords(String str) {
+        str = str.toLowerCase();
 
         String delimit = "~!@#$%^&*()_+|`-=\\{}[]:\";'<>?,./'";
 
@@ -63,6 +63,8 @@ public class StopWords {
                 buffer.append(tempStr);
             }
         }
+
+
         return String.valueOf(buffer);
     }
 
