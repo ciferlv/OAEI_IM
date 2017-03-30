@@ -1,5 +1,6 @@
 package instance.matching.pr;
 
+import instance.matching.pr.eval.CalPerRecF1;
 import instance.matching.pr.fileParser.AlignFileParser;
 import instance.matching.pr.fileParser.TaskFileParser;
 import instance.matching.pr.train.AlignmentFinder;
@@ -45,7 +46,7 @@ public class prMatching {
         AlignFileParser alignFileParser = new AlignFileParser(refAlignFilePath);
 
 
-        Alignment refAligns = alignFileParser.getAligns();
+        Alignment refAlign = alignFileParser.getAligns();
 
         Map<String, Triples> graph1 = taskFileParser1.getGraph();
         Map<String, Triples> graph2 = taskFileParser2.getGraph();
@@ -53,52 +54,53 @@ public class prMatching {
         Set<String> targetSubject2 = taskFileParser2.getTargetSubject();
 
 
-        Alignment alignmentSample = new Alignment();
+        Alignment alignSample = new Alignment();
         Random r = new Random();
 
-        int sampleSize = (int) (refAligns.size() * initialSamplePersent);
+        int sampleSize = (int) (refAlign.size() * initialSamplePersent);
 
-        while (alignmentSample.size() < sampleSize) {
+        while (alignSample.size() < sampleSize) {
 
-            int index = r.nextInt(refAligns.size());
-            alignmentSample.addCounterPart(refAligns.findCounterPart(index));
+            int index = r.nextInt(refAlign.size());
+            alignSample.addCounterPart(refAlign.findCounterPart(index));
         }
 
-        PredPairFinder ppf = new PredPairFinder(alignmentSample, graph1, graph2);
+        PredPairFinder ppf = new PredPairFinder(alignSample, graph1, graph2);
         ppf.findPredPair();
         PredPairList ppl = ppf.getPredPairList();
         logger.info(ppl.toString());
 
         AlignmentFinder af = new AlignmentFinder(graph1, graph2, targetSubject1, targetSubject2, ppl);
-        af.findAlignment();
-        Alignment resultAlignment = af.getResultAlignment();
-        logger.info(resultAlignment.toString());
+        af.findAlign();
+        Alignment resultAlign = af.getResultAlign();
+        logger.info(resultAlign.toString());
 
         String head = "<?xml version='1.0' encoding='utf-8' standalone='no'?>\n"
                 + "<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'\n"
                 + "\t\t xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' \n"
                 + "\t\t xmlns:xsd='http://www.w3.org/2001/XMLSchema#'\n"
                 + "\t\t xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>\n"
-                + "<CounterPart>\n"
+                + "<Alignment>\n"
                 + "\t<xml>yes</xml>\n"
                 + "\t<level>0</level>\n"
                 + "\t<type>**</type>\n"
                 + "\t<onto1>\n"
-//                + "\t\t<Ontology rdf:about=\"http://big.csr.unibo.it/sabine-eng.owl\" >\n"
+                + "\t\t<Ontology>\n"
                 + "\t\t\t<location>null</location>\n"
-//                + "\t\t</Ontology>\n"
+                + "\t\t</Ontology>\n"
                 + "\t</onto1>\n"
                 + "\t<onto1>\n"
-//                + "\t\t<Ontology rdf:about=\"http://big.csr.unibo.it/sabine-ita.owl\">\n"
+                + "\t\t<Ontology>\n"
                 + "\t\t\t<location>null</location>\n"
-//                + "\t\t</Ontology>\n"
+                + "\t\t</Ontology>\n"
                 + "\t</onto1>\n";
         String resultFilePath = "target/result.txt";
-        PrintAlignment pa = new PrintAlignment(resultFilePath, resultAlignment);
+        PrintAlignment pa = new PrintAlignment(resultFilePath, resultAlign);
         pa.setHead(head);
         pa.setTail("</Alignment>\n</rdf:RDF>");
         pa.print();
 
+        CalPerRecF1 cprf = new CalPerRecF1(refAlign,resultAlign);
     }
 
 

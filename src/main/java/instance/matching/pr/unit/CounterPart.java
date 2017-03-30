@@ -17,6 +17,25 @@ public class CounterPart {
     }
 
     @Override
+    public boolean equals(Object obj) {
+
+        if( obj instanceof CounterPart )
+        {
+            CounterPart cp = (CounterPart) obj;
+            if (cp.getSubject1().equals(subject1)
+                    && cp.getSubject2().equals(subject2)) {
+                return true;
+            }
+            if (cp.getSubject2().equals(subject1)
+                    && cp.getSubject1().equals(subject2)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
+    @Override
     public String toString() {
 
         StringBuffer buffer = new StringBuffer();

@@ -20,7 +20,7 @@ public class AlignmentFinder {
 
     Logger logger = LoggerFactory.getLogger(AlignmentFinder.class);
 
-    private Alignment resultAlignment = new Alignment();
+    private Alignment resultAlign = new Alignment();
 
     private Map<String, Triples> graph1 = null;
     private Map<String, Triples> graph2 = null;
@@ -43,7 +43,7 @@ public class AlignmentFinder {
         this.targetSubject2 = tarSub2;
     }
 
-    public void findAlignment() {
+    public void findAlign() {
 
         ExecutorService cachedThreadPool = Executors.newCachedThreadPool();
 
@@ -54,14 +54,14 @@ public class AlignmentFinder {
 
                 Triples tri2 = graph2.get(sub2);
                 Runnable run = new Thread(
-                        new AlignmentFinderThread(tri1,tri2,predPairList,resultAlignment));
+                        new AlignmentFinderThread(tri1,tri2,predPairList, resultAlign));
                 cachedThreadPool.execute(run);
             }
         }
         terminateThread(cachedThreadPool, logger);
     }
 
-    public Alignment getResultAlignment() {
-        return resultAlignment;
+    public Alignment getResultAlign() {
+        return resultAlign;
     }
 }

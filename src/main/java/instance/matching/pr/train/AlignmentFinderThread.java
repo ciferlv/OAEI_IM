@@ -5,9 +5,6 @@ import instance.matching.pr.unit.CounterPart;
 import instance.matching.pr.unit.PredPairList;
 import instance.matching.pr.unit.Triples;
 
-import java.util.Map;
-import java.util.Set;
-
 /**
  * Created by xinzelv on 17-3-29.
  */
@@ -32,7 +29,7 @@ public class AlignmentFinderThread implements Runnable{
 
     public void run() {
 
-        if( tri1.calSimToTri(tri2,predPairList) > 0.7)
+        if( tri1.calSimToTri(tri2,predPairList) > 0.65)
         {
             alignment.addCounterPart(new CounterPart(tri1.getSubject(),tri2.getSubject()));
         }
