@@ -23,74 +23,74 @@ import static instance.matching.version2.train.PredPairFinder.findPredPair;
  */
 public class prMatching {
 
-    private static Logger logger = LoggerFactory.getLogger(prMatching.class);
+        private static Logger logger = LoggerFactory.getLogger(prMatching.class);
 
-    public static void main(String[] args) throws FileNotFoundException, DocumentException {
+        public static void main(String[] args) throws FileNotFoundException, DocumentException {
 
-//        String refAlignFilePath = "src/main/resources/dataSet/PR/person2/dataset21_dataset22_goldstandard_person.xml";
-        String refAlignFilePath = "src/main/resources/dataSet/PR/restaurants/restaurant1_restaurant2_goldstandard.rdf";
 //        String refAlignFilePath = "src/main/resources/dataSet/PR/person1/dataset11_dataset12_goldstandard_person.xml";
-        String taskFilePath1 = "src/main/resources/dataSet/PR/restaurants/restaurant1.rdf";
-//        String taskFilePath1 = "src/main/resources/dataSet/PR/person2/person21.rdf";
 //        String taskFilePath1 = "src/main/resources/dataSet/PR/person1/person11.rdf";
-        String taskFilePath2 = "src/main/resources/dataSet/PR/restaurants/restaurant2.rdf";
-//        String taskFilePath2 = "src/main/resources/dataSet/PR/person2/person22.rdf";
 //        String taskFilePath2 = "src/main/resources/dataSet/PR/person1/person12.rdf";
 
-        Set<String> targetType1 = new HashSet<String>();
+                String refAlignFilePath = "src/main/resources/dataSet/PR/restaurants/restaurant1_restaurant2_goldstandard.rdf";
+                String taskFilePath1 = "src/main/resources/dataSet/PR/restaurants/restaurant1.rdf";
+                String taskFilePath2 = "src/main/resources/dataSet/PR/restaurants/restaurant2.rdf";
+
+                Set<String> targetType1 = new HashSet<String>();
 //        targetType1.add("http://www.okkam.org/ontology_person1.owl#Person");
-        targetType1.add("http://www.okkam.org/ontology_restaurant1.owl#Restaurant");
+                targetType1.add("http://www.okkam.org/ontology_restaurant1.owl#Restaurant");
 
-        Set<String> targetType2 = new HashSet<String>();
+                Set<String> targetType2 = new HashSet<String>();
 //        targetType2.add("http://www.okkam.org/ontology_person2.owl#Person");
-        targetType2.add("http://www.okkam.org/ontology_restaurant2.owl#Restaurant");
+                targetType2.add("http://www.okkam.org/ontology_restaurant2.owl#Restaurant");
 
-        Document doc1 = new Document(targetType1);
-        Document doc2 = new Document(targetType2);
+                Document doc1 = new Document(targetType1);
+                Document doc2 = new Document(targetType2);
 
-        parseTaskFile(taskFilePath1, doc1);
-        parseTaskFile(taskFilePath2, doc2);
+                parseTaskFile(taskFilePath1, doc1);
+                parseTaskFile(taskFilePath2, doc2);
 
-        Alignment refAlign = new Alignment();
-        parseAlignFile(refAlignFilePath, refAlign);
+                logger.info(doc1.getGraph().toString());
 
-        Alignment alignSample = refAlign.generateSample();
+                Alignment refAlign = new Alignment();
+                parseAlignFile(refAlignFilePath, refAlign);
 
-        PredPairList ppl = new PredPairList();
-        findPredPair(alignSample, doc1, doc2, ppl);
-        logger.info(ppl.toString());
+                Alignment alignSample = refAlign.generateSample();
 
-        Alignment resultAlign = new Alignment();
-        findResultAlign(doc1, doc2, ppl, resultAlign);
-        logger.info(resultAlign.toString());
+                PredPairList ppl = new PredPairList();
+                findPredPair(alignSample, doc1, doc2, ppl);
+                logger.info(ppl.toString());
 
-        String head = "<?xml version='1.0' encoding='utf-8' standalone='no'?>\n"
-                + "<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'\n"
-                + "\t\t xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' \n"
-                + "\t\t xmlns:xsd='http://www.w3.org/2001/XMLSchema#'\n"
-                + "\t\t xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>\n"
-                + "<Alignment>\n"
-                + "\t<xml>yes</xml>\n"
-                + "\t<level>0</level>\n"
-                + "\t<type>**</type>\n"
-                + "\t<onto1>\n"
-                + "\t\t<Ontology>\n"
-                + "\t\t\t<location>null</location>\n"
-                + "\t\t</Ontology>\n"
-                + "\t</onto1>\n"
-                + "\t<onto1>\n"
-                + "\t\t<Ontology>\n"
-                + "\t\t\t<location>null</location>\n"
-                + "\t\t</Ontology>\n"
-                + "\t</onto1>\n";
-        String resultFilePath = "target/result.txt";
-        PrintAlignment pa = new PrintAlignment(resultFilePath, resultAlign);
-        pa.setHead(head);
-        pa.setTail("</Alignment>\n</rdf:RDF>");
-        pa.print();
+                Alignment resultAlign = new Alignment();
+                findResultAlign(doc1, doc2, ppl, resultAlign);
+                logger.info(resultAlign.toString());
 
-        CalPerRecF1 cprf = new CalPerRecF1(refAlign, resultAlign);
-    }
+                String head = "<?xml version='1.0' encoding='utf-8' standalone='no'?>\n"
+                        + "<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'\n"
+                        + "\t\t xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' \n"
+                        + "\t\t xmlns:xsd='http://www.w3.org/2001/XMLSchema#'\n"
+                        + "\t\t xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>\n"
+                        + "<Alignment>\n"
+                        + "\t<xml>yes</xml>\n"
+                        + "\t<level>0</level>\n"
+                        + "\t<type>**</type>\n"
+                        + "\t<onto1>\n"
+                        + "\t\t<Ontology>\n"
+                        + "\t\t\t<location>null</location>\n"
+                        + "\t\t</Ontology>\n"
+                        + "\t</onto1>\n"
+                        + "\t<onto1>\n"
+                        + "\t\t<Ontology>\n"
+                        + "\t\t\t<location>null</location>\n"
+                        + "\t\t</Ontology>\n"
+                        + "\t</onto1>\n";
+                String resultFilePath = "target/result.txt";
+                PrintAlignment pa = new PrintAlignment(resultFilePath, resultAlign);
+                pa.setHead(head);
+                pa.setTail("</Alignment>\n</rdf:RDF>");
+                pa.print();
+
+                CalPerRecF1 cprf = new CalPerRecF1(refAlign, resultAlign);
+        }
 
 
 }

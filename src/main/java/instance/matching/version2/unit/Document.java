@@ -123,67 +123,51 @@ public class Document {
         }
     }
 
-    private boolean isURI(String str) {
-        if (str.startsWith("http")) return true;
-        return false;
-    }
+    private void reinforceSub(Triples tri, String tarPred, String tarObj) {
 
-    private void reinforceSub(String startPre, String sub, Triples targetTri) {
+        Triples tarTri = graph.get(tarObj);
 
-        Triples tri = graph.get(sub);
-        Map<String, Set<String>> preObj = tri.getPredicateObject();
+        Map<String, Set<String>> objToRemoved = tarTri.getPredObjBeRemoved();
 
-        Iterator iter = preObj.entrySet().iterator();
+        Iterator iterRemove = objToRemoved.entrySet().iterator();
 
-        while (iter.hasNext()) {
+        while (iterRemove.hasNext()) {
 
-            Map.Entry entry = (Map.Entry) iter.next();
-
+            Map.Entry entry = (Map.Entry) iterRemove.next();
             String pred = (String) entry.getKey();
             Set<String> objSet = (Set<String>) entry.getValue();
 
             for (String obj : objSet) {
 
-                if (!isURI(obj)) {
-                    targetTri.addObjectToPredicate(obj, startPre + "_" + pred);
-                } else {
-                    reinforceSub(startPre + "_" + pred, obj, targetTri);
-                }
+                reinforceSub(tarTri, pred, obj);
+            }
+        }
+
+        objToRemoved.clear();
+
+        if (tri == null) return;
+
+        Map<String, Set<String>> predObj = tarTri.getPredicateObject();
+        Iterator iter = predObj.entrySet().iterator();
+        while (iter.hasNext()) {
+
+            Map.Entry entry = (Map.Entry) iter.next();
+            String pred = (String) entry.getKey();
+            Set<String> objSet = (Set<String>) entry.getValue();
+
+            for (String obj : objSet) {
+                String tempPred = tarPred + '@' + pred;
+                tri.addObjectToPredicate(obj, tempPred);
             }
         }
     }
 
-    private Set<String> getObjBeModi()
-    {
 
-    }
     private void reinforceGraph() {
 
-        Set<String> objBeModi = new HashSet<String>();
+        for (String subject : instances) {
 
-        for (String sub : instances) {
-
-            Triples tri = graph.get(sub);
-
-            Map<String, Set<String>> preObj = tri.getPredicateObject();
-
-            Iterator iter = preObj.entrySet().iterator();
-
-            while (iter.hasNext()) {
-                Map.Entry entry = (Map.Entry) iter.next();
-//                String pred = (String) entry.getKey();
-                Set<String> objSet = (Set<String>) entry.getValue();
-
-                for (String obj : objSet) {
-
-                    if (isURI(obj)) {
-
-                        tri.removePred(pred);
-                        reinforceSub(pred, obj, tri);
-                    }
-                }
-            }
-
+            reinforceSub(null, "", subject);
         }
     }
 

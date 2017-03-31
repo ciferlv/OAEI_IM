@@ -1,5 +1,8 @@
 package instance.matching.version2.unit;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.*;
 
 import static instance.matching.version2.nlp.CalSimilarity.calObjSetSim;
@@ -9,11 +12,16 @@ import static instance.matching.version2.nlp.CalSimilarity.calObjSetSim;
  */
 public class Triples {
 
+    private Logger logger = LoggerFactory.getLogger(Triples.class);
+
     private String subject;
 
-    private Map<String, Set<String>> predicateObject = new HashMap<String, Set<String>>();
+    private Map<String, Set<String>> predicateObject = Collections.synchronizedMap(new HashMap<String, Set<String>>());
 
     private Set<String> type = new HashSet<String>();
+
+    private Map<String, Set<String>> predObjBeRemoved = Collections.synchronizedMap(new HashMap<String, Set<String>>());
+
 
     public Triples(String tempSubject, String tempPredicate, String tempObject) {
 
@@ -22,6 +30,7 @@ public class Triples {
         addObjectToPredicate(tempObject, tempPredicate);
     }
 
+
     public void addObjectToPredicate(String tempObject, String tempPredicate) {
 
         if (tempPredicate.equals("type")) {
@@ -29,21 +38,23 @@ public class Triples {
             type.add(tempObject);
 
         } else {
-            if (predicateObject.containsKey(tempPredicate)) {
 
-                Set<String> tempObjectList = predicateObject.get(tempPredicate);
+            Map<String, Set<String>> ptr = null;
+            if (isURI(tempObject)) {
+                ptr = predObjBeRemoved;
+            } else {
+                ptr = predicateObject;
+            }
 
-                if (!tempObjectList.contains(tempObject)) {
+            if (ptr.containsKey(tempPredicate)) {
 
-                    predicateObject.remove(tempPredicate);
-                    tempObjectList.add(tempObject);
-                    predicateObject.put(tempPredicate, tempObjectList);
-                }
+                Set<String> tempObjectSet = ptr.get(tempPredicate);
+                tempObjectSet.add(tempObject);
             } else {
 
-                Set<String> tempList = new HashSet<String>();
-                tempList.add(tempObject);
-                predicateObject.put(tempPredicate, tempList);
+                Set<String> tempSet = new HashSet<String>();
+                tempSet.add(tempObject);
+                ptr.put(tempPredicate, tempSet);
             }
         }
     }
@@ -75,6 +86,11 @@ public class Triples {
         return sim / cnt;
     }
 
+    private boolean isURI(String str) {
+
+        if (str.startsWith("http")) return true;
+        return false;
+    }
 
     @Override
     public String toString() {
@@ -121,4 +137,7 @@ public class Triples {
         return type;
     }
 
+    public Map<String, Set<String>> getPredObjBeRemoved() {
+        return predObjBeRemoved;
+    }
 }
