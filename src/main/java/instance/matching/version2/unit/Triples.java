@@ -31,15 +31,16 @@ public class Triples {
     }
 
 
-    public void addObjectToPredicate(String tempObject, String tempPredicate) {
+    public synchronized void addObjectToPredicate(String tempObject, String tempPredicate) {
+
+        if (tempObject.equals("") || tempPredicate.equals("")) return;
 
         if (tempPredicate.equals("type")) {
 
             type.add(tempObject);
-
         } else {
 
-            Map<String, Set<String>> ptr = null;
+            Map<String, Set<String>> ptr ;
             if (isURI(tempObject)) {
                 ptr = predObjBeRemoved;
             } else {

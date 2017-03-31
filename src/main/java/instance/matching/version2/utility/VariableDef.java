@@ -81,6 +81,13 @@ public class VariableDef {
 
     public static final String DATA_TYPE_PROPERTY = "http://www.w3.org/2002/07/owl#datatypeproperty";
 
-    public static double initialSamplePersent = 0.1;
+    public static final double initialSamplePersent = 0.2;
+
+    public static final int predPairSize = 3;
+
+    public static final double predPairThreshold = 0.7;
+
+    public static final double alignThreshold = 0.8;
+
 }
 

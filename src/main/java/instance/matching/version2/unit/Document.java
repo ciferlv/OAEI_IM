@@ -27,6 +27,13 @@ public class Document {
         this.targetType = targetType;
     }
 
+    public void processDataTriples(Model model) {
+
+        filterTargetType(model);
+        classifySubject();
+        reinforceGraph();
+    }
+
     public void addTriplesToGraph(String sub, String pre, String obj) {
 
         sub = sub.toLowerCase();
@@ -41,13 +48,6 @@ public class Document {
 
             graph.put(sub, new Triples(sub, pre, obj));
         }
-    }
-
-    public void processDataTriples(Model model) {
-
-        filterTargetType(model);
-        classifySubject();
-        reinforceGraph();
     }
 
     private void filterTargetType(Model model) {

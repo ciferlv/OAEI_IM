@@ -10,6 +10,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 import static instance.matching.version2.utility.ThreadEndJudge.terminateThread;
+import static instance.matching.version2.utility.VariableDef.predPairSize;
 
 /**
  * Created by xinzelv on 17-3-28.
@@ -35,7 +36,7 @@ public class PredPairFinder {
 
         terminateThread(cachedThreadPool, logger);
         ppl.sort();
-        ppl.resize(3);
+        ppl.resize(predPairSize);
     }
 
     //    public void findPredPair() {

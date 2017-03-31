@@ -7,6 +7,8 @@ import instance.matching.version2.unit.Triples;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import static instance.matching.version2.utility.VariableDef.alignThreshold;
+
 /**
  * Created by xinzelv on 17-3-29.
  */
@@ -35,8 +37,8 @@ public class AlignmentFinderThread implements Runnable {
 
         double value = tri1.calSimToTri(tri2, predPairList);
 
-        if (value > 0.8) {
-//            logger.info(String.valueOf(value));
+        if (value > alignThreshold) {
+            logger.info(String.valueOf(value));
             alignment.addCounterPart(new CounterPart(tri1.getSubject(), tri2.getSubject()));
         }
     }
