@@ -48,6 +48,12 @@ public class Triples {
         }
     }
 
+    public void removePred(String pred) {
+
+        predicateObject.remove(pred);
+    }
+
+
     public double calSimToTri(Triples tri, PredPairList ppl) {
 
         double sim = 0;

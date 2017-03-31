@@ -73,7 +73,10 @@ public class PredPairFindThread implements Runnable {
                 Map.Entry entry2 = (Map.Entry) iter2.next();
                 String pre2 = (String) entry2.getKey();
                 Set<String> obj2 = (Set<String>) entry2.getValue();
-                if (calObjSetSim(obj1, obj2) > 0.7) {
+
+                double value = calObjSetSim(obj1, obj2);
+                if (value > 0.7) {
+                    logger.info(String.valueOf(value));
                     predPairList.add(new PredPair(pre1, pre2));
                 }
             }

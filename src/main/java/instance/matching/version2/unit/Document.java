@@ -47,6 +47,7 @@ public class Document {
 
         filterTargetType(model);
         classifySubject();
+        reinforceGraph();
     }
 
     private void filterTargetType(Model model) {
@@ -119,6 +120,70 @@ public class Document {
                     }
                 }
             }
+        }
+    }
+
+    private boolean isURI(String str) {
+        if (str.startsWith("http")) return true;
+        return false;
+    }
+
+    private void reinforceSub(String startPre, String sub, Triples targetTri) {
+
+        Triples tri = graph.get(sub);
+        Map<String, Set<String>> preObj = tri.getPredicateObject();
+
+        Iterator iter = preObj.entrySet().iterator();
+
+        while (iter.hasNext()) {
+
+            Map.Entry entry = (Map.Entry) iter.next();
+
+            String pred = (String) entry.getKey();
+            Set<String> objSet = (Set<String>) entry.getValue();
+
+            for (String obj : objSet) {
+
+                if (!isURI(obj)) {
+                    targetTri.addObjectToPredicate(obj, startPre + "_" + pred);
+                } else {
+                    reinforceSub(startPre + "_" + pred, obj, targetTri);
+                }
+            }
+        }
+    }
+
+    private Set<String> getObjBeModi()
+    {
+
+    }
+    private void reinforceGraph() {
+
+        Set<String> objBeModi = new HashSet<String>();
+
+        for (String sub : instances) {
+
+            Triples tri = graph.get(sub);
+
+            Map<String, Set<String>> preObj = tri.getPredicateObject();
+
+            Iterator iter = preObj.entrySet().iterator();
+
+            while (iter.hasNext()) {
+                Map.Entry entry = (Map.Entry) iter.next();
+//                String pred = (String) entry.getKey();
+                Set<String> objSet = (Set<String>) entry.getValue();
+
+                for (String obj : objSet) {
+
+                    if (isURI(obj)) {
+
+                        tri.removePred(pred);
+                        reinforceSub(pred, obj, tri);
+                    }
+                }
+            }
+
         }
     }
 
