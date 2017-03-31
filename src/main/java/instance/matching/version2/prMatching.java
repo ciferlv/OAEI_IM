@@ -27,21 +27,29 @@ public class prMatching {
 
     public static void main(String[] args) throws FileNotFoundException, DocumentException {
 
-        String refAlignFilePath = "src/main/resources/dataSet/PR/person1/dataset11_dataset12_goldstandard_person.xml";
-        String taskFilePath1 = "src/main/resources/dataSet/PR/person1/person11.rdf";
-        String taskFilePath2 = "src/main/resources/dataSet/PR/person1/person12.rdf";
+//        String refAlignFilePath = "src/main/resources/dataSet/PR/person1/dataset11_dataset12_goldstandard_person.xml";
+//        String taskFilePath1 = "src/main/resources/dataSet/PR/person1/person11.rdf";
+//        String taskFilePath2 = "src/main/resources/dataSet/PR/person1/person12.rdf";
+
+        String refAlignFilePath = "src/main/resources/dataSet/PR/restaurants/restaurant1_restaurant2_goldstandard.rdf";
+        String taskFilePath1 = "src/main/resources/dataSet/PR/restaurants/restaurant1.rdf";
+        String taskFilePath2 = "src/main/resources/dataSet/PR/restaurants/restaurant2.rdf";
 
         Set<String> targetType1 = new HashSet<String>();
-        targetType1.add("http://www.okkam.org/ontology_person1.owl#Person");
+//        targetType1.add("http://www.okkam.org/ontology_person1.owl#Person");
+        targetType1.add("http://www.okkam.org/ontology_restaurant1.owl#Restaurant");
 
         Set<String> targetType2 = new HashSet<String>();
-        targetType2.add("http://www.okkam.org/ontology_person2.owl#Person");
+//        targetType2.add("http://www.okkam.org/ontology_person2.owl#Person");
+        targetType2.add("http://www.okkam.org/ontology_restaurant2.owl#Restaurant");
 
         Document doc1 = new Document(targetType1);
         Document doc2 = new Document(targetType2);
 
         parseTaskFile(taskFilePath1, doc1);
         parseTaskFile(taskFilePath2, doc2);
+
+        logger.info(doc1.getGraph().toString());
 
         Alignment refAlign = new Alignment();
         parseAlignFile(refAlignFilePath, refAlign);

@@ -47,6 +47,7 @@ public class Document {
 
         filterTargetType(model);
         classifySubject();
+        reinforceGraph();
     }
 
     private void filterTargetType(Model model) {
@@ -119,6 +120,54 @@ public class Document {
                     }
                 }
             }
+        }
+    }
+
+    private void reinforceSub(Triples tri, String tarPred, String tarObj) {
+
+        Triples tarTri = graph.get(tarObj);
+
+        Map<String, Set<String>> objToRemoved = tarTri.getPredObjBeRemoved();
+
+        Iterator iterRemove = objToRemoved.entrySet().iterator();
+
+        while (iterRemove.hasNext()) {
+
+            Map.Entry entry = (Map.Entry) iterRemove.next();
+            String pred = (String) entry.getKey();
+            Set<String> objSet = (Set<String>) entry.getValue();
+
+            for (String obj : objSet) {
+
+                reinforceSub(tarTri, pred, obj);
+            }
+        }
+
+        objToRemoved.clear();
+
+        if (tri == null) return;
+
+        Map<String, Set<String>> predObj = tarTri.getPredicateObject();
+        Iterator iter = predObj.entrySet().iterator();
+        while (iter.hasNext()) {
+
+            Map.Entry entry = (Map.Entry) iter.next();
+            String pred = (String) entry.getKey();
+            Set<String> objSet = (Set<String>) entry.getValue();
+
+            for (String obj : objSet) {
+                String tempPred = tarPred + '@' + pred;
+                tri.addObjectToPredicate(obj, tempPred);
+            }
+        }
+    }
+
+
+    private void reinforceGraph() {
+
+        for (String subject : instances) {
+
+            reinforceSub(null, "", subject);
         }
     }
 
