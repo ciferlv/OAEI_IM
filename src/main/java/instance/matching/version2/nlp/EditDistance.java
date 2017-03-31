@@ -10,7 +10,7 @@ import static instance.matching.version1.helper.TrimStringHelper.trimString;
  */
 public class EditDistance {
 
-    static Logger logger = LoggerFactory.getLogger(EditDistance.class);
+    private static Logger logger = LoggerFactory.getLogger(EditDistance.class);
 
     public static double editDistance(String str1, String str2) {
 

@@ -46,6 +46,7 @@ public class prMatching {
 
         Set<String> targetType2 = new HashSet<String>();
 //        targetType2.add("http://www.okkam.org/ontology_person2.owl#Person");
+
         targetType2.add("http://www.okkam.org/ontology_restaurant2.owl#Restaurant");
 //        targetType2.add("http://www.okkam.org/ontology_person2.owl#Person");
 
@@ -97,6 +98,4 @@ public class prMatching {
 
         CalPerRecF1 cprf = new CalPerRecF1(refAlign, resultAlign);
     }
-
-
 }
