@@ -6,6 +6,8 @@ import org.slf4j.LoggerFactory;
 import java.util.*;
 
 import static instance.matching.version2.nlp.CalSimilarity.calObjSetSim;
+import static instance.matching.version2.utility.VariableDef.predPairSize;
+import static instance.matching.version2.utility.VariableDef.predPairThreshold;
 
 /**
  * Created by xinzelv on 3/19/17.
@@ -40,7 +42,7 @@ public class Triples {
             type.add(tempObject);
         } else {
 
-            Map<String, Set<String>> ptr ;
+            Map<String, Set<String>> ptr;
             if (isURI(tempObject)) {
                 ptr = predObjBeRemoved;
             } else {
@@ -66,10 +68,12 @@ public class Triples {
     }
 
 
-    public double calSimToTri(Triples tri, PredPairList ppl) {
+    public Map<Double, Integer> calSimToTri(Triples tri, PredPairList ppl) {
 
-        double sim = 0;
-        int cnt = 0;
+        double simi = 0;
+        int cntMatched = 0, simiCnt = 0;
+
+        Map<Double, Integer> res = new HashMap<Double, Integer>();
 
         Map<String, Set<String>> preObj = tri.getPredicateObject();
 
@@ -79,13 +83,19 @@ public class Triples {
             Set<String> objSet2 = preObj.get(pp.getPred2());
 
             if (objSet1 != null && objSet2 != null) {
-                sim += calObjSetSim(objSet1, objSet2);
-                cnt++;
+
+                double value = calObjSetSim(objSet1, objSet2);
+                simi += value;
+                simiCnt++;
+                if (value > predPairThreshold) cntMatched++;
             }
 
         }
-        return sim / cnt;
+
+        res.put(simi / simiCnt, cntMatched);
+        return res;
     }
+
 
     private boolean isURI(String str) {
 
@@ -142,3 +152,4 @@ public class Triples {
         return predObjBeRemoved;
     }
 }
+

@@ -41,6 +41,14 @@ public class Metrics {
             }
         }
 
+        for (CounterPart cp : refCPL) {
+
+            if (!resultCPL.contains(cp)) {
+
+                unfoundAlign.addCounterPart(cp);
+            }
+        }
+
         precision = 1.0 * correctNum / resultSize;
         recall = 1.0 * correctNum / refSize;
         f1_score = (2.0 * precision * recall) / (precision + recall);
@@ -48,6 +56,10 @@ public class Metrics {
         logger.info("precision: " + precision);
         logger.info("recall: " + recall);
         logger.info("f1_score: " + f1_score);
+
+        logger.info("UNFOUND:");
+        logger.info(unfoundAlign.toString());
+
     }
 
 

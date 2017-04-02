@@ -198,4 +198,23 @@ public class Document {
     public Set<String> getTargetSubject() {
         return targetSubject;
     }
+
+    public String graphToString() {
+
+        StringBuffer buffer = new StringBuffer();
+
+        Iterator iter = graph.entrySet().iterator();
+
+        while (iter.hasNext()) {
+
+            Map.Entry entry = (Map.Entry)iter.next();
+
+            Triples tri = (Triples)entry.getValue();
+
+            buffer.append(tri.toString()+"\n");
+        }
+
+        return String.valueOf(buffer);
+    }
+
 }

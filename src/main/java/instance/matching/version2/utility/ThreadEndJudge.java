@@ -14,7 +14,7 @@ public class ThreadEndJudge {
         es.shutdown();
         while (true) {
             if (es.isTerminated()) {
-                logger.info("All threads have been finished！");
+//                logger.info("All threads have been finished！");
                 break;
             }
             try {

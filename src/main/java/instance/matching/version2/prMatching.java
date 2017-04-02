@@ -18,6 +18,7 @@ import static instance.matching.version2.fileParser.TaskFileParser.parseTaskFile
 import static instance.matching.version2.train.AlignmentFinder.findResultAlign;
 import static instance.matching.version2.train.PredPairFinder.findPredPair;
 import static instance.matching.version2.utility.PrintAlign.printAlign;
+import static instance.matching.version2.utility.PrintToFile.printToFile;
 
 /**
  * Created by xinzelv on 17-3-27.
@@ -54,16 +55,20 @@ public class prMatching {
         parseTaskFile(taskFilePath1, doc1);
         parseTaskFile(taskFilePath2, doc2);
 
+        printToFile("target/rdf1.txt",doc1.graphToString());
+        printToFile("target/rdf2.txt",doc2.graphToString());
+
 //        logger.info(doc1.getGraph().toString());
 
         Alignment refAlign = new Alignment();
         parseAlignFile(refAlignFilePath, refAlign);
 
         Alignment alignSample = refAlign.generateSample();
+        logger.info(String.valueOf(alignSample.size()));
 
         PredPairList ppl = new PredPairList();
         findPredPair(alignSample, doc1, doc2, ppl);
-//        logger.info(ppl.toString());
+        logger.info(ppl.toString());
 
         Alignment resultAlign = new Alignment();
         findResultAlign(doc1, doc2, ppl, resultAlign);
