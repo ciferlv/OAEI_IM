@@ -39,7 +39,7 @@ public class AlignmentFinderThread implements Runnable {
 
 
         if (value > alignThreshold) {
-            logger.info(String.valueOf(value));
+//            logger.info(String.valueOf(value));
             alignment.addCounterPart(new CounterPart(tri1.getSubject(), tri2.getSubject()));
         }
     }

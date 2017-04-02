@@ -10,24 +10,17 @@ import java.util.List;
 /**
  * Created by ciferlv on 17-3-30.
  */
-public class CalPerRecF1 {
+public class Metrics {
 
-    private Logger logger = LoggerFactory.getLogger(CalPerRecF1.class);
-    private Alignment refAlign, resultAlign;
-    private double precision, recall, f1_score;
+    private static Logger logger = LoggerFactory.getLogger(Metrics.class);
 
-    private Alignment correctAlign = new Alignment();
-    private Alignment wrongAlign = new Alignment();
-    private Alignment unfoundAlign = new Alignment();
+    public static void calMetrics(Alignment refAlign, Alignment resultAlign) {
 
-    public CalPerRecF1(Alignment refAlign, Alignment resultAlign) {
+        double precision, recall, f1_score;
 
-        this.refAlign = refAlign;
-        this.resultAlign = resultAlign;
-        proceed();
-    }
-
-    public void proceed() {
+        Alignment correctAlign = new Alignment();
+        Alignment wrongAlign = new Alignment();
+        Alignment unfoundAlign = new Alignment();
 
         int correctNum = 0, wrongNum = 0;
         int refSize, resultSize;
@@ -50,7 +43,7 @@ public class CalPerRecF1 {
 
         precision = 1.0 * correctNum / resultSize;
         recall = 1.0 * correctNum / refSize;
-        f1_score = (precision + recall) * 0.5;
+        f1_score = (2.0 * precision * recall) / (precision + recall);
 
         logger.info("precision: " + precision);
         logger.info("recall: " + recall);

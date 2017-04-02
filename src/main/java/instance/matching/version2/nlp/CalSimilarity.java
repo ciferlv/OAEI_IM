@@ -4,6 +4,7 @@ import java.util.Set;
 
 import static instance.matching.version2.nlp.EditDistance.editDistance;
 import static instance.matching.version2.nlp.I_SUB.I_SUBScore;
+import static instance.matching.version2.nlp.Jaccard.jaccardSimi;
 
 /**
  * Created by xinzelv on 17-3-28.
@@ -24,7 +25,6 @@ public class CalSimilarity {
                 } else {
                     tempResult = I_SUBScore(obj1,obj2);
                 }
-
 
                 max = Math.max(max, tempResult);
             }

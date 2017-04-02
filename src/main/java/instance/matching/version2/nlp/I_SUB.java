@@ -12,6 +12,7 @@ public class I_SUB {
 
 
     public static double I_SUBScore(String st1, String st2) {
+
         if (st1 == null || st2 == null || st1.length() == 0 || st2.length() == 0)
             return -1;
 
@@ -20,15 +21,12 @@ public class I_SUB {
 
         int l1 = s1.length(), l2 = s2.length();
         int L1 = l1, L2 = l2;
-//        if ((L1 == 0) && (L2 == 0))
-//            return 0;
-//        if ((L1 == 0) || (L2 == 0))
-//            return 1;
 
         double common = 0;
         int best = 2;
 
         while (s1.length() > 0 && s2.length() > 0 && best != 0) {
+
             best = 0;
             l1 = s1.length();
             l2 = s2.length();
@@ -80,20 +78,26 @@ public class I_SUB {
                 common += best;
             } else best = 0;
         }
+
         double commonality = 0;
-        double scaledCommon = (double) (2 * common) / (L1 + L2);
+        double scaledCommon = (2.0 * common) / (L1 + L2);
         commonality = scaledCommon;
         double winklerImprovement = winklerImprovement(st1, st2, commonality);
+
         double dissimilarity = 0;
+
         double rest1 = L1 - common;
         double rest2 = L2 - common;
         double unmatchedS1 = Math.max(rest1, 0);
         double unmatchedS2 = Math.max(rest2, 0);
+
         unmatchedS1 = rest1 / L1;
         unmatchedS2 = rest2 / L2;
+
         double suma = unmatchedS1 + unmatchedS2;
         double product = unmatchedS1 * unmatchedS2;
         double p = 0.6;
+
         if ((suma - product) == 0) {
             dissimilarity = 0;
         } else dissimilarity = (product) / (p + (1 - p) * (suma - product));
@@ -102,6 +106,7 @@ public class I_SUB {
     }
 
     private static double winklerImprovement(String s1, String s2, double commonality) {
+
         int i, n = Math.min(s1.length(), s2.length());
         for (i = 0; i < n; i++) {
             if (s1.charAt(i) != s2.charAt(i))

@@ -13,31 +13,23 @@ import java.io.PrintWriter;
 /**
  * Created by ciferlv on 17-3-30.
  */
-public class PrintAlignment {
+public class PrintAlign {
 
-    private Logger logger = LoggerFactory.getLogger(PrintAlignment.class);
+    private static Logger logger = LoggerFactory.getLogger(PrintAlign.class);
 
-    private String head, tail;
-    private String resultFilePath;
-    private PrintWriter outStream = null;
-    private Alignment alignment = null;
+    public static void printAlign(String resultFilePath, String head, String tail, Alignment align) {
 
-    public PrintAlignment(String resultFilePath, Alignment align) {
+        PrintWriter outStream = null;
 
-        this.resultFilePath = resultFilePath;
-        this.alignment = align;
         try {
             outStream = new PrintWriter(new FileOutputStream(resultFilePath));
         } catch (FileNotFoundException e) {
             logger.error(e.getMessage());
         }
-    }
-
-    public void print() {
 
         outStream.print(head);
 
-        for (CounterPart cp : alignment.getCounterPartList()) {
+        for (CounterPart cp : align.getCounterPartList()) {
 
             String out = "\t<map>\n" +
                     "\t\t<Cell>\n" +
@@ -52,12 +44,4 @@ public class PrintAlignment {
         outStream.print(tail);
     }
 
-
-    public void setHead(String head) {
-        this.head = head;
-    }
-
-    public void setTail(String tail) {
-        this.tail = tail;
-    }
 }

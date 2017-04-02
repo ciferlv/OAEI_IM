@@ -85,9 +85,9 @@ public class VariableDef {
 
     public static final int predPairSize = 3;
 
-    public static final double predPairThreshold = 0.7;
+    public static final double predPairThreshold = 0.65;
 
-    public static final double alignThreshold = 0.8;
+    public static final double alignThreshold = 0.65;
 
 }
 
