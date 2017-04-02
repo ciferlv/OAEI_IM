@@ -19,7 +19,7 @@ public class Document {
     private Set<String> classes = Collections.synchronizedSet(new HashSet<String>());
     private Set<String> dataProperties = Collections.synchronizedSet(new HashSet<String>());
     private Set<String> objectProperties = Collections.synchronizedSet(new HashSet<String>());
-    private Set<String> targetSubject = Collections.synchronizedSet(new HashSet<String>());
+    private List<String> targetSubject = Collections.synchronizedList(new ArrayList<String>());
     private Set<String> targetType = null;
 
     public Document(Set<String> targetType) {
@@ -195,7 +195,7 @@ public class Document {
         return objectProperties;
     }
 
-    public Set<String> getTargetSubject() {
+    public List<String> getTargetSubject() {
         return targetSubject;
     }
 

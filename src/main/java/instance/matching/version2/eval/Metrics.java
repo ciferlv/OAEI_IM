@@ -57,8 +57,8 @@ public class Metrics {
         logger.info("recall: " + recall);
         logger.info("f1_score: " + f1_score);
 
-        logger.info("UNFOUND:");
-        logger.info(unfoundAlign.toString());
+//        logger.info("UNFOUND:");
+//        logger.info(unfoundAlign.toString());
 
     }
 

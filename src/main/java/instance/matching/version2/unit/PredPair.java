@@ -13,7 +13,7 @@ public class PredPair implements Comparable {
 
         this.pred1 = pred1;
         this.pred2 = pred2;
-        time = 0;
+        time = 1;
         token = pred1 + pred2;
     }
 

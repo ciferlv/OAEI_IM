@@ -30,6 +30,12 @@ public class Alignment {
         return counterPartList.size();
     }
 
+    public boolean contains(CounterPart cp) {
+
+        if(counterPartList.contains(cp)) return true;
+        else return false;
+    }
+
     public CounterPart findCounterPart(int index) {
 
         if (index < counterPartList.size() && index >= 0) {

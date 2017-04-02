@@ -18,15 +18,15 @@ public class TaskFileParser {
 
     private Logger logger = LoggerFactory.getLogger(TaskFileParser.class);
     private static InputStream in = null;
-    private static Model model = ModelFactory.createDefaultModel();
+    private static Model model = null;
 
     public static void parseTaskFile(String filePath, Document document) {
 
+        model = ModelFactory.createDefaultModel();
         getStopWords();
         accessFile(filePath);
         generateDocument(document);
         document.processDataTriples(model);
-
     }
 
     public static void accessFile(String filePath) {
