@@ -8,6 +8,7 @@ public class PredPair implements Comparable {
     private String pred1, pred2, token;
 
     private int time;
+    private double infoGain;
 
     public PredPair(String pred1, String pred2) {
 
@@ -15,19 +16,26 @@ public class PredPair implements Comparable {
         this.pred2 = pred2;
         time = 1;
         token = pred1 + pred2;
+        infoGain = 0;
     }
 
     public int compareTo(Object o) {
 
         if (o instanceof PredPair) {
 
-            if (this.time < ((PredPair) o).time) {
-                return 1;
-            } else if (this.time > ((PredPair) o).time) {
-                return -1;
-            }
-        }
+            double oInfoGain = ((PredPair) o).infoGain;
+            if (this.infoGain == oInfoGain) {
 
+                double oTime = ((PredPair) o).time;
+                if (this.time < oTime) {
+                    return 1;
+                } else if (this.time > oTime) {
+                    return -1;
+                }
+            } else if (this.infoGain < oInfoGain) {
+                return 1;
+            } else return -1;
+        }
         return 0;
     }
 
@@ -51,6 +59,7 @@ public class PredPair implements Comparable {
         buffer.append("pred2: " + pred2 + "\n");
         buffer.append("token: " + token + "\n");
         buffer.append("time: " + time + "\n");
+        buffer.append("infoGain: " + infoGain + "\n");
 
         return String.valueOf(buffer);
     }
@@ -74,5 +83,9 @@ public class PredPair implements Comparable {
 
     public String getPred2() {
         return pred2;
+    }
+
+    public void setInfoGain(double infoGain) {
+        this.infoGain = infoGain;
     }
 }

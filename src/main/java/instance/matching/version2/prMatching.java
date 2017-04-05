@@ -3,7 +3,6 @@ package instance.matching.version2;
 import instance.matching.version2.unit.Alignment;
 import instance.matching.version2.unit.Document;
 import instance.matching.version2.unit.PredPairList;
-import instance.matching.version2.utility.PrintAlign;
 import org.dom4j.DocumentException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,7 +15,9 @@ import static instance.matching.version2.eval.Metrics.calMetrics;
 import static instance.matching.version2.fileParser.AlignFileParser.parseAlignFile;
 import static instance.matching.version2.fileParser.TaskFileParser.parseTaskFile;
 import static instance.matching.version2.train.AlignmentFinder.findResultAlign;
+import static instance.matching.version2.train.NegetiveFinder.findNegetives;
 import static instance.matching.version2.train.PredPairFinder.findPredPair;
+import static instance.matching.version2.train.PredPairFinder.testInfoGain;
 import static instance.matching.version2.utility.PrintAlign.printAlign;
 import static instance.matching.version2.utility.PrintToFile.printToFile;
 
@@ -55,20 +56,23 @@ public class prMatching {
         parseTaskFile(taskFilePath1, doc1);
         parseTaskFile(taskFilePath2, doc2);
 
-        printToFile("target/rdf1.txt",doc1.graphToString());
-        printToFile("target/rdf2.txt",doc2.graphToString());
+        printToFile("target/rdf1.txt", doc1.graphToString());
+        printToFile("target/rdf2.txt", doc2.graphToString());
 
 //        logger.info(doc1.getGraph().toString());
 
         Alignment refAlign = new Alignment();
         parseAlignFile(refAlignFilePath, refAlign);
 
-        Alignment alignSample = refAlign.generateSample();
-        logger.info(String.valueOf(alignSample.size()));
+        Alignment positives = refAlign.generatePositives();
+
+        Alignment negetives = new Alignment();
+        findNegetives(positives, refAlign, doc2, negetives);
+//        logger.info(negetives.toString());
 
         PredPairList ppl = new PredPairList();
-        findPredPair(alignSample, doc1, doc2, ppl);
-//        logger.info(ppl.toString());
+        findPredPair(positives, doc1, doc2, ppl);
+        testInfoGain(positives, negetives, doc1, doc2, ppl);
 
         Alignment resultAlign = new Alignment();
         findResultAlign(doc1, doc2, ppl, resultAlign);

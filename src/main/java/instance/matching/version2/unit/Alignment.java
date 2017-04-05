@@ -48,19 +48,19 @@ public class Alignment {
 
     }
 
-    public Alignment generateSample() {
+    public Alignment generatePositives() {
 
-        Alignment sample = new Alignment();
+        Alignment positives = new Alignment();
         Random r = new Random();
 
-        int sampleSize = (int) (size() * initialSamplePersent);
+        int positiveSize = (int) (size() * initialSamplePersent);
 
-        while (sample.size() < sampleSize) {
+        while (positives.size() < positiveSize) {
 
             int index = r.nextInt(size());
-            sample.addCounterPart(findCounterPart(index));
+            positives.addCounterPart(findCounterPart(index));
         }
-        return sample;
+        return positives;
     }
 
     public String toString() {
