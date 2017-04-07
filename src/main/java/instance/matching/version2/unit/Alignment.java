@@ -8,7 +8,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-import static instance.matching.version2.utility.VariableDef.initialSamplePersent;
+import static instance.matching.version2.utility.VariableDef.INITIAL_SAMPLE_PERSENT;
 
 /**
  * Created by xinzelv on 17-3-27.
@@ -53,7 +53,7 @@ public class Alignment {
         Alignment positives = new Alignment();
         Random r = new Random();
 
-        int positiveSize = (int) (size() * initialSamplePersent);
+        int positiveSize = (int) (size() * INITIAL_SAMPLE_PERSENT);
 
         while (positives.size() < positiveSize) {
 

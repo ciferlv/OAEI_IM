@@ -81,15 +81,22 @@ public class VariableDef {
 
     public static final String DATA_TYPE_PROPERTY = "http://www.w3.org/2002/07/owl#datatypeproperty";
 
-    public static final double initialSamplePersent = 0.2;
+    public static final double INITIAL_SAMPLE_PERSENT = 0.2;
 
-    public static final int predPairSize = 3;
+    public static final int PROP_PAIR_SIZE = 3;
 
-    public static final int predPairNumNeedThreshold= 1;
+    public static final int PROP_PAIR_NUM_NEED_THRESHOLD = 1;
 
-    public static final double predPairThreshold = 0.65;
+    public static final double PROP_PAIR_THRESHOLD = 0.65;
 
-    public static final double alignThreshold = 0.65;
+    public static final double ALIGN_THRESHOLD = 0.65;
+
+    public static final int URI_TYPE = 0;
+    public static final int STRING_TYPE = 1;
+    public static final int INTEGER_TYPE = 2;
+    public static final int FLOAT_TYPE = 3;
+    public static final int DATETIME_TYPE = 4;
+    public static final int THING_TYPE = 5;
 
 
 }

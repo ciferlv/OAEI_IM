@@ -17,7 +17,7 @@ public class CounterPart {
     }
 
     @Override
-    public boolean equals(Object obj) {
+    public boolean equals(Value obj) {
 
         if( obj instanceof CounterPart )
         {
