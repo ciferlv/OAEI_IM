@@ -1,9 +1,6 @@
 package instance.matching.version2.train;
 
-import instance.matching.version2.unit.CounterPart;
-import instance.matching.version2.unit.PropPair;
-import instance.matching.version2.unit.PropPairList;
-import instance.matching.version2.unit.Instance;
+import instance.matching.version2.unit.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,22 +8,22 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-import static instance.matching.version2.nlp.CalSimilarity.calObjSetSim;
+import static instance.matching.version2.nlp.CalSimilarity.calValSetSim;
 import static instance.matching.version2.utility.VariableDef.PROP_PAIR_THRESHOLD;
 
 /**
  * Created by ciferlv on 17-3-29.
  */
-public class PredPairFindThread implements Runnable {
+public class PropPairFindThread implements Runnable {
 
-    Logger logger = LoggerFactory.getLogger(PredPairFindThread.class);
+    Logger logger = LoggerFactory.getLogger(PropPairFindThread.class);
 
     private CounterPart cp = null;
     private Map<String, Instance> graph1 = null;
     private Map<String, Instance> graph2 = null;
     private PropPairList propPairList = null;
 
-    public PredPairFindThread(CounterPart cp,
+    public PropPairFindThread(CounterPart cp,
                               Map<String, Instance> graph1,
                               Map<String, Instance> graph2,
                               PropPairList propPairList) {
@@ -39,8 +36,8 @@ public class PredPairFindThread implements Runnable {
 
     public void run() {
 
-        String sub1 = cp.getSubject1();
-        String sub2 = cp.getSubject2();
+        String sub1 = cp.getSub1();
+        String sub2 = cp.getSub2();
 
         Instance tri1 = graph1.get(sub1);
         Instance tri2 = graph2.get(sub2);
@@ -52,32 +49,35 @@ public class PredPairFindThread implements Runnable {
             return;
         }
 
-        Map<String, Set<String>> preObj1 = tri1.getPropValue();
-        Map<String, Set<String>> preObj2 = tri2.getPropValue();
+        Map<String, Set<Value>> propValue1 = tri1.getPropValue();
+        Map<String, Set<Value>> propValue2 = tri2.getPropValue();
 
-        if (preObj1 == null || preObj2 == null) {
-            logger.info("preObj1 or preObj2 is null: ");
+        if (propValue1 == null || propValue2 == null) {
+            logger.info("propValue1 or propValue2 is null: ");
             logger.info("sub1: " + sub1);
             logger.info("sub2: " + sub2);
             return;
         }
 
-        Iterator iter1 = preObj1.entrySet().iterator();
+        Iterator iter1 = propValue1.entrySet().iterator();
         while (iter1.hasNext()) {
             Map.Entry entry1 = (Map.Entry) iter1.next();
-            String pre1 = (String) entry1.getKey();
-            Set<String> obj1 = (Set<String>) entry1.getValue();
+            String prop1 = (String) entry1.getKey();
 
-            Iterator iter2 = preObj2.entrySet().iterator();
+            Set<Value> val1 = (Set<Value>) entry1.getValue();
+
+            Iterator iter2 = propValue2.entrySet().iterator();
 
             while (iter2.hasNext()) {
+
                 Map.Entry entry2 = (Map.Entry) iter2.next();
-                String pre2 = (String) entry2.getKey();
-                Set<String> obj2 = (Set<String>) entry2.getValue();
-                double value = calObjSetSim(obj1, obj2);
+                String prop2 = (String) entry2.getKey();
+                Set<Value> val2 = (Set<Value>) entry2.getValue();
+
+                double value = calValSetSim(val1, val2);
                 if (value > PROP_PAIR_THRESHOLD) {
 //                    logger.info(String.valueOf(value));
-                    propPairList.add(new PropPair(pre1, pre2));
+                    propPairList.add(new PropPair(prop1, prop2));
                 }
             }
         }

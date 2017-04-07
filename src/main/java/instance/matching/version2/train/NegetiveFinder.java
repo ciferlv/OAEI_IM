@@ -2,12 +2,11 @@ package instance.matching.version2.train;
 
 import instance.matching.version2.unit.Alignment;
 import instance.matching.version2.unit.CounterPart;
-import instance.matching.version2.unit.Document;
+import instance.matching.version2.unit.VirtualDoc;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.List;
-import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -21,7 +20,7 @@ public class NegetiveFinder {
     private static Logger logger = LoggerFactory.getLogger(NegetiveFinder.class);
 
     public static void findNegetives(Alignment positives,
-                                     Document doc2,
+                                     VirtualDoc doc2,
                                      Alignment negetives) {
 
         List<CounterPart> counterPartList = positives.getCounterPartList();

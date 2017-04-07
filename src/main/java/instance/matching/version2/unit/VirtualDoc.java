@@ -12,29 +12,29 @@ import static instance.matching.version2.utility.VariableDef.*;
 /**
  * Created by ciferlv on 17-3-30.
  */
-public class Document {
+public class VirtualDoc {
 
     private Map<String, Instance> graph = Collections.synchronizedMap(new HashMap<String, Instance>());
-    private Set<String> instances = Collections.synchronizedSet(new HashSet<String>());
-    private Set<String> classes = Collections.synchronizedSet(new HashSet<String>());
-    private Set<String> dataProperties = Collections.synchronizedSet(new HashSet<String>());
-    private Set<String> objectProperties = Collections.synchronizedSet(new HashSet<String>());
-    private List<String> targetSubject = Collections.synchronizedList(new ArrayList<String>());
-    private Set<String> targetType = null;
+    private Set<String> instSet = Collections.synchronizedSet(new HashSet<String>());
+    private Set<String> classSet = Collections.synchronizedSet(new HashSet<String>());
+    private Set<String> dataPropSet = Collections.synchronizedSet(new HashSet<String>());
+    private Set<String> objPropSet = Collections.synchronizedSet(new HashSet<String>());
+    private List<String> tarSubList = Collections.synchronizedList(new ArrayList<String>());
+    private Set<String> tarTypeSet = null;
 
-    public Document(Set<String> targetType) {
+    public VirtualDoc(Set<String> tarTypeSet) {
 
-        this.targetType = targetType;
+        this.tarTypeSet = tarTypeSet;
     }
 
-    public void processDataInstance(Model model) {
+    public void processGraph(Model model) {
 
-        filterTargetType(model);
-        classifySubject();
+        filterTarType(model);
+        classifySub();
         reinforceGraph();
     }
 
-    public void addInstanceToGraph(String sub, String pre, String obj, int type) {
+    public void addInstToGraph(String sub, String pre, String obj, int type) {
 
         sub = sub.toLowerCase();
         pre = pre.toLowerCase();
@@ -50,23 +50,23 @@ public class Document {
         }
     }
 
-    private void filterTargetType(Model model) {
+    private void filterTarType(Model model) {
 
         Queue<String> queue = new LinkedList<String>();
 
-        for (String str : targetType) {
+        for (String str : tarTypeSet) {
 
             queue.offer(str);
         }
 
-        targetType.clear();
+        tarTypeSet.clear();
         while (!queue.isEmpty()) {
 
             String str = queue.peek();
             queue.poll();
 
-            if (!targetType.contains(str.toLowerCase())) {
-                targetType.add(str.toLowerCase());
+            if (!tarTypeSet.contains(str.toLowerCase())) {
+                tarTypeSet.add(str.toLowerCase());
             } else {
                 continue;
             }
@@ -84,38 +84,41 @@ public class Document {
                 QuerySolution soln = results.nextSolution();
                 String tempSubject = soln.get("subject").toString();
 
-                if (!targetType.contains(tempSubject.toLowerCase())) {
+                if (!tarTypeSet.contains(tempSubject.toLowerCase())) {
                     queue.offer(tempSubject);
                 }
             }
         }
     }
 
-    private void classifySubject() {
+    private void classifySub() {
 
-        Iterator itera = graph.entrySet().iterator();
+        Iterator graphIter = graph.entrySet().iterator();
 
-        while (itera.hasNext()) {
+        while (graphIter.hasNext()) {
 
-            Map.Entry entry = (Map.Entry) itera.next();
+            Map.Entry entry = (Map.Entry) graphIter.next();
 
-            String subject = (String) entry.getKey();
-            Instance instance = (Instance) entry.getValue();
+            String sub = (String) entry.getKey();
+            Instance inst = (Instance) entry.getValue();
 
-            Set<String> myType = instance.getTypeSet();
+            Set<String> myTypeSet = inst.getTypeSet();
 
-            if (myType.contains(CLASS_TYPE)) {
-                classes.add(subject);
-            } else if (myType.contains(DATA_TYPE_PROPERTY)) {
-                dataProperties.add(subject);
-            } else if (myType.contains(OBJECT_TYPE_PROPERTY)) {
-                objectProperties.add(subject);
+            if (myTypeSet.contains(CLASS_TYPE)) {
+
+                classSet.add(sub);
+            } else if (myTypeSet.contains(DATA_TYPE_PROPERTY)) {
+
+                dataPropSet.add(sub);
+            } else if (myTypeSet.contains(OBJECT_TYPE_PROPERTY)) {
+
+                objPropSet.add(sub);
             } else {
-                instances.add(subject);
 
-                for (String tempType : myType) {
-                    if (targetType.contains(tempType)) {
-                        targetSubject.add(subject);
+                instSet.add(sub);
+                for (String myType : myTypeSet) {
+                    if (tarTypeSet.contains(myType)) {
+                        tarSubList.add(sub);
                         break;
                     }
                 }
@@ -153,12 +156,13 @@ public class Document {
         while (iter.hasNext()) {
 
             Map.Entry entry = (Map.Entry) iter.next();
-            String pred = (String) entry.getKey();
-            Set<String> objSet = (Set<String>) entry.getValue();
+            String prop = (String) entry.getKey();
+            Set<Value> valSet = (Set<Value>) entry.getValue();
 
-            for (String obj : objSet) {
-                String tempPred = tarProp + '@' + pred;
-                inst.addValueToProp(obj, tempPred);
+            for (Value val : valSet) {
+
+                String myProp = tarProp + '@' + prop;
+                inst.addValueToProp(val.getValue(), myProp, val.getType());
             }
         }
     }
@@ -166,53 +170,33 @@ public class Document {
 
     private void reinforceGraph() {
 
-        for (String subject : instances) {
+        for (String sub : instSet) {
 
-            reinforceSub(null, "", subject);
+            reinforceSub(null, "", sub);
         }
-    }
-
-    public Set<String> getTargetType() {
-        return targetType;
     }
 
     public Map<String, Instance> getGraph() {
         return graph;
     }
 
-    public Set<String> getInstances() {
-        return instances;
-    }
-
-    public Set<String> getClasses() {
-        return classes;
-    }
-
-    public Set<String> getDataProperties() {
-        return dataProperties;
-    }
-
-    public Set<String> getObjectProperties() {
-        return objectProperties;
-    }
-
-    public List<String> getTargetSubject() {
-        return targetSubject;
+    public List<String> getTarSubList() {
+        return tarSubList;
     }
 
     public String graphToString() {
 
         StringBuffer buffer = new StringBuffer();
 
-        Iterator iter = graph.entrySet().iterator();
+        Iterator graphIter = graph.entrySet().iterator();
 
-        while (iter.hasNext()) {
+        while (graphIter.hasNext()) {
 
-            Map.Entry entry = (Map.Entry) iter.next();
+            Map.Entry entry = (Map.Entry) graphIter.next();
 
-            Instance tri = (Instance) entry.getValue();
+            Instance inst = (Instance) entry.getValue();
 
-            buffer.append(tri.toString() + "\n");
+            buffer.append(inst.toString() + "\n");
         }
 
         return String.valueOf(buffer);

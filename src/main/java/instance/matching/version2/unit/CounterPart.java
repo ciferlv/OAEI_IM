@@ -5,29 +5,29 @@ package instance.matching.version2.unit;
  */
 public class CounterPart {
 
-    private String subject1, subject2;
+    private String sub1, sub2;
 
     public CounterPart() {
     }
 
-    public CounterPart(String uri1, String uri2) {
+    public CounterPart(String sub1, String sub2) {
 
-        subject1 = uri1;
-        subject2 = uri2;
+        this.sub1 = sub1;
+        this.sub2 = sub2;
     }
 
     @Override
-    public boolean equals(Value obj) {
+    public boolean equals(Object obj) {
 
         if( obj instanceof CounterPart )
         {
             CounterPart cp = (CounterPart) obj;
-            if (cp.getSubject1().equals(subject1)
-                    && cp.getSubject2().equals(subject2)) {
+            if (cp.getSub1().equals(sub1)
+                    && cp.getSub2().equals(sub2)) {
                 return true;
             }
-            if (cp.getSubject2().equals(subject1)
-                    && cp.getSubject1().equals(subject2)) {
+            if (cp.getSub2().equals(sub1)
+                    && cp.getSub1().equals(sub2)) {
                 return true;
             }
         }
@@ -39,16 +39,16 @@ public class CounterPart {
     public String toString() {
 
         StringBuffer buffer = new StringBuffer();
-        buffer.append("subject1: " + subject1 + "\n");
-        buffer.append("subject2: " + subject2 + "\n");
+        buffer.append("sub1: " + sub1 + "\n");
+        buffer.append("sub2: " + sub2 + "\n");
         return String.valueOf(buffer);
     }
 
-    public synchronized String getSubject1() {
-        return subject1;
+    public synchronized String getSub1() {
+        return sub1;
     }
 
-    public synchronized String getSubject2() {
-        return subject2;
+    public synchronized String getSub2() {
+        return sub2;
     }
 }

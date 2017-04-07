@@ -4,15 +4,11 @@ import instance.matching.version2.unit.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.Map;
-import java.util.Set;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import static instance.matching.version2.nlp.CalSimilarity.calObjSetSim;
 import static instance.matching.version2.utility.ThreadEndJudge.terminateThread;
-import static instance.matching.version2.utility.VariableDef.predPairSize;
-import static instance.matching.version2.utility.VariableDef.predPairThreshold;
+import static instance.matching.version2.utility.VariableDef.PROP_PAIR_SIZE;
 
 /**
  * Created by xinzelv on 17-4-5.
@@ -36,9 +32,9 @@ public class InfoGainCalculator {
 
     public static void calInfoGain(Alignment positives,
                                    Alignment negetives,
-                                   Document doc1,
-                                   Document doc2,
-                                   PredPairList ppl) {
+                                   VirtualDoc doc1,
+                                   VirtualDoc doc2,
+                                   PropPairList ppl) {
 
         int posSize = positives.size();
         int negSize = negetives.size();
@@ -47,7 +43,7 @@ public class InfoGainCalculator {
 
         ExecutorService cachedThreadPool = Executors.newCachedThreadPool();
 
-        for (PredPair pp : ppl.getPredPairList()) {
+        for (PropPair pp : ppl.getPropPairList()) {
 
             Runnable run = new Thread(
                     new InfoGainCalculatorThread(positives, negetives, doc1, doc2, pp, initialEntropy));
@@ -59,6 +55,6 @@ public class InfoGainCalculator {
 
         ppl.sort();
         logger.info(ppl.toString());
-        ppl.resize(predPairSize);
+        ppl.resize(PROP_PAIR_SIZE);
     }
 }

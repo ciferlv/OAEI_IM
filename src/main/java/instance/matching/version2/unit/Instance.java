@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 
 import java.util.*;
 
-import static instance.matching.version2.nlp.CalSimilarity.calObjSetSim;
+import static instance.matching.version2.nlp.CalSimilarity.calValSetSim;
 import static instance.matching.version2.utility.VariableDef.URI_TYPE;
 import static instance.matching.version2.utility.VariableDef.PROP_PAIR_THRESHOLD;
 
@@ -34,61 +34,61 @@ public class Instance {
     }
 
 
-    public synchronized void addValueToProp(String myObj, String myPred, int objType) {
+    public synchronized void addValueToProp(String myVal, String myProp, int valType) {
 
-        if (myObj.equals("") || myPred.equals("")) return;
+        if (myVal.equals("") || myProp.equals("")) return;
 
-        if (myPred.equals("type")) {
+        if (myProp.equals("type")) {
 
-            typeSet.add(myObj);
+            typeSet.add(myVal);
         } else {
 
             Map<String, Set<Value>> ptr;
 
-            if (objType == URI_TYPE) {
+            if (valType == URI_TYPE) {
                 ptr = propUri;
             } else {
                 ptr = propValue;
             }
 
-            if (ptr.containsKey(myPred)) {
+            if (ptr.containsKey(myProp)) {
 
-                Set<Value> myValueSet = ptr.get(myPred);
-                myValueSet.add(new Value(myObj, objType));
+                Set<Value> myValueSet = ptr.get(myProp);
+                myValueSet.add(new Value(myVal, valType));
             } else {
 
                 Set<Value> mySet = new HashSet<Value>();
-                mySet.add(new Value(myObj, objType));
-                ptr.put(myPred, mySet);
+                mySet.add(new Value(myVal, valType));
+                ptr.put(myProp, mySet);
             }
         }
     }
 
-    public Map<Double, Integer> calSimToIns(Instance ins, PropPairList ppl) {
+    public Map<Double, Integer> calSimToInst(Instance inst, PropPairList ppl) {
 
-        double simi = 0;
-        int cntMatched = 0, simiCnt = 0;
+        double totalSimi = 0;
+        int matchedCnt = 0, simiCnt = 0;
 
         Map<Double, Integer> res = new HashMap<Double, Integer>();
 
-        Map<String, Set<Value>> myPredToObj = ins.getPropValue();
+        Map<String, Set<Value>> myPropValue = inst.getPropValue();
 
         for (PropPair pp : ppl.getPropPairList()) {
 
-            Set<Value> objSet1 = propValue.get(pp.getPred1());
-            Set<Value> objSet2 = myPredToObj.get(pp.getPred2());
+            Set<Value> valSet1 = propValue.get(pp.getPred1());
+            Set<Value> valSet2 = myPropValue.get(pp.getPred2());
 
-            if (objSet1 != null && objSet2 != null) {
+            if (valSet1 != null && valSet2 != null) {
 
-                double value = calObjSetSim(objSet1, objSet2);
-                simi += value;
+                double eachSimi = calValSetSim(valSet1, valSet2);
+                totalSimi += eachSimi;
                 simiCnt++;
-                if (value > PROP_PAIR_THRESHOLD) cntMatched++;
+                if (eachSimi > PROP_PAIR_THRESHOLD) matchedCnt++;
             }
 
         }
 
-        res.put(simi / simiCnt, cntMatched);
+        res.put(1.0 * totalSimi / simiCnt, matchedCnt);
         return res;
     }
 
@@ -123,10 +123,6 @@ public class Instance {
 
     public String getSub() {
         return sub;
-    }
-
-    public void setSub(String sub) {
-        this.sub = sub;
     }
 
     public Map<String, Set<Value>> getPropValue() {

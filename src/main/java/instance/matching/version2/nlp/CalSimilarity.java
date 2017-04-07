@@ -12,7 +12,7 @@ import static instance.matching.version2.nlp.I_SUB.I_SUBScore;
  */
 public class CalSimilarity {
 
-    public static double calObjSetSim(Set<Value> obj1Set, Set<Value> obj2Set) {
+    public static double calValSetSim(Set<Value> obj1Set, Set<Value> obj2Set) {
 
         double max = -1.0;
 

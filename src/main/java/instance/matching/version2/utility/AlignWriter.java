@@ -33,8 +33,8 @@ public class AlignWriter {
 
             String out = "\t<map>\n" +
                     "\t\t<Cell>\n" +
-                    "\t\t\t<entity1 rdf:resource=\'" + cp.getSubject1() + "\'/>\n" +
-                    "\t\t\t<entity2 rdf:resource=\'" + cp.getSubject2() + "\'/>\n" +
+                    "\t\t\t<entity1 rdf:resource=\'" + cp.getSub1() + "\'/>\n" +
+                    "\t\t\t<entity2 rdf:resource=\'" + cp.getSub2() + "\'/>\n" +
                     "\t\t\t<relation>=</relation>\n" +
                     "\t\t\t<measure rdf:datatype=\'http://www.w3.org/2001/XMLSchema#float\'>1.0</measure>\n" +
                     "\t\t</Cell>\n" +

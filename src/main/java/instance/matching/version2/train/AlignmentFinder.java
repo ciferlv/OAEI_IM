@@ -1,7 +1,7 @@
 package instance.matching.version2.train;
 
 import instance.matching.version2.unit.Alignment;
-import instance.matching.version2.unit.Document;
+import instance.matching.version2.unit.VirtualDoc;
 import instance.matching.version2.unit.PropPairList;
 import instance.matching.version2.unit.Instance;
 import org.slf4j.Logger;
@@ -21,16 +21,16 @@ public class AlignmentFinder {
 
     private static Logger logger = LoggerFactory.getLogger(AlignmentFinder.class);
 
-    public static void findResultAlign(Document doc1,
-                                       Document doc2,
+    public static void findResultAlign(VirtualDoc doc1,
+                                       VirtualDoc doc2,
                                        PropPairList ppl,
                                        Alignment resultAlign) {
 
         Map<String, Instance> graph1 = doc1.getGraph();
         Map<String, Instance> graph2 = doc2.getGraph();
 
-        List<String> targetSubject1 = doc1.getTargetSubject();
-        List<String> targetSubject2 = doc2.getTargetSubject();
+        List<String> targetSubject1 = doc1.getTarSubList();
+        List<String> targetSubject2 = doc2.getTarSubList();
 
         ExecutorService cachedThreadPool = Executors.newCachedThreadPool();
 

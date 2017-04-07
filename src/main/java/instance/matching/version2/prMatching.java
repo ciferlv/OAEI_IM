@@ -1,7 +1,7 @@
 package instance.matching.version2;
 
 import instance.matching.version2.unit.Alignment;
-import instance.matching.version2.unit.Document;
+import instance.matching.version2.unit.VirtualDoc;
 import instance.matching.version2.unit.PropPairList;
 import org.dom4j.DocumentException;
 import org.slf4j.Logger;
@@ -17,8 +17,7 @@ import static instance.matching.version2.fileParser.TaskFileParser.parseTaskFile
 import static instance.matching.version2.train.AlignmentFinder.findResultAlign;
 import static instance.matching.version2.train.InfoGainCalculator.calInfoGain;
 import static instance.matching.version2.train.NegetiveFinder.findNegetives;
-import static instance.matching.version2.train.PredPairFinder.findPredPair;
-import static instance.matching.version2.train.PredPairFinder.testInfoGain;
+import static instance.matching.version2.train.PropPairFinder.findPredPair;
 import static instance.matching.version2.utility.AlignWriter.printAlign;
 import static instance.matching.version2.utility.FileWriter.printToFile;
 
@@ -32,17 +31,17 @@ public class prMatching {
 
     public static void main(String[] args) throws FileNotFoundException, DocumentException {
 
-//        String refAlignFilePath = "src/main/resources/dataSet/PR/person1/dataset11_dataset12_goldstandard_person.xml";
-//        String taskFilePath1 = "src/main/resources/dataSet/PR/person1/person11.rdf";
-//        String taskFilePath2 = "src/main/resources/dataSet/PR/person1/person12.rdf";
+        String refAlignFilePath = "src/main/resources/dataSet/PR/person1/dataset11_dataset12_goldstandard_person.xml";
+        String taskFilePath1 = "src/main/resources/dataSet/PR/person1/person11.rdf";
+        String taskFilePath2 = "src/main/resources/dataSet/PR/person1/person12.rdf";
 
 //        String refAlignFilePath = "src/main/resources/dataSet/PR/person2/dataset21_dataset22_goldstandard_person.xml";
 //        String taskFilePath1 = "src/main/resources/dataSet/PR/person2/person21.rdf";
 //        String taskFilePath2 = "src/main/resources/dataSet/PR/person2/person22.rdf";
 
-        String refAlignFilePath = "src/main/resources/dataSet/PR/restaurants/restaurant1_restaurant2_goldstandard.rdf";
-        String taskFilePath1 = "src/main/resources/dataSet/PR/restaurants/restaurant1.rdf";
-        String taskFilePath2 = "src/main/resources/dataSet/PR/restaurants/restaurant2.rdf";
+//        String refAlignFilePath = "src/main/resources/dataSet/PR/restaurants/restaurant1_restaurant2_goldstandard.rdf";
+//        String taskFilePath1 = "src/main/resources/dataSet/PR/restaurants/restaurant1.rdf";
+//        String taskFilePath2 = "src/main/resources/dataSet/PR/restaurants/restaurant2.rdf";
 
         Set<String> targetType1 = new HashSet<String>();
         targetType1.add("http://www.okkam.org/ontology_person1.owl#Person");
@@ -52,8 +51,8 @@ public class prMatching {
         targetType2.add("http://www.okkam.org/ontology_person2.owl#Person");
         targetType2.add("http://www.okkam.org/ontology_restaurant2.owl#Restaurant");
 
-        Document doc1 = new Document(targetType1);
-        Document doc2 = new Document(targetType2);
+        VirtualDoc doc1 = new VirtualDoc(targetType1);
+        VirtualDoc doc2 = new VirtualDoc(targetType2);
 
         parseTaskFile(taskFilePath1, doc1);
         parseTaskFile(taskFilePath2, doc2);

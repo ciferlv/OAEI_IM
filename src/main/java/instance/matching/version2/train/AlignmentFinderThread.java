@@ -38,7 +38,7 @@ public class AlignmentFinderThread implements Runnable {
 
     public void run() {
 
-        Map<Double, Integer> result = tri1.calSimToIns(tri2, propPairList);
+        Map<Double, Integer> result = tri1.calSimToInst(tri2, propPairList);
 
         Iterator iter = result.entrySet().iterator();
 
