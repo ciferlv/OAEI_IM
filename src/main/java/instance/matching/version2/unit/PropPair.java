@@ -77,11 +77,11 @@ public class PropPair implements Comparable {
         this.time = time;
     }
 
-    public String getPred1() {
+    public String getProp1() {
         return pred1;
     }
 
-    public String getPred2() {
+    public String getProp2() {
         return pred2;
     }
 

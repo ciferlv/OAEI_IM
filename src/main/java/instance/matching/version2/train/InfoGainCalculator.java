@@ -7,8 +7,10 @@ import org.slf4j.LoggerFactory;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+import static instance.matching.version2.nlp.CalSimilarity.calValSetSim;
 import static instance.matching.version2.utility.ThreadEndJudge.terminateThread;
 import static instance.matching.version2.utility.VariableDef.PROP_PAIR_SIZE;
+import static instance.matching.version2.utility.VariableDef.PROP_PAIR_THRESHOLD;
 
 /**
  * Created by xinzelv on 17-4-5.
@@ -19,11 +21,14 @@ public class InfoGainCalculator {
 
     public static double calEntropy(double posSize, double negSize) {
 
+        if( posSize == 0 && negSize == 0) return 0;
         double pos = posSize * 1.0 / (posSize + negSize);
         double neg = negSize * 1.0 / (posSize + negSize);
 
 
-        if (neg == 1 || pos == 1) return 0;
+        if (neg == 1 || pos == 1) {
+            return 0;
+        }
 
         double res = -1 * pos * Math.log(pos) / Math.log(2.0) - neg * Math.log(neg) / Math.log(2.0);
 

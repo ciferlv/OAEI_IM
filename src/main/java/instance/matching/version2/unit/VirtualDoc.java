@@ -3,6 +3,8 @@ package instance.matching.version2.unit;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.Model;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.*;
 
@@ -13,6 +15,8 @@ import static instance.matching.version2.utility.VariableDef.*;
  * Created by ciferlv on 17-3-30.
  */
 public class VirtualDoc {
+
+    private Logger logger = LoggerFactory.getLogger(VirtualDoc.class);
 
     private Map<String, Instance> graph = Collections.synchronizedMap(new HashMap<String, Instance>());
     private Set<String> instSet = Collections.synchronizedSet(new HashSet<String>());
@@ -31,22 +35,28 @@ public class VirtualDoc {
 
         filterTarType(model);
         classifySub();
-        reinforceGraph();
+//        reinforceGraph();
     }
 
-    public void addInstToGraph(String sub, String pre, String obj, int type) {
+    public void addInstToGraph(String sub, String prop, String val, int type) {
+
+        if (val == null) {
+            logger.info(sub);
+            logger.info(prop);
+            return;
+        }
 
         sub = sub.toLowerCase();
-        pre = pre.toLowerCase();
-        obj = obj.toLowerCase();
+        prop = prop.toLowerCase();
+        val = val.toLowerCase();
 
         if (graph.containsKey(sub)) {
 
             Instance myInstance = graph.get(sub);
-            myInstance.addValueToProp(obj, pre, type);
+            myInstance.addValueToProp(val, prop, type);
         } else {
 
-            graph.put(sub, new Instance(sub, pre, obj, type));
+            graph.put(sub, new Instance(sub, prop, val, type));
         }
     }
 
@@ -142,12 +152,11 @@ public class VirtualDoc {
             Set<Value> valueSet = (Set<Value>) entry.getValue();
 
             for (Value value : valueSet) {
-
                 reinforceSub(tarInst, prop, value.getValue());
             }
         }
 
-        propUri.clear();
+//        propUri.clear();
 
         if (inst == null) return;
 
@@ -167,7 +176,6 @@ public class VirtualDoc {
         }
     }
 
-
     private void reinforceGraph() {
 
         for (String sub : instSet) {
@@ -175,6 +183,7 @@ public class VirtualDoc {
             reinforceSub(null, "", sub);
         }
     }
+
 
     public Map<String, Instance> getGraph() {
         return graph;

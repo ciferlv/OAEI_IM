@@ -42,8 +42,8 @@ public class InfoGainCalculatorThread implements Runnable {
         int posSize = positives.size();
         int negSize = negetives.size();
 
-        String pre1 = pp.getPred1();
-        String pre2 = pp.getPred2();
+        String prop1 = pp.getProp1();
+        String prop2 = pp.getProp2();
 
         Map<String, Instance> graph1 = doc1.getGraph();
         Map<String, Instance> graph2 = doc2.getGraph();
@@ -56,16 +56,16 @@ public class InfoGainCalculatorThread implements Runnable {
             Instance inst1 = graph1.get(sub1);
             Instance inst2 = graph2.get(sub2);
 
-            Set<Value> objSet1 = inst1.getPropValue().get(pre1);
-            Set<Value> objSet2 = inst2.getPropValue().get(pre2);
+            Set<Value> valSet1 = inst1.getPropValue().get(prop1);
+            Set<Value> valSet2 = inst2.getPropValue().get(prop2);
 
-            if (objSet1 == null || objSet2 == null) {
+            if (valSet1 == null || valSet2 == null) {
 
                 falsePos++;
                 continue;
             } else {
 
-                double value = calValSetSim(objSet1, objSet2);
+                double value = calValSetSim(valSet1, valSet2);
                 if (value > PROP_PAIR_THRESHOLD) {
                     truePos++;
                 } else falsePos++;
@@ -80,14 +80,14 @@ public class InfoGainCalculatorThread implements Runnable {
             Instance inst1 = graph1.get(sub1);
             Instance inst2 = graph2.get(sub2);
 
-            Set<Value> objSet1 = inst1.getPropValue().get(pre1);
-            Set<Value> objSet2 = inst2.getPropValue().get(pre2);
+            Set<Value> valSet1 = inst1.getPropValue().get(prop1);
+            Set<Value> valSet2 = inst2.getPropValue().get(prop2);
 
-            if (objSet1 == null || objSet2 == null) {
+            if (valSet1 == null || valSet2 == null) {
                 trueNeg++;
             } else {
 
-                double value = calValSetSim(objSet1, objSet2);
+                double value = calValSetSim(valSet1, valSet2);
                 if (value > PROP_PAIR_THRESHOLD) {
                     falseNeg++;
                 } else trueNeg++;

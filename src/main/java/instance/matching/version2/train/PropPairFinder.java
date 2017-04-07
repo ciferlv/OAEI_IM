@@ -18,7 +18,7 @@ public class PropPairFinder {
 
     private static Logger logger = LoggerFactory.getLogger(PropPairFinder.class);
 
-    public static void findPredPair(Alignment sample,
+    public static void findPropPair(Alignment sample,
                                     VirtualDoc doc1,
                                     VirtualDoc doc2,
                                     PropPairList ppl) {

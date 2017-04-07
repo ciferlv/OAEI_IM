@@ -20,11 +20,6 @@ public class Value {
         this.value = value;
     }
 
-    private int judgeType() {
-
-        return 0;
-    }
-
 
     public String getValue() {
         return value;

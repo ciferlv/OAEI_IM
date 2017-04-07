@@ -18,17 +18,16 @@ import static instance.matching.version2.utility.VariableDef.URI_TYPE;
  */
 public class TaskFileParser {
 
-    private Logger logger = LoggerFactory.getLogger(TaskFileParser.class);
+    private static Logger logger = LoggerFactory.getLogger(TaskFileParser.class);
     private static InputStream in = null;
     private static Model model = null;
 
-    public static void parseTaskFile(String filePath, VirtualDoc virtualDoc) {
+    public static void parseTaskFile(String filePath, VirtualDoc virtualDoc, Model mod) {
 
-        model = ModelFactory.createDefaultModel();
+        model = mod;
         getStopWords();
         accessFile(filePath);
-        generateDocument(virtualDoc);
-        virtualDoc.processGraph(model);
+        generateVirtualDoc(virtualDoc);
     }
 
     public static void accessFile(String filePath) {
@@ -45,33 +44,42 @@ public class TaskFileParser {
         }
     }
 
-    public static void generateDocument(VirtualDoc virtualDoc) {
+    public static void generateVirtualDoc(VirtualDoc virtualDoc) {
 
         StmtIterator iter = model.listStatements();
 
         while (iter.hasNext()) {
 
             Statement stmt = iter.nextStatement();
-            Resource subject = stmt.getSubject();
-            Property predicate = stmt.getPredicate();
-            RDFNode object = stmt.getObject();
+            Resource sub = stmt.getSubject();
+            Property prop = stmt.getPredicate();
+            RDFNode val = stmt.getObject();
 
-            String subjectString = subject.toString();
-            String predicateString = predicate.getLocalName();
 
-            String objectString;
+            String subString = sub.toString();
+            String propString = prop.getLocalName();
 
-            if (object.isResource()) {
+            String valString;
 
-                objectString = object.asResource().getURI();
-                virtualDoc.addInstToGraph(subjectString, predicateString, objectString, URI_TYPE);
+            if (val == null) continue;
 
-            } else if (object.isLiteral()) {
+            if (val.isResource()) {
 
-                objectString = formatWords(object.asLiteral().getLexicalForm());
-                virtualDoc.addInstToGraph(subjectString, predicateString, objectString, THING_TYPE);
+                if (propString.equals("type")) {
+                    valString = val.asResource().getURI();
+                } else {
+                    valString = val.asResource().getLocalName();
+                }
 
-                if (objectString.equals("")) continue;
+                virtualDoc.addInstToGraph(subString, propString, valString, URI_TYPE);
+
+            } else if (val.isLiteral()) {
+
+                valString = formatWords(val.asLiteral().getLexicalForm());
+                virtualDoc.addInstToGraph(subString, propString, valString, THING_TYPE);
+
+                if (valString.equals("")) continue;
+
             } else {
                 continue;
             }

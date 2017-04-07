@@ -85,7 +85,7 @@ public class VariableDef {
 
     public static final int PROP_PAIR_SIZE = 3;
 
-    public static final int PROP_PAIR_NUM_NEED_THRESHOLD = 1;
+    public static final int PROP_PAIR_NUM_NEED_THRESHOLD = 2;
 
     public static final double PROP_PAIR_THRESHOLD = 0.65;
 

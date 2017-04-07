@@ -3,6 +3,8 @@ package instance.matching.version2.train;
 import instance.matching.version2.unit.Alignment;
 import instance.matching.version2.unit.CounterPart;
 import instance.matching.version2.unit.VirtualDoc;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.List;
 import java.util.Random;
@@ -11,6 +13,8 @@ import java.util.Random;
  * Created by xinzelv on 17-4-5.
  */
 public class NegetiveFinderThread implements Runnable {
+
+    private Logger logger = LoggerFactory.getLogger(NegetiveFinderThread.class);
 
     private CounterPart cp = null;
 
@@ -33,6 +37,8 @@ public class NegetiveFinderThread implements Runnable {
     public void run() {
 
         List<String> subList = doc.getTarSubList();
+
+//        logger.info(String.valueOf(subList.size()));
 
         Random r = new Random();
 

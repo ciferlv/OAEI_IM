@@ -6,7 +6,6 @@ import org.slf4j.LoggerFactory;
 import java.util.*;
 
 import static instance.matching.version2.nlp.CalSimilarity.calValSetSim;
-import static instance.matching.version2.utility.VariableDef.URI_TYPE;
 import static instance.matching.version2.utility.VariableDef.PROP_PAIR_THRESHOLD;
 
 /**
@@ -45,11 +44,13 @@ public class Instance {
 
             Map<String, Set<Value>> ptr;
 
-            if (valType == URI_TYPE) {
-                ptr = propUri;
-            } else {
-                ptr = propValue;
-            }
+//            if (valType == URI_TYPE) {
+//                ptr = propUri;
+//            } else {
+//                ptr = propValue;
+//            }
+
+            ptr = propValue;
 
             if (ptr.containsKey(myProp)) {
 
@@ -75,8 +76,8 @@ public class Instance {
 
         for (PropPair pp : ppl.getPropPairList()) {
 
-            Set<Value> valSet1 = propValue.get(pp.getPred1());
-            Set<Value> valSet2 = myPropValue.get(pp.getPred2());
+            Set<Value> valSet1 = propValue.get(pp.getProp1());
+            Set<Value> valSet2 = myPropValue.get(pp.getProp2());
 
             if (valSet1 != null && valSet2 != null) {
 
@@ -105,6 +106,18 @@ public class Instance {
             out.append("property: " + key + "\n");
 
             Set<Value> myValueSet = propValue.get(key);
+
+            for (Value myValue : myValueSet) {
+
+                out.append("value: " + myValue.getValue() + "\n");
+            }
+        }
+
+        for (String key : propUri.keySet()) {
+
+            out.append("property: " + key + "\n");
+
+            Set<Value> myValueSet = propUri.get(key);
 
             for (Value myValue : myValueSet) {
 
