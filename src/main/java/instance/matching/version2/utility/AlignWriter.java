@@ -13,9 +13,9 @@ import java.io.PrintWriter;
 /**
  * Created by ciferlv on 17-3-30.
  */
-public class PrintAlign {
+public class AlignWriter {
 
-    private static Logger logger = LoggerFactory.getLogger(PrintAlign.class);
+    private static Logger logger = LoggerFactory.getLogger(AlignWriter.class);
 
     public static void printAlign(String resultFilePath, String head, String tail, Alignment align) {
 

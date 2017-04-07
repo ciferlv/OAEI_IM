@@ -2,14 +2,13 @@ package instance.matching.version2.train;
 
 import instance.matching.version2.unit.Alignment;
 import instance.matching.version2.unit.Document;
-import instance.matching.version2.unit.PredPairList;
-import instance.matching.version2.unit.Triples;
+import instance.matching.version2.unit.PropPairList;
+import instance.matching.version2.unit.Instance;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -24,11 +23,11 @@ public class AlignmentFinder {
 
     public static void findResultAlign(Document doc1,
                                        Document doc2,
-                                       PredPairList ppl,
+                                       PropPairList ppl,
                                        Alignment resultAlign) {
 
-        Map<String, Triples> graph1 = doc1.getGraph();
-        Map<String, Triples> graph2 = doc2.getGraph();
+        Map<String, Instance> graph1 = doc1.getGraph();
+        Map<String, Instance> graph2 = doc2.getGraph();
 
         List<String> targetSubject1 = doc1.getTargetSubject();
         List<String> targetSubject2 = doc2.getTargetSubject();
@@ -37,10 +36,10 @@ public class AlignmentFinder {
 
         for (String sub1 : targetSubject1) {
 
-            Triples tri1 = graph1.get(sub1);
+            Instance tri1 = graph1.get(sub1);
             for (String sub2 : targetSubject2) {
 
-                Triples tri2 = graph2.get(sub2);
+                Instance tri2 = graph2.get(sub2);
                 Runnable run = new Thread(
                         new AlignmentFinderThread(tri1, tri2, ppl, resultAlign));
                 cachedThreadPool.execute(run);

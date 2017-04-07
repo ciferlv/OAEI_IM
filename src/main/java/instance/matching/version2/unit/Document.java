@@ -14,7 +14,7 @@ import static instance.matching.version2.utility.VariableDef.*;
  */
 public class Document {
 
-    private Map<String, Triples> graph = Collections.synchronizedMap(new HashMap<String, Triples>());
+    private Map<String, Instance> graph = Collections.synchronizedMap(new HashMap<String, Instance>());
     private Set<String> instances = Collections.synchronizedSet(new HashSet<String>());
     private Set<String> classes = Collections.synchronizedSet(new HashSet<String>());
     private Set<String> dataProperties = Collections.synchronizedSet(new HashSet<String>());
@@ -27,14 +27,14 @@ public class Document {
         this.targetType = targetType;
     }
 
-    public void processDataTriples(Model model) {
+    public void processDataInstance(Model model) {
 
         filterTargetType(model);
         classifySubject();
         reinforceGraph();
     }
 
-    public void addTriplesToGraph(String sub, String pre, String obj) {
+    public void addInstanceToGraph(String sub, String pre, String obj, int type) {
 
         sub = sub.toLowerCase();
         pre = pre.toLowerCase();
@@ -42,11 +42,11 @@ public class Document {
 
         if (graph.containsKey(sub)) {
 
-            Triples myTriples = graph.get(sub);
-            myTriples.addObjectToPredicate(obj, pre);
+            Instance myInstance = graph.get(sub);
+            myInstance.addValueToProp(obj, pre, type);
         } else {
 
-            graph.put(sub, new Triples(sub, pre, obj));
+            graph.put(sub, new Instance(sub, pre, obj, type));
         }
     }
 
@@ -100,9 +100,9 @@ public class Document {
             Map.Entry entry = (Map.Entry) itera.next();
 
             String subject = (String) entry.getKey();
-            Triples triples = (Triples) entry.getValue();
+            Instance instance = (Instance) entry.getValue();
 
-            Set<String> myType = triples.getType();
+            Set<String> myType = instance.getTypeSet();
 
             if (myType.contains(CLASS_TYPE)) {
                 classes.add(subject);
@@ -123,32 +123,33 @@ public class Document {
         }
     }
 
-    private void reinforceSub(Triples tri, String tarPred, String tarObj) {
+    private void reinforceSub(Instance inst, String tarProp, String tarValue) {
 
-        Triples tarTri = graph.get(tarObj);
+        Instance tarInst = graph.get(tarValue);
 
-        Map<String, Set<String>> objToRemoved = tarTri.getPredObjBeRemoved();
+        Map<String, Set<Value>> propUri = tarInst.getPropUri();
 
-        Iterator iterRemove = objToRemoved.entrySet().iterator();
+        Iterator iterPropUri = propUri.entrySet().iterator();
 
-        while (iterRemove.hasNext()) {
+        while (iterPropUri.hasNext()) {
 
-            Map.Entry entry = (Map.Entry) iterRemove.next();
-            String pred = (String) entry.getKey();
-            Set<String> objSet = (Set<String>) entry.getValue();
+            Map.Entry entry = (Map.Entry) iterPropUri.next();
 
-            for (String obj : objSet) {
+            String prop = (String) entry.getKey();
+            Set<Value> valueSet = (Set<Value>) entry.getValue();
 
-                reinforceSub(tarTri, pred, obj);
+            for (Value value : valueSet) {
+
+                reinforceSub(tarInst, prop, value.getValue());
             }
         }
 
-        objToRemoved.clear();
+        propUri.clear();
 
-        if (tri == null) return;
+        if (inst == null) return;
 
-        Map<String, Set<String>> predObj = tarTri.getPredicateObject();
-        Iterator iter = predObj.entrySet().iterator();
+        Map<String, Set<Value>> propValue = tarInst.getPropValue();
+        Iterator iter = propValue.entrySet().iterator();
         while (iter.hasNext()) {
 
             Map.Entry entry = (Map.Entry) iter.next();
@@ -156,8 +157,8 @@ public class Document {
             Set<String> objSet = (Set<String>) entry.getValue();
 
             for (String obj : objSet) {
-                String tempPred = tarPred + '@' + pred;
-                tri.addObjectToPredicate(obj, tempPred);
+                String tempPred = tarProp + '@' + pred;
+                inst.addValueToProp(obj, tempPred);
             }
         }
     }
@@ -175,7 +176,7 @@ public class Document {
         return targetType;
     }
 
-    public Map<String, Triples> getGraph() {
+    public Map<String, Instance> getGraph() {
         return graph;
     }
 
@@ -207,11 +208,11 @@ public class Document {
 
         while (iter.hasNext()) {
 
-            Map.Entry entry = (Map.Entry)iter.next();
+            Map.Entry entry = (Map.Entry) iter.next();
 
-            Triples tri = (Triples)entry.getValue();
+            Instance tri = (Instance) entry.getValue();
 
-            buffer.append(tri.toString()+"\n");
+            buffer.append(tri.toString() + "\n");
         }
 
         return String.valueOf(buffer);

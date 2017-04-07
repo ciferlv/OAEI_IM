@@ -2,17 +2,15 @@ package instance.matching.version2.train;
 
 import instance.matching.version2.unit.Alignment;
 import instance.matching.version2.unit.CounterPart;
-import instance.matching.version2.unit.PredPairList;
-import instance.matching.version2.unit.Triples;
+import instance.matching.version2.unit.PropPairList;
+import instance.matching.version2.unit.Instance;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.Iterator;
 import java.util.Map;
 
-import static instance.matching.version2.utility.VariableDef.alignThreshold;
-import static instance.matching.version2.utility.VariableDef.predPairNumNeedThreshold;
-import static instance.matching.version2.utility.VariableDef.predPairSize;
+import static instance.matching.version2.utility.VariableDef.PROP_PAIR_NUM_NEED_THRESHOLD;
 
 /**
  * Created by xinzelv on 17-3-29.
@@ -21,26 +19,26 @@ public class AlignmentFinderThread implements Runnable {
 
     private Logger logger = LoggerFactory.getLogger(AlignmentFinderThread.class);
 
-    private Triples tri1 = null;
-    private Triples tri2 = null;
-    private PredPairList predPairList = null;
+    private Instance tri1 = null;
+    private Instance tri2 = null;
+    private PropPairList propPairList = null;
 
     private Alignment alignment = null;
 
-    public AlignmentFinderThread(Triples tri1,
-                                 Triples tri2,
-                                 PredPairList ppl,
+    public AlignmentFinderThread(Instance tri1,
+                                 Instance tri2,
+                                 PropPairList ppl,
                                  Alignment align) {
 
         this.tri1 = tri1;
         this.tri2 = tri2;
-        this.predPairList = ppl;
+        this.propPairList = ppl;
         this.alignment = align;
     }
 
     public void run() {
 
-        Map<Double, Integer> result = tri1.calSimToTri(tri2, predPairList);
+        Map<Double, Integer> result = tri1.calSimToIns(tri2, propPairList);
 
         Iterator iter = result.entrySet().iterator();
 
@@ -49,10 +47,10 @@ public class AlignmentFinderThread implements Runnable {
         double simi = ((Double) entry.getKey()).doubleValue();
         int cntMatched = ((Integer) entry.getValue()).intValue();
 
-        if ( cntMatched> /*alignThreshold*/predPairNumNeedThreshold) {
+        if ( cntMatched> /*ALIGN_THRESHOLD*/PROP_PAIR_NUM_NEED_THRESHOLD) {
 
 //            logger.info(String.valueOf(value));
-            alignment.addCounterPart(new CounterPart(tri1.getSubject(), tri2.getSubject()));
+            alignment.addCounterPart(new CounterPart(tri1.getSub(), tri2.getSub()));
         }
     }
 }

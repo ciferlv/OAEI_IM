@@ -12,19 +12,19 @@ import java.util.List;
 /**
  * Created by xinzelv on 17-3-28.
  */
-public class PredPairList {
+public class PropPairList {
 
-    private Logger logger = LoggerFactory.getLogger(PredPairList.class);
-    private List<PredPair> predPairList = Collections.synchronizedList(new ArrayList<PredPair>());
+    private Logger logger = LoggerFactory.getLogger(PropPairList.class);
+    private List<PropPair> propPairList = Collections.synchronizedList(new ArrayList<PropPair>());
 
 
-    public synchronized PredPair contains(PredPair pp) {
+    public synchronized PropPair contains(PropPair pp) {
 
-        Iterator<PredPair> iter = predPairList.iterator();
+        Iterator<PropPair> iter = propPairList.iterator();
 
         while (iter.hasNext()) {
 
-            PredPair tempPP = iter.next();
+            PropPair tempPP = iter.next();
             if (tempPP.equals(pp)) {
                 return tempPP;
             }
@@ -32,27 +32,27 @@ public class PredPairList {
         return null;
     }
 
-    public synchronized void add(PredPair pp) {
+    public synchronized void add(PropPair pp) {
 
         if (pp == null) return;
-        PredPair tempPP = contains(pp);
+        PropPair tempPP = contains(pp);
         if (tempPP == null) {
-            predPairList.add(pp);
+            propPairList.add(pp);
         } else tempPP.setTime(tempPP.getTime() + 1);
     }
 
     public void resize(int size) {
 
-        for (int i = predPairList.size() - 1; i >= size; i--) {
+        for (int i = propPairList.size() - 1; i >= size; i--) {
 
-            predPairList.remove(i);
+            propPairList.remove(i);
         }
 
     }
 
     public int size() {
 
-        return predPairList.size();
+        return propPairList.size();
     }
 
     @Override
@@ -62,7 +62,7 @@ public class PredPairList {
 
         buffer.append("size: " + size() + "\n");
 
-        for (PredPair pp : predPairList) {
+        for (PropPair pp : propPairList) {
 
             buffer.append(pp.toString() + "\n");
         }
@@ -70,10 +70,10 @@ public class PredPairList {
     }
 
     public void sort() {
-        Collections.sort(predPairList);
+        Collections.sort(propPairList);
     }
 
-    public List<PredPair> getPredPairList() {
-        return predPairList;
+    public List<PropPair> getPropPairList() {
+        return propPairList;
     }
 }

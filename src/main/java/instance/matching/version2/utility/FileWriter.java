@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 /**
  * Created by xinzelv on 17-4-2.
  */
-public class PrintToFile {
+public class FileWriter {
 
     public static void printToFile(String filePath,String str) throws FileNotFoundException {
 

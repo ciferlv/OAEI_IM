@@ -26,7 +26,7 @@ public class TaskFileParser {
         getStopWords();
         accessFile(filePath);
         generateDocument(document);
-        document.processDataTriples(model);
+        document.processDataInstance(model);
     }
 
     public static void accessFile(String filePath) {
@@ -58,6 +58,7 @@ public class TaskFileParser {
             String predicateString = predicate.getLocalName();
 
             String objectString = null;
+
             if (object.isResource()) {
 
                 objectString = object.asResource().getURI();
@@ -69,7 +70,7 @@ public class TaskFileParser {
                 continue;
             }
 
-            document.addTriplesToGraph(subjectString, predicateString, objectString);
+            document.addInstanceToGraph(subjectString, predicateString, objectString);
         }
     }
 }

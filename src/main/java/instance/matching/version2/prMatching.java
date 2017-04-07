@@ -2,7 +2,7 @@ package instance.matching.version2;
 
 import instance.matching.version2.unit.Alignment;
 import instance.matching.version2.unit.Document;
-import instance.matching.version2.unit.PredPairList;
+import instance.matching.version2.unit.PropPairList;
 import org.dom4j.DocumentException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,8 +18,10 @@ import static instance.matching.version2.train.AlignmentFinder.findResultAlign;
 import static instance.matching.version2.train.InfoGainCalculator.calInfoGain;
 import static instance.matching.version2.train.NegetiveFinder.findNegetives;
 import static instance.matching.version2.train.PredPairFinder.findPredPair;
-import static instance.matching.version2.utility.PrintAlign.printAlign;
-import static instance.matching.version2.utility.PrintToFile.printToFile;
+import static instance.matching.version2.train.PredPairFinder.testInfoGain;
+import static instance.matching.version2.utility.AlignWriter.printAlign;
+import static instance.matching.version2.utility.FileWriter.printToFile;
+
 
 /**
  * Created by xinzelv on 17-3-27.
@@ -70,7 +72,7 @@ public class prMatching {
         findNegetives(positives, doc2, negetives);
 //        logger.info(negetives.toString());
 
-        PredPairList ppl = new PredPairList();
+        PropPairList ppl = new PropPairList();
         findPredPair(positives, doc1, doc2, ppl);
         calInfoGain(positives, negetives, doc1, doc2, ppl);
 

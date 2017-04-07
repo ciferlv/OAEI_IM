@@ -3,14 +3,14 @@ package instance.matching.version2.unit;
 /**
  * Created by xinzelv on 17-3-28.
  */
-public class PredPair implements Comparable {
+public class PropPair implements Comparable {
 
     private String pred1, pred2, token;
 
     private int time;
     private double infoGain;
 
-    public PredPair(String pred1, String pred2) {
+    public PropPair(String pred1, String pred2) {
 
         this.pred1 = pred1;
         this.pred2 = pred2;
@@ -21,12 +21,12 @@ public class PredPair implements Comparable {
 
     public int compareTo(Object o) {
 
-        if (o instanceof PredPair) {
+        if (o instanceof PropPair) {
 
-            double oInfoGain = ((PredPair) o).infoGain;
+            double oInfoGain = ((PropPair) o).infoGain;
             if (this.infoGain == oInfoGain) {
 
-                double oTime = ((PredPair) o).time;
+                double oTime = ((PropPair) o).time;
                 if (this.time < oTime) {
                     return 1;
                 } else if (this.time > oTime) {
@@ -40,10 +40,10 @@ public class PredPair implements Comparable {
     }
 
     @Override
-    public boolean equals(Object obj) {
+    public boolean equals(Object pp) {
 
-        if (obj instanceof PredPair) {
-            if (((PredPair) obj).getToken().equals(this.token)) {
+        if (pp instanceof PropPair) {
+            if (((PropPair) pp).getToken().equals(this.token)) {
                 return true;
             }
         }
