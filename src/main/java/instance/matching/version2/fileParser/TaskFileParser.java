@@ -65,12 +65,13 @@ public class TaskFileParser {
 
             if (val.isResource()) {
 
-                if (propString.equals("type")) {
-                    valString = val.asResource().getURI();
-                } else {
-                    valString = val.asResource().getLocalName();
-                }
+//                if (propString.equals("type")) {
+//                    valString = val.asResource().getURI();
+//                } else {
+//                    valString = val.asResource().getLocalName();
+//                }
 
+                valString = val.asResource().getURI();
                 virtualDoc.addInstToGraph(subString, propString, valString, URI_TYPE);
 
             } else if (val.isLiteral()) {

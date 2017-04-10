@@ -2,15 +2,15 @@ package instance.matching.version2.train;
 
 import instance.matching.version2.unit.Alignment;
 import instance.matching.version2.unit.CounterPart;
-import instance.matching.version2.unit.PropPairList;
 import instance.matching.version2.unit.Instance;
+import instance.matching.version2.unit.PropPairList;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.Iterator;
 import java.util.Map;
 
-import static instance.matching.version2.utility.VariableDef.PROP_PAIR_NUM_NEED_THRESHOLD;
+import static instance.matching.version2.utility.VariableDef.ALIGN_THRESHOLD;
 
 /**
  * Created by xinzelv on 17-3-29.
@@ -47,7 +47,12 @@ public class AlignmentFinderThread implements Runnable {
         double simi = ((Double) entry.getKey()).doubleValue();
         int cntMatched = ((Integer) entry.getValue()).intValue();
 
-        if ( cntMatched> /*ALIGN_THRESHOLD*/PROP_PAIR_NUM_NEED_THRESHOLD) {
+//        if ( cntMatched> /*ALIGN_THRESHOLD*/PROP_PAIR_NUM_NEED_THRESHOLD) {
+
+//            logger.info(String.valueOf(value));
+//            alignment.addCounterPart(new CounterPart(tri1.getSub(), tri2.getSub()));
+//        }
+        if (simi > ALIGN_THRESHOLD) {
 
 //            logger.info(String.valueOf(value));
             alignment.addCounterPart(new CounterPart(tri1.getSub(), tri2.getSub()));

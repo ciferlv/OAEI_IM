@@ -7,6 +7,7 @@ import java.util.*;
 
 import static instance.matching.version2.nlp.CalSimilarity.calValSetSim;
 import static instance.matching.version2.utility.VariableDef.PROP_PAIR_THRESHOLD;
+import static instance.matching.version2.utility.VariableDef.URI_TYPE;
 
 /**
  * Created by xinzelv on 3/19/17.
@@ -44,13 +45,13 @@ public class Instance {
 
             Map<String, Set<Value>> ptr;
 
-//            if (valType == URI_TYPE) {
-//                ptr = propUri;
-//            } else {
-//                ptr = propValue;
-//            }
+            if (valType == URI_TYPE) {
+                ptr = propUri;
+            } else {
+                ptr = propValue;
+            }
 
-            ptr = propValue;
+//            ptr = propValue;
 
             if (ptr.containsKey(myProp)) {
 

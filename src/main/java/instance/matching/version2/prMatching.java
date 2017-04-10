@@ -37,13 +37,13 @@ public class prMatching {
 //        String taskFilePath1 = "src/main/resources/dataSet/PR/person1/person11.rdf";
 //        String taskFilePath2 = "src/main/resources/dataSet/PR/person1/person12.rdf";
 
-//        String refAlignFilePath = "src/main/resources/dataSet/PR/person2/dataset21_dataset22_goldstandard_person.xml";
-//        String taskFilePath1 = "src/main/resources/dataSet/PR/person2/person21.rdf";
-//        String taskFilePath2 = "src/main/resources/dataSet/PR/person2/person22.rdf";
+        String refAlignFilePath = "src/main/resources/dataSet/PR/person2/dataset21_dataset22_goldstandard_person.xml";
+        String taskFilePath1 = "src/main/resources/dataSet/PR/person2/person21.rdf";
+        String taskFilePath2 = "src/main/resources/dataSet/PR/person2/person22.rdf";
 
-        String refAlignFilePath = "src/main/resources/dataSet/PR/restaurants/restaurant1_restaurant2_goldstandard.rdf";
-        String taskFilePath1 = "src/main/resources/dataSet/PR/restaurants/restaurant1.rdf";
-        String taskFilePath2 = "src/main/resources/dataSet/PR/restaurants/restaurant2.rdf";
+//        String refAlignFilePath = "src/main/resources/dataSet/PR/restaurants/restaurant1_restaurant2_goldstandard.rdf";
+//        String taskFilePath1 = "src/main/resources/dataSet/PR/restaurants/restaurant1.rdf";
+//        String taskFilePath2 = "src/main/resources/dataSet/PR/restaurants/restaurant2.rdf";
 
         Set<String> targetType1 = new HashSet<String>();
         targetType1.add("http://www.okkam.org/ontology_person1.owl#Person");

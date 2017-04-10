@@ -35,7 +35,7 @@ public class VirtualDoc {
 
         filterTarType(model);
         classifySub();
-//        reinforceGraph();
+        reinforceGraph();
     }
 
     public void addInstToGraph(String sub, String prop, String val, int type) {
@@ -156,7 +156,7 @@ public class VirtualDoc {
             }
         }
 
-//        propUri.clear();
+        propUri.clear();
 
         if (inst == null) return;
 
