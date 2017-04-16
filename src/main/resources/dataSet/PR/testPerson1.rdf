@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ontology_base="http://www.okkam.org/ontology_person1.owl#"
+    xmlns:PREFIX="http://www.okkam.org/oaie/Person1-"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+	<rdf:Description rdf:about="http://www.okkam.org/oaie/Person1-Person4580">
+    <ontology_base:has_address rdf:resource="http://www.okkam.org/oaie/Person1-Address4580"/>
+    <ontology_base:age>21</ontology_base:age>
+    <ontology_base:phone_numer></ontology_base:phone_numer>
+    <ontology_base:soc_sec_id>7298787</ontology_base:soc_sec_id>
+    <ontology_base:date_of_birth>19260102</ontology_base:date_of_birth>
+    <ontology_base:surname>carter</ontology_base:surname>
+    <ontology_base:given_name>braedon</ontology_base:given_name>
+    <rdf:type rdf:resource="http://www.okkam.org/ontology_person1.owl#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.okkam.org/oaie/Person1-Address4580">
+    <ontology_base:is_in_suburb rdf:resource="http://www.okkam.org/oaie/Person1-Suburb4580"/>
+    <ontology_base:postcode>3219</ontology_base:postcode>
+    <ontology_base:house_number>69</ontology_base:house_number>
+    <ontology_base:street>chandler street silverland roadhouse</ontology_base:street>
+    <rdf:type rdf:resource="http://www.okkam.org/ontology_person1.owl#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.okkam.org/oaie/Person1-Suburb4580">
+    <ontology_base:is_in_state rdf:resource="http://www.okkam.org/oaie/Person1-State4580"/>
+    <ontology_base:name>earlwood</ontology_base:name>
+    <rdf:type rdf:resource="http://www.okkam.org/ontology_person1.owl#Suburb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.okkam.org/oaie/Person1-State4580">
+    <ontology_base:name>nsw</ontology_base:name>
+    <rdf:type rdf:resource="http://www.okkam.org/ontology_person1.owl#State"/>
+  </rdf:Description>
+ </rdf:RDF>
+  

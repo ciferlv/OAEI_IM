@@ -8,10 +8,7 @@ import org.slf4j.LoggerFactory;
 
 import java.io.InputStream;
 
-import static instance.matching.version2.unit.StopWords.formatWords;
 import static instance.matching.version2.unit.StopWords.getStopWords;
-import static instance.matching.version2.utility.VariableDef.THING_TYPE;
-import static instance.matching.version2.utility.VariableDef.URI_TYPE;
 
 /**
  * Created by xinzelv on 3/19/17.
@@ -44,7 +41,7 @@ public class TaskFileParser {
         }
     }
 
-    public static void generateVirtualDoc(VirtualDoc virtualDoc) {
+    public static void generateVirtualDoc(VirtualDoc vDoc) {
 
         StmtIterator iter = model.listStatements();
 
@@ -55,37 +52,15 @@ public class TaskFileParser {
             Property prop = stmt.getPredicate();
             RDFNode val = stmt.getObject();
 
-
-            String subString = sub.toString();
-            String propString = prop.getLocalName();
-
-            String valString;
-
-            if (val == null) continue;
-
-            if (val.isResource()) {
-
-//                if (propString.equals("type")) {
-//                    valString = val.asResource().getURI();
-//                } else {
-//                    valString = val.asResource().getLocalName();
-//                }
-
-                valString = val.asResource().getURI();
-                virtualDoc.addInstToGraph(subString, propString, valString, URI_TYPE);
-
-            } else if (val.isLiteral()) {
-
-                valString = formatWords(val.asLiteral().getLexicalForm());
-                virtualDoc.addInstToGraph(subString, propString, valString, THING_TYPE);
-
-                if (valString.equals("")) continue;
-
-            } else {
+            if (sub == null || val == null || prop == null) {
+                logger.info("Sub or Prop or Val is null!");
+                logger.info("sub: " + sub.toString());
+                logger.info("prop: " + prop.toString());
+                logger.info("val: " + val.toString());
                 continue;
             }
 
-
+            vDoc.addStmtToGraph(sub, prop, val);
         }
     }
 }

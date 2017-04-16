@@ -7,19 +7,21 @@ public class Value {
 
     private String value;
 
+    private String localName;
+
     private int type;
 
-    public Value(String value, int type) {
+    public Value(String value, String localName, int type) {
 
         this.value = value;
         this.type = type;
+        this.localName = localName;
     }
 
     public Value(String value) {
 
         this.value = value;
     }
-
 
     public String getValue() {
         return value;
@@ -35,5 +37,9 @@ public class Value {
 
     public void setType(int type) {
         this.type = type;
+    }
+
+    public String getLocalName() {
+        return localName;
     }
 }

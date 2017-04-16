@@ -38,8 +38,6 @@ public class NegetiveFinderThread implements Runnable {
 
         List<String> subList = doc.getTarSubList();
 
-//        logger.info(String.valueOf(subList.size()));
-
         Random r = new Random();
 
         String sub1 = cp.getSub1();

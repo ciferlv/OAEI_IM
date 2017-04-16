@@ -22,6 +22,7 @@ import static instance.matching.version2.train.NegetiveFinder.findNegetives;
 import static instance.matching.version2.train.PropPairFinder.findPropPair;
 import static instance.matching.version2.utility.AlignWriter.printAlign;
 import static instance.matching.version2.utility.FileWriter.printToFile;
+import static instance.matching.version2.utility.VariableDef.*;
 
 
 /**
@@ -33,25 +34,13 @@ public class prMatching {
 
     public static void main(String[] args) throws FileNotFoundException, DocumentException {
 
-//        String refAlignFilePath = "src/main/resources/dataSet/PR/person1/dataset11_dataset12_goldstandard_person.xml";
-//        String taskFilePath1 = "src/main/resources/dataSet/PR/person1/person11.rdf";
-//        String taskFilePath2 = "src/main/resources/dataSet/PR/person1/person12.rdf";
-
-        String refAlignFilePath = "src/main/resources/dataSet/PR/person2/dataset21_dataset22_goldstandard_person.xml";
-        String taskFilePath1 = "src/main/resources/dataSet/PR/person2/person21.rdf";
-        String taskFilePath2 = "src/main/resources/dataSet/PR/person2/person22.rdf";
-
-//        String refAlignFilePath = "src/main/resources/dataSet/PR/restaurants/restaurant1_restaurant2_goldstandard.rdf";
-//        String taskFilePath1 = "src/main/resources/dataSet/PR/restaurants/restaurant1.rdf";
-//        String taskFilePath2 = "src/main/resources/dataSet/PR/restaurants/restaurant2.rdf";
+        int dataSetIndex = 3;
 
         Set<String> targetType1 = new HashSet<String>();
-        targetType1.add("http://www.okkam.org/ontology_person1.owl#Person");
-        targetType1.add("http://www.okkam.org/ontology_restaurant1.owl#Restaurant");
+        targetType1.add(TARGET_TYPE1[dataSetIndex].toLowerCase());
 
         Set<String> targetType2 = new HashSet<String>();
-        targetType2.add("http://www.okkam.org/ontology_person2.owl#Person");
-        targetType2.add("http://www.okkam.org/ontology_restaurant2.owl#Restaurant");
+        targetType2.add(TARGET_TYPE2[dataSetIndex].toLowerCase());
 
         VirtualDoc doc1 = new VirtualDoc(targetType1);
         VirtualDoc doc2 = new VirtualDoc(targetType2);
@@ -59,19 +48,17 @@ public class prMatching {
         Model model1 = ModelFactory.createDefaultModel();
         Model model2 = ModelFactory.createDefaultModel();
 
-        parseTaskFile(taskFilePath1, doc1, model1);
-        parseTaskFile(taskFilePath2, doc2, model2);
+        parseTaskFile(INST1_PATH[dataSetIndex], doc1, model1);
+        parseTaskFile(INST2_PATH[dataSetIndex], doc2, model2);
 
-        doc1.processGraph(model1);
-        doc2.processGraph(model2);
+        doc1.processGraph();
+        doc2.processGraph();
 
         printToFile("target/rdf1.txt", doc1.graphToString());
         printToFile("target/rdf2.txt", doc2.graphToString());
 
-//        logger.info(doc1.getGraph().toString());
-
         Alignment refAlign = new Alignment();
-        parseAlignFile(refAlignFilePath, refAlign);
+        parseAlignFile(STANDARD_PATH[dataSetIndex], refAlign);
 
         Alignment positives = refAlign.generatePositives();
 

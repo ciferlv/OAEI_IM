@@ -29,10 +29,10 @@ public class MatchingEntry {
             PrintWriter outStream = new PrintWriter(new FileOutputStream(RESULT_FILE_PATH[i]));
 
             InsMatching im = new InsMatching(
-                    RDF1_PATH[i],
-                    RDF2_PATH[i],
-                    OWL1_PATH[i],
-                    OWL2_PATH[i],
+                    INST1_PATH[i],
+                    INST2_PATH[i],
+                    SUPP1_PATH[i],
+                    SUPP2_PATH[i],
                     STANDARD_PATH[i],
                     AIM_LOCAL_NAME[i]);
 

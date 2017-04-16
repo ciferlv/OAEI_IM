@@ -6,8 +6,7 @@ import org.slf4j.LoggerFactory;
 import java.util.*;
 
 import static instance.matching.version2.nlp.CalSimilarity.calValSetSim;
-import static instance.matching.version2.utility.VariableDef.PROP_PAIR_THRESHOLD;
-import static instance.matching.version2.utility.VariableDef.URI_TYPE;
+import static instance.matching.version2.utility.VariableDef.*;
 
 /**
  * Created by xinzelv on 3/19/17.
@@ -26,41 +25,43 @@ public class Instance {
     private Map<String, Set<Value>> propUri = Collections.synchronizedMap(new HashMap<String, Set<Value>>());
 
 
-    public Instance(String sub, String pred, String obj, int objType) {
+    public Instance(String sub, String prop, String val, String localName, int objType) {
 
         this.sub = sub;
 
-        addValueToProp(obj, pred, objType);
+        addValueToProp(val, prop, localName, objType);
     }
 
 
-    public synchronized void addValueToProp(String myVal, String myProp, int valType) {
+    public synchronized void addValueToProp(String myVal, String myProp, String localName, int valType) {
 
         if (myVal.equals("") || myProp.equals("")) return;
 
-        if (myProp.equals("type")) {
+        if (myProp.equals(TYPE_FULL_NAME)) {
 
             typeSet.add(myVal);
         } else {
 
             Map<String, Set<Value>> ptr;
 
-            if (valType == URI_TYPE) {
-                ptr = propUri;
+            if (useReinforce) {
+                if (valType == URI_TYPE) {
+                    ptr = propUri;
+                } else {
+                    ptr = propValue;
+                }
             } else {
                 ptr = propValue;
             }
 
-//            ptr = propValue;
-
             if (ptr.containsKey(myProp)) {
 
                 Set<Value> myValueSet = ptr.get(myProp);
-                myValueSet.add(new Value(myVal, valType));
+                myValueSet.add(new Value(myVal, localName, valType));
             } else {
 
                 Set<Value> mySet = new HashSet<Value>();
-                mySet.add(new Value(myVal, valType));
+                mySet.add(new Value(myVal, localName, valType));
                 ptr.put(myProp, mySet);
             }
         }
@@ -92,6 +93,15 @@ public class Instance {
 
         res.put(1.0 * totalSimi / simiCnt, matchedCnt);
         return res;
+    }
+
+    public boolean propUriIsEmpty() {
+
+        if (propUri.size() == 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     @Override

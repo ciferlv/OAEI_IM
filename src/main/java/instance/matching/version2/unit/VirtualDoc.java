@@ -1,14 +1,14 @@
 package instance.matching.version2.unit;
 
-import org.apache.jena.query.QuerySolution;
-import org.apache.jena.query.ResultSet;
-import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.RDFNode;
+import org.apache.jena.rdf.model.Resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.*;
 
-import static instance.matching.version2.utility.SparqlExecutor.execSelect;
+import static instance.matching.version2.unit.StopWords.formatWords;
 import static instance.matching.version2.utility.VariableDef.*;
 
 /**
@@ -31,36 +31,133 @@ public class VirtualDoc {
         this.tarTypeSet = tarTypeSet;
     }
 
-    public void processGraph(Model model) {
+    public void processGraph() {
 
-        filterTarType(model);
-        classifySub();
-        reinforceGraph();
+        filterTarType();
+        getTarSub();
+        if (useReinforce) {
+            reinforceGraph();
+        }
     }
 
-    public void addInstToGraph(String sub, String prop, String val, int type) {
+    public void addStmtToGraph(Resource sub, Property prop, RDFNode val) {
 
-        if (val == null) {
-            logger.info(sub);
-            logger.info(prop);
-            return;
+        String subStr = sub.toString().toLowerCase();
+        String propStr = prop.toString().toLowerCase();
+
+        String valStr = "";
+        String valLocalName = "";
+        int type = THING_TYPE;
+
+        if (val.isResource()) {
+
+            valStr = val.asResource().getURI().toLowerCase();
+            valLocalName = val.asResource().getLocalName().toLowerCase();
+            type = URI_TYPE;
+
+            if (propStr.equals(TYPE_FULL_NAME)) {
+                if (valStr.equals(CLASS_TYPE)) {
+                    classSet.add(subStr);
+                } else if (valStr.equals(OBJECT_TYPE_PROPERTY)) {
+                    objPropSet.add(subStr);
+                } else if (valStr.equals(DATA_TYPE_PROPERTY)) {
+                    dataPropSet.add(subStr);
+                } else {
+                    instSet.add(subStr);
+                }
+            }
+
+        } else if (val.isLiteral()) {
+
+            valStr = formatWords(val.asLiteral().getLexicalForm());
+
+            if (valStr.equals("")) {
+
+//                logger.info("The val is null after being formated.");
+//                logger.info(val.asLiteral().getLexicalForm());
+                return;
+            }
+
+            type = THING_TYPE;
         }
 
-        sub = sub.toLowerCase();
-        prop = prop.toLowerCase();
-        val = val.toLowerCase();
 
-        if (graph.containsKey(sub)) {
+        if (graph.containsKey(subStr)) {
 
-            Instance myInstance = graph.get(sub);
-            myInstance.addValueToProp(val, prop, type);
+            Instance myInstance = graph.get(subStr);
+            myInstance.addValueToProp(valStr, propStr, valLocalName, type);
         } else {
 
-            graph.put(sub, new Instance(sub, prop, val, type));
+            graph.put(subStr, new Instance(subStr, propStr, valStr, valLocalName, type));
         }
     }
 
-    private void filterTarType(Model model) {
+    private void filterTarType() {
+
+//        Queue<String> queue = new LinkedList<String>();
+//
+//        for (String str : tarTypeSet) {
+//
+//            queue.offer(str);
+//        }
+//
+//        tarTypeSet.clear();
+//        while (!queue.isEmpty()) {
+//
+//            String str = queue.peek();
+//            queue.poll();
+//
+//            if (!tarTypeSet.contains(str.toLowerCase())) {
+//                tarTypeSet.add(str.toLowerCase());
+//            } else {
+//                continue;
+//            }
+//
+//            String queryString =
+//                    "PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>" +
+//                            "PREFIX target:<" + str.split("#")[0] + "#>" +
+//                            "select ?subject where " +
+//                            "{ ?subject rdfs:subClassOf target:" + str.split("#")[1] + "}";
+//
+//            ResultSet results = execSelect(queryString, model);
+//
+//            while (results.hasNext()) {
+//
+//                QuerySolution soln = results.nextSolution();
+//                String tempSubject = soln.get("subject").toString();
+//
+//                if (!tarTypeSet.contains(tempSubject.toLowerCase())) {
+//                    queue.offer(tempSubject);
+//                }
+//            }
+//        }
+        Map<String, Set<String>> classTree = new HashMap<String, Set<String>>();
+
+        for (String strClass : classSet) {
+
+            Instance myInst = graph.get(strClass);
+            Set<Value> subClassOf;
+            if (myInst.propUriIsEmpty()) {
+                subClassOf = myInst.getPropValue().get(SUBCLASSOF_FULL_NAME);
+            } else {
+                subClassOf = myInst.getPropUri().get(SUBCLASSOF_FULL_NAME);
+            }
+
+            if(subClassOf == null ) continue;
+
+            for (Value strSubClass : subClassOf) {
+
+                String myValue = strSubClass.getValue();
+                if (classTree.containsKey(myValue)) {
+                    Set<String> mySet = classTree.get(myValue);
+                    mySet.add(strClass);
+                } else {
+                    Set<String> mySet = new HashSet<String>();
+                    mySet.add(strClass);
+                    classTree.put(myValue, mySet);
+                }
+            }
+        }
 
         Queue<String> queue = new LinkedList<String>();
 
@@ -72,65 +169,34 @@ public class VirtualDoc {
         tarTypeSet.clear();
         while (!queue.isEmpty()) {
 
-            String str = queue.peek();
+            String top = queue.peek();
             queue.poll();
 
-            if (!tarTypeSet.contains(str.toLowerCase())) {
-                tarTypeSet.add(str.toLowerCase());
+            if (!tarTypeSet.contains(top)) {
+                tarTypeSet.add(top);
             } else {
                 continue;
             }
 
-            String queryString =
-                    "PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>" +
-                            "PREFIX target:<" + str.split("#")[0] + "#>" +
-                            "select ?subject where " +
-                            "{ ?subject rdfs:subClassOf target:" + str.split("#")[1] + "}";
+            Set<String> subClassSet = classTree.get(top);
+            if (subClassSet == null) continue;
+            for (String subClass : subClassSet) {
 
-            ResultSet results = execSelect(queryString, model);
-
-            while (results.hasNext()) {
-
-                QuerySolution soln = results.nextSolution();
-                String tempSubject = soln.get("subject").toString();
-
-                if (!tarTypeSet.contains(tempSubject.toLowerCase())) {
-                    queue.offer(tempSubject);
-                }
+                queue.offer(subClass);
             }
         }
     }
 
-    private void classifySub() {
+    private void getTarSub() {
 
-        Iterator graphIter = graph.entrySet().iterator();
+        for (String subStr : instSet) {
 
-        while (graphIter.hasNext()) {
-
-            Map.Entry entry = (Map.Entry) graphIter.next();
-
-            String sub = (String) entry.getKey();
-            Instance inst = (Instance) entry.getValue();
-
+            Instance inst = graph.get(subStr);
             Set<String> myTypeSet = inst.getTypeSet();
-
-            if (myTypeSet.contains(CLASS_TYPE)) {
-
-                classSet.add(sub);
-            } else if (myTypeSet.contains(DATA_TYPE_PROPERTY)) {
-
-                dataPropSet.add(sub);
-            } else if (myTypeSet.contains(OBJECT_TYPE_PROPERTY)) {
-
-                objPropSet.add(sub);
-            } else {
-
-                instSet.add(sub);
-                for (String myType : myTypeSet) {
-                    if (tarTypeSet.contains(myType)) {
-                        tarSubList.add(sub);
-                        break;
-                    }
+            for (String myType : myTypeSet) {
+                if (tarTypeSet.contains(myType)) {
+                    tarSubList.add(subStr);
+                    break;
                 }
             }
         }
@@ -139,6 +205,8 @@ public class VirtualDoc {
     private void reinforceSub(Instance inst, String tarProp, String tarValue) {
 
         Instance tarInst = graph.get(tarValue);
+
+        if (tarInst == null) return;
 
         Map<String, Set<Value>> propUri = tarInst.getPropUri();
 
@@ -171,7 +239,7 @@ public class VirtualDoc {
             for (Value val : valSet) {
 
                 String myProp = tarProp + '@' + prop;
-                inst.addValueToProp(val.getValue(), myProp, val.getType());
+                inst.addValueToProp(val.getValue(), myProp, val.getLocalName(), val.getType());
             }
         }
     }
