@@ -1,16 +1,16 @@
 package instance.matching.version2.train;
 
-import instance.matching.version2.unit.*;
+import instance.matching.version2.unit.Alignment;
+import instance.matching.version2.unit.PropPair;
+import instance.matching.version2.unit.PropPairList;
+import instance.matching.version2.unit.VirtualDoc;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import static instance.matching.version2.nlp.CalSimilarity.calValSetSim;
 import static instance.matching.version2.utility.ThreadEndJudge.terminateThread;
-import static instance.matching.version2.utility.VariableDef.PROP_PAIR_SIZE;
-import static instance.matching.version2.utility.VariableDef.PROP_PAIR_THRESHOLD;
 
 /**
  * Created by xinzelv on 17-4-5.
@@ -53,13 +53,13 @@ public class InfoGainCalculator {
             Runnable run = new Thread(
                     new InfoGainCalculatorThread(positives, negetives, doc1, doc2, pp, initialEntropy));
             cachedThreadPool.execute(run);
-
         }
 
         terminateThread(cachedThreadPool, logger);
 
+        ppl.filterPropPairByInfoGain();
         ppl.sort();
         logger.info(ppl.toString());
-        ppl.resize(PROP_PAIR_SIZE);
+//        ppl.resize(PROP_PAIR_SIZE);
     }
 }

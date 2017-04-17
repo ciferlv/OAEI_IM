@@ -9,14 +9,16 @@ public class VariableDef {
             "src/main/resources/dataSet/PR/person1/person11.rdf",
             "src/main/resources/dataSet/PR/person2/person21.rdf",
             "src/main/resources/dataSet/PR/restaurants/restaurant1.rdf",
-            "src/main/resources/dataSet/UOBM_small/Abox1.nt"
+            "src/main/resources/dataSet/UOBM_small/Abox1.nt",
+            "src/main/resources/dataSet/SPIMBENCH_small/Abox1.nt"
     };
 
     public static String[] INST2_PATH = {
             "src/main/resources/dataSet/PR/person1/person12.rdf",
             "src/main/resources/dataSet/PR/person2/person22.rdf",
             "src/main/resources/dataSet/PR/restaurants/restaurant2.rdf",
-            "src/main/resources/dataSet/UOBM_small/Abox2.nt"
+            "src/main/resources/dataSet/UOBM_small/Abox2.nt",
+            "src/main/resources/dataSet/SPIMBENCH_small/Abox2.nt"
     };
 
     public static String[] SUPP1_PATH = {
@@ -35,7 +37,8 @@ public class VariableDef {
             "src/main/resources/dataSet/PR/person1/dataset11_dataset12_goldstandard_person.xml",
             "src/main/resources/dataSet/PR/person2/dataset21_dataset22_goldstandard_person.xml",
             "src/main/resources/dataSet/PR/restaurants/restaurant1_restaurant2_goldstandard.rdf",
-            "src/main/resources/dataSet/UOBM_small/refalign.rdf"
+            "src/main/resources/dataSet/UOBM_small/refalign.rdf",
+            "src/main/resources/dataSet/SPIMBENCH_small/refalign.rdf"
 
     };
 
@@ -43,16 +46,16 @@ public class VariableDef {
             "http://www.okkam.org/ontology_person1.owl#Person",
             "http://www.okkam.org/ontology_person1.owl#Person",
             "http://www.okkam.org/ontology_restaurant1.owl#Restaurant",
-//            "http://semantics.crl.ibm.com/univ-bench-dl.owl#WomanCollege"
-            "http://semantics.crl.ibm.com/univ-bench-dl.owl#Person"
+            "http://semantics.crl.ibm.com/univ-bench-dl.owl#woman",
+            "http://www.bbc.co.uk/ontologies/creativework/NewsItem"
     };
 
     public static String[] TARGET_TYPE2 = {
             "http://www.okkam.org/ontology_person2.owl#Person",
             "http://www.okkam.org/ontology_person2.owl#Person",
             "http://www.okkam.org/ontology_restaurant2.owl#Restaurant",
-            "http://semantics.crl.ibm.com/univ-bench-dl.owl#WomanCollege",
-            "http://semantics.crl.ibm.com/univ-bench-dl.owl#Person"
+            "http://semantics.crl.ibm.com/univ-bench-dl.owl#person",
+            "http://www.bbc.co.uk/ontologies/creativework/NewsItem"
     };
 
     public static String[] AIM_LOCAL_NAME = {
@@ -104,15 +107,17 @@ public class VariableDef {
     public static final String DATA_TYPE_PROPERTY = "http://www.w3.org/2002/07/owl#datatypeproperty";
 
     public static final String SUBCLASSOF_FULL_NAME = "http://www.w3.org/2000/01/rdf-schema#subclassof";
-    public static final double INITIAL_SAMPLE_PERSENT = 0.2;
+    public static final double INITIAL_SAMPLE_PERSENT = 0.1;
 
     public static final int PROP_PAIR_SIZE = 3;
 
-    public static final int PROP_PAIR_NUM_NEED_THRESHOLD = 2;
+    public static final int PROP_PAIR_NUM_NEED_THRESHOLD = 1;
 
     public static final double PROP_PAIR_THRESHOLD = 0.65;
 
     public static final double ALIGN_THRESHOLD = 0.65;
+
+    public static final double INFO_GAIN_THRESHOLD = 0.3;
 
     public static final int URI_TYPE = 0;
     public static final int STRING_TYPE = 1;
@@ -121,7 +126,11 @@ public class VariableDef {
     public static final int DATETIME_TYPE = 4;
     public static final int THING_TYPE = 5;
 
-    public static boolean useReinforce = false;
+    public static final boolean USE_REINFORCE = false;
+
+    public static final boolean USE_AVERAGE_SIMI = true;
+
+    public static final int  DATASET_INDEX = 4;
 
 
 }

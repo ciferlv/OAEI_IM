@@ -1,8 +1,8 @@
 package instance.matching.version2;
 
 import instance.matching.version2.unit.Alignment;
-import instance.matching.version2.unit.VirtualDoc;
 import instance.matching.version2.unit.PropPairList;
+import instance.matching.version2.unit.VirtualDoc;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.dom4j.DocumentException;
@@ -34,13 +34,11 @@ public class prMatching {
 
     public static void main(String[] args) throws FileNotFoundException, DocumentException {
 
-        int dataSetIndex = 3;
-
         Set<String> targetType1 = new HashSet<String>();
-        targetType1.add(TARGET_TYPE1[dataSetIndex].toLowerCase());
+        targetType1.add(TARGET_TYPE1[DATASET_INDEX].toLowerCase());
 
         Set<String> targetType2 = new HashSet<String>();
-        targetType2.add(TARGET_TYPE2[dataSetIndex].toLowerCase());
+        targetType2.add(TARGET_TYPE2[DATASET_INDEX].toLowerCase());
 
         VirtualDoc doc1 = new VirtualDoc(targetType1);
         VirtualDoc doc2 = new VirtualDoc(targetType2);
@@ -48,8 +46,8 @@ public class prMatching {
         Model model1 = ModelFactory.createDefaultModel();
         Model model2 = ModelFactory.createDefaultModel();
 
-        parseTaskFile(INST1_PATH[dataSetIndex], doc1, model1);
-        parseTaskFile(INST2_PATH[dataSetIndex], doc2, model2);
+        parseTaskFile(INST1_PATH[DATASET_INDEX], doc1, model1);
+        parseTaskFile(INST2_PATH[DATASET_INDEX], doc2, model2);
 
         doc1.processGraph();
         doc2.processGraph();
@@ -58,7 +56,7 @@ public class prMatching {
         printToFile("target/rdf2.txt", doc2.graphToString());
 
         Alignment refAlign = new Alignment();
-        parseAlignFile(STANDARD_PATH[dataSetIndex], refAlign);
+        parseAlignFile(STANDARD_PATH[DATASET_INDEX], refAlign);
 
         Alignment positives = refAlign.generatePositives();
 

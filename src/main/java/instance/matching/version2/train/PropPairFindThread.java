@@ -39,18 +39,18 @@ public class PropPairFindThread implements Runnable {
         String sub1 = cp.getSub1();
         String sub2 = cp.getSub2();
 
-        Instance tri1 = graph1.get(sub1);
-        Instance tri2 = graph2.get(sub2);
+        Instance inst1 = graph1.get(sub1);
+        Instance inst2 = graph2.get(sub2);
 
-        if (tri1 == null || tri2 == null) {
-            logger.info("tri1 or tri2 is null: ");
+        if (inst1 == null || inst2 == null) {
+            logger.info("inst1 or inst2 is null: ");
             logger.info("sub1: " + sub1);
             logger.info("sub2: " + sub2);
             return;
         }
 
-        Map<String, Set<Value>> propValue1 = tri1.getPropValue();
-        Map<String, Set<Value>> propValue2 = tri2.getPropValue();
+        Map<String, Set<Value>> propValue1 = inst1.getPropValue();
+        Map<String, Set<Value>> propValue2 = inst2.getPropValue();
 
         if (propValue1 == null || propValue2 == null) {
             logger.info("propValue1 or propValue2 is null: ");

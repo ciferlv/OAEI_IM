@@ -8,6 +8,8 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
+import static instance.matching.version2.utility.VariableDef.INFO_GAIN_THRESHOLD;
+
 
 /**
  * Created by xinzelv on 17-3-28.
@@ -67,6 +69,24 @@ public class PropPairList {
             buffer.append(pp.toString() + "\n");
         }
         return String.valueOf(buffer);
+    }
+
+    public void filterPropPairByInfoGain() {
+
+        List<PropPair> myPropPairList = Collections.synchronizedList(new ArrayList<PropPair>());
+
+        for (PropPair pp : propPairList) {
+
+            if (pp.getInfoGain() > INFO_GAIN_THRESHOLD) {
+
+                myPropPairList.add(pp);
+            }
+        }
+        propPairList.clear();
+        for (PropPair pp : myPropPairList) {
+
+            propPairList.add(pp);
+        }
     }
 
     public void sort() {

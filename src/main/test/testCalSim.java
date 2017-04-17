@@ -15,7 +15,7 @@ public class testCalSim {
 
 
         String str1 = "ok";
-        String str2 = "o" ;
+        String str2 = "ofgjjjjjjjjjjjyiygisdgfhjkhd" ;
 
         logger.info("EditDistance: " + editDistance(str1,str2));
         logger.info("I_SUB: " + I_SUBScore(str1,str2));

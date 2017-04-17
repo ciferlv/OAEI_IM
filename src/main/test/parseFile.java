@@ -4,6 +4,9 @@ import org.apache.jena.rdf.model.ModelFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintWriter;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -15,7 +18,7 @@ import static instance.matching.version2.fileParser.TaskFileParser.parseTaskFile
 public class parseFile {
 
     private static Logger logger = LoggerFactory.getLogger(parseFile.class);
-    public static void main(String [] args) {
+    public static void main(String [] args) throws FileNotFoundException {
 
         Set<String> targetType1 = new HashSet<String>();
         targetType1.add("http://www.okkam.org/ontology_person1.owl#Person");
@@ -24,11 +27,14 @@ public class parseFile {
 
         Model model =  ModelFactory.createDefaultModel();
 
-        String filePath = "src/main/resources/dataSet/UOBM_small/Tbox1.nt";
+        String filePath = "src/main/resources/dataSet/UOBM_small/Abox2.nt";
 
         parseTaskFile(filePath,vd,model);
 
-        logger.info(vd.graphToString());
+        PrintWriter pw = new PrintWriter(new FileOutputStream("target/format1.txt"));
+
+
+        pw.write(vd.graphToString());
     }
 }
 

@@ -36,12 +36,12 @@ public class AlignmentFinder {
 
         for (String sub1 : targetSubject1) {
 
-            Instance tri1 = graph1.get(sub1);
+            Instance inst1 = graph1.get(sub1);
             for (String sub2 : targetSubject2) {
 
-                Instance tri2 = graph2.get(sub2);
+                Instance inst2 = graph2.get(sub2);
                 Runnable run = new Thread(
-                        new AlignmentFinderThread(tri1, tri2, ppl, resultAlign));
+                        new AlignmentFinderThread(inst1, inst2, ppl, resultAlign));
                 cachedThreadPool.execute(run);
             }
         }

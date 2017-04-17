@@ -9,18 +9,13 @@ public class Value {
 
     private String localName;
 
-    private int type;
+    private int type = -1;
 
     public Value(String value, String localName, int type) {
 
         this.value = value;
         this.type = type;
         this.localName = localName;
-    }
-
-    public Value(String value) {
-
-        this.value = value;
     }
 
     public String getValue() {

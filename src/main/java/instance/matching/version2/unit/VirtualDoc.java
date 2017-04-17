@@ -35,7 +35,7 @@ public class VirtualDoc {
 
         filterTarType();
         getTarSub();
-        if (useReinforce) {
+        if (USE_REINFORCE) {
             reinforceGraph();
         }
     }
@@ -47,12 +47,12 @@ public class VirtualDoc {
 
         String valStr = "";
         String valLocalName = "";
-        int type = THING_TYPE;
+        int type = STRING_TYPE;
 
         if (val.isResource()) {
 
             valStr = val.asResource().getURI().toLowerCase();
-            valLocalName = val.asResource().getLocalName().toLowerCase();
+            valLocalName = formatWords(val.asResource().getLocalName());
             type = URI_TYPE;
 
             if (propStr.equals(TYPE_FULL_NAME)) {
@@ -78,7 +78,7 @@ public class VirtualDoc {
                 return;
             }
 
-            type = THING_TYPE;
+            type = STRING_TYPE;
         }
 
 

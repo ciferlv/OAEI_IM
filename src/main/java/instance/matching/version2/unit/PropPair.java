@@ -88,4 +88,8 @@ public class PropPair implements Comparable {
     public void setInfoGain(double infoGain) {
         this.infoGain = infoGain;
     }
+
+    public double getInfoGain() {
+        return infoGain;
+    }
 }

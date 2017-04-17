@@ -44,7 +44,7 @@ public class Instance {
 
             Map<String, Set<Value>> ptr;
 
-            if (useReinforce) {
+            if (USE_REINFORCE) {
                 if (valType == URI_TYPE) {
                     ptr = propUri;
                 } else {
@@ -90,7 +90,8 @@ public class Instance {
             }
 
         }
-
+//        logger.info("totalSimi:" + String.valueOf(totalSimi));
+//        logger.info("simiCnt:"+String.valueOf(simiCnt));
         res.put(1.0 * totalSimi / simiCnt, matchedCnt);
         return res;
     }
