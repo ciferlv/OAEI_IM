@@ -8,7 +8,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-import static instance.matching.version2.utility.VariableDef.INITIAL_SAMPLE_PERSENT;
+import static instance.matching.version2.utility.ParamDef.INITIAL_SAMPLE_PERSENT;
 
 /**
  * Created by xinzelv on 17-3-27.

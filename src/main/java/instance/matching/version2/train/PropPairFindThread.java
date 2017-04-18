@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Set;
 
 import static instance.matching.version2.nlp.CalSimilarity.calValSetSim;
-import static instance.matching.version2.utility.VariableDef.PROP_PAIR_THRESHOLD;
+import static instance.matching.version2.utility.ParamDef.PROP_PAIR_THRESHOLD;
 
 /**
  * Created by ciferlv on 17-3-29.

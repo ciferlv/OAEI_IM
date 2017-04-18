@@ -9,7 +9,7 @@ import java.io.FileNotFoundException;
 import java.util.List;
 
 import static instance.matching.version2.utility.FileWriter.printToFile;
-import static instance.matching.version2.utility.VariableDef.*;
+import static instance.matching.version2.utility.ParamDef.*;
 
 /**
  * Created by ciferlv on 17-3-30.

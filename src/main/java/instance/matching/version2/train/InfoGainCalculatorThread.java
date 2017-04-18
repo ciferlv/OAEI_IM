@@ -8,7 +8,7 @@ import java.util.Set;
 
 import static instance.matching.version2.nlp.CalSimilarity.calValSetSim;
 import static instance.matching.version2.train.InfoGainCalculator.calEntropy;
-import static instance.matching.version2.utility.VariableDef.PROP_PAIR_THRESHOLD;
+import static instance.matching.version2.utility.ParamDef.PROP_PAIR_THRESHOLD;
 
 /**
  * Created by xinzelv on 17-4-5.

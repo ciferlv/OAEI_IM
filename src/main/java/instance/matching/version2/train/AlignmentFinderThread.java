@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 import java.util.Iterator;
 import java.util.Map;
 
-import static instance.matching.version2.utility.VariableDef.*;
+import static instance.matching.version2.utility.ParamDef.*;
 
 /**
  * Created by xinzelv on 17-3-29.
@@ -47,6 +47,14 @@ public class AlignmentFinderThread implements Runnable {
         double simi = ((Double) entry.getKey()).doubleValue();
         int cntMatched = ((Integer) entry.getValue()).intValue();
 
+//        String sub1 = inst1.getSub();
+//        String sub2 = inst2.getSub();
+//        if (sub1.equals("http://www.bbc.co.uk/things/4#id")
+//                && sub2.equals("http://www.bbc.co.uk/things/4#id")) {
+//            logger.info("simi:" + simi);
+//            logger.info("cntMatched:" + cntMatched);
+//        }
+
         if (!USE_AVERAGE_SIMI) {
 
             if (cntMatched > PROP_PAIR_NUM_NEED_THRESHOLD) {
@@ -56,7 +64,7 @@ public class AlignmentFinderThread implements Runnable {
         } else {
 
             if (simi > ALIGN_THRESHOLD) {
-//            logger.info(String.valueOf(simi));
+
                 alignment.addCounterPart(new CounterPart(inst1.getSub(), inst2.getSub()));
             }
         }

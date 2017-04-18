@@ -3,7 +3,7 @@ package instance.matching.version2.utility;
 /**
  * Created by ciferlv on 17-2-28.
  */
-public class VariableDef {
+public class ParamDef {
 
     public static String[] INST1_PATH = {
             "src/main/resources/dataSet/PR/person1/person11.rdf",
@@ -107,6 +107,8 @@ public class VariableDef {
             "src/main/result/restaurants/restaurantsUnFoundResult.txt",
             "src/main/result/SPIMBENCH_small/SPIMBENCH_smallUnFoundResult.txt",
     };
+
+    public static final String STOPWORDS_FILE_PATH = "src/main/resources/config/stopwords_more.txt";
 
     public static final double SIMILAR_RATE = 0.618;
 

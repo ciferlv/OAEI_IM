@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 import java.util.*;
 
 import static instance.matching.version2.nlp.CalSimilarity.calValSetSim;
-import static instance.matching.version2.utility.VariableDef.*;
+import static instance.matching.version2.utility.ParamDef.*;
 
 /**
  * Created by xinzelv on 3/19/17.
@@ -90,8 +90,7 @@ public class Instance {
             }
 
         }
-//        logger.info("totalSimi:" + String.valueOf(totalSimi));
-//        logger.info("simiCnt:"+String.valueOf(simiCnt));
+
         res.put(1.0 * totalSimi / simiCnt, matchedCnt);
         return res;
     }

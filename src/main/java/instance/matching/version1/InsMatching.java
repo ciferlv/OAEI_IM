@@ -15,7 +15,7 @@ import java.util.Map;
 
 import static instance.matching.version2.nlp.EditDistance.editDistance;
 import static instance.matching.version1.helper.LinkSubjectStringHelper.linkSubjectString;
-import static instance.matching.version2.utility.VariableDef.SIMILAR_RATE;
+import static instance.matching.version2.utility.ParamDef.SIMILAR_RATE;
 
 /**
  * Created by ciferlv on 17-3-4.
@@ -217,7 +217,7 @@ public class InsMatching {
 
                         tempSimilarity += similarValue;
 
-//                        if (similarValue > VariableDef.SIMILAR_RATE) {
+//                        if (similarValue > ParamDef.SIMILAR_RATE) {
 //
 //                            alignment(object1, object2, similarValue);
 //                        }

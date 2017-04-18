@@ -8,7 +8,7 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-import static instance.matching.version2.utility.VariableDef.INFO_GAIN_THRESHOLD;
+import static instance.matching.version2.utility.ParamDef.INFO_GAIN_THRESHOLD;
 
 
 /**

@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 import static instance.matching.version1.helper.PrintMethodHelper.*;
-import static instance.matching.version2.utility.VariableDef.*;
+import static instance.matching.version2.utility.ParamDef.*;
 
 /**
  * Created by ciferlv on 17-3-4.

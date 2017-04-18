@@ -16,13 +16,14 @@ import java.util.Set;
 import static instance.matching.version2.eval.Metrics.calMetrics;
 import static instance.matching.version2.fileParser.AlignFileParser.parseAlignFile;
 import static instance.matching.version2.fileParser.TaskFileParser.parseTaskFile;
+import static instance.matching.version2.nlp.FormatData.getStopWords;
 import static instance.matching.version2.train.AlignmentFinder.findResultAlign;
 import static instance.matching.version2.train.InfoGainCalculator.calInfoGain;
 import static instance.matching.version2.train.NegetiveFinder.findNegetives;
 import static instance.matching.version2.train.PropPairFinder.findPropPair;
 import static instance.matching.version2.utility.AlignWriter.printAlign;
 import static instance.matching.version2.utility.FileWriter.printToFile;
-import static instance.matching.version2.utility.VariableDef.*;
+import static instance.matching.version2.utility.ParamDef.*;
 
 
 /**
@@ -32,13 +33,26 @@ public class prMatching {
 
     private static Logger logger = LoggerFactory.getLogger(prMatching.class);
 
+    public static void init() {
+
+        getStopWords();
+    }
+
     public static void main(String[] args) throws FileNotFoundException, DocumentException {
+
+        init();
 
         Set<String> targetType1 = new HashSet<String>();
         targetType1.add(TARGET_TYPE1[DATASET_INDEX].toLowerCase());
+        targetType1.add("http://www.bbc.co.uk/ontologies/creativework/BlogPost".toLowerCase());
+        targetType1.add("http://www.bbc.co.uk/ontologies/creativework/NewsItemhttp://www.bbc.co.uk/ontologies/creativework/NewsItem".toLowerCase());
+        targetType1.add("http://www.bbc.co.uk/ontologies/creativework/Programme".toLowerCase());
 
         Set<String> targetType2 = new HashSet<String>();
         targetType2.add(TARGET_TYPE2[DATASET_INDEX].toLowerCase());
+        targetType2.add("http://www.bbc.co.uk/ontologies/creativework/BlogPost".toLowerCase());
+        targetType2.add("http://www.bbc.co.uk/ontologies/creativework/creativework".toLowerCase());
+        targetType2.add("http://www.bbc.co.uk/ontologies/creativework/programme".toLowerCase());
 
         VirtualDoc doc1 = new VirtualDoc(targetType1);
         VirtualDoc doc2 = new VirtualDoc(targetType2);
@@ -52,9 +66,6 @@ public class prMatching {
         doc1.processGraph();
         doc2.processGraph();
 
-        printToFile(INSTANCE_SET1_FILE_PATH[DATASET_INDEX], doc1.graphToString());
-        printToFile(INSTANCE_SET2_FILE_PATH[DATASET_INDEX], doc2.graphToString());
-
         Alignment refAlign = new Alignment();
         parseAlignFile(STANDARD_PATH[DATASET_INDEX], refAlign);
 
@@ -67,7 +78,7 @@ public class prMatching {
         PropPairList ppl = new PropPairList();
         findPropPair(positives, doc1, doc2, ppl);
         calInfoGain(positives, negetives, doc1, doc2, ppl);
-        printToFile(PROPPAIRLIST_FILE_PATH[DATASET_INDEX],ppl.toString());
+
 
         Alignment resultAlign = new Alignment();
         findResultAlign(doc1, doc2, ppl, resultAlign);
@@ -95,8 +106,12 @@ public class prMatching {
 
         String tail = "</Alignment>\n</rdf:RDF>";
 
-        printAlign(RESULT_FILE_PATH[DATASET_INDEX], head, tail, resultAlign);
-
         calMetrics(refAlign, resultAlign);
+
+        //Record some Result
+        printToFile(INSTANCE_SET1_FILE_PATH[DATASET_INDEX], doc1.graphToString());
+        printToFile(INSTANCE_SET2_FILE_PATH[DATASET_INDEX], doc2.graphToString());
+        printAlign(RESULT_FILE_PATH[DATASET_INDEX], head, tail, resultAlign);
+        printToFile(PROPPAIRLIST_FILE_PATH[DATASET_INDEX], ppl.toString());
     }
 }

@@ -8,7 +8,7 @@ import java.util.Set;
 
 import static instance.matching.version2.nlp.EditDistance.editDistance;
 import static instance.matching.version2.nlp.I_SUB.I_SUBScore;
-import static instance.matching.version2.utility.VariableDef.*;
+import static instance.matching.version2.utility.ParamDef.*;
 
 /**
  * Created by xinzelv on 17-3-28.

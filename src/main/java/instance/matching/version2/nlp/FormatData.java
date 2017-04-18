@@ -10,6 +10,8 @@ import java.io.IOException;
 import java.util.HashSet;
 import java.util.Set;
 
+import static instance.matching.version2.utility.ParamDef.STOPWORDS_FILE_PATH;
+
 /**
  * Created by xinzelv on 17-3-28.
  */
@@ -17,14 +19,12 @@ public class FormatData {
 
     private static Logger logger = LoggerFactory.getLogger(FormatData.class);
 
-    private static String filePath = "src/main/resources/config/stopwords.txt";
-
     private static Set<String> stopWordSet = new HashSet<String>();
 
     public static void getStopWords() {
 
         try {
-            FileReader fr = new FileReader(filePath);
+            FileReader fr = new FileReader(STOPWORDS_FILE_PATH);
             BufferedReader br = new BufferedReader(fr);
             String s = br.readLine();
             while (s != null) {
@@ -67,7 +67,8 @@ public class FormatData {
         return String.valueOf(buffer);
     }
 
-    public static String formatDateTime() {
+    public static String formatDateTime(String date) {
+
         return "";
     }
 

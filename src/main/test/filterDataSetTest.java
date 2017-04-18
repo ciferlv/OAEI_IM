@@ -10,7 +10,7 @@ import static instance.matching.version2.fileParser.TaskFileParser.parseTaskFile
 /**
  * Created by ciferlv on 17-4-16.
  */
-public class testFilterDataSet {
+public class filterDataSetTest {
 
     public static void main(String [] args) {
 

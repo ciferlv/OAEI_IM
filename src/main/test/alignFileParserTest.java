@@ -5,7 +5,7 @@ import static instance.matching.version2.fileParser.AlignFileParser.parseAlignFi
 /**
  * Created by ciferlv on 17-4-17.
  */
-public class testAlignFileParser {
+public class alignFileParserTest {
 
     public static void main(String[] args) {
 

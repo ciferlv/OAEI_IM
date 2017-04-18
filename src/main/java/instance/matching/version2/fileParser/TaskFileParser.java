@@ -8,8 +8,6 @@ import org.slf4j.LoggerFactory;
 
 import java.io.InputStream;
 
-import static instance.matching.version2.nlp.FormatData.getStopWords;
-
 /**
  * Created by xinzelv on 3/19/17.
  */
@@ -22,7 +20,6 @@ public class TaskFileParser {
     public static void parseTaskFile(String filePath, VirtualDoc virtualDoc, Model mod) {
 
         model = mod;
-        getStopWords();
         accessFile(filePath);
         generateVirtualDoc(virtualDoc);
     }

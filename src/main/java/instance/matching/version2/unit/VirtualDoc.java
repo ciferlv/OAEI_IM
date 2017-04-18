@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 import java.util.*;
 
 import static instance.matching.version2.nlp.FormatData.formatWords;
-import static instance.matching.version2.utility.VariableDef.*;
+import static instance.matching.version2.utility.ParamDef.*;
 
 /**
  * Created by ciferlv on 17-3-30.

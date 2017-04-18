@@ -15,9 +15,10 @@ import static instance.matching.version2.fileParser.TaskFileParser.parseTaskFile
 /**
  * Created by ciferlv on 17-4-16.
  */
-public class parseFile {
+public class taskFileParseTest {
 
-    private static Logger logger = LoggerFactory.getLogger(parseFile.class);
+    private static Logger logger = LoggerFactory.getLogger(taskFileParseTest.class);
+
     public static void main(String [] args) throws FileNotFoundException {
 
         Set<String> targetType1 = new HashSet<String>();
