@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 
 import java.util.*;
 
-import static instance.matching.version2.unit.StopWords.formatWords;
+import static instance.matching.version2.nlp.FormatData.formatWords;
 import static instance.matching.version2.utility.VariableDef.*;
 
 /**
@@ -40,20 +40,38 @@ public class VirtualDoc {
         }
     }
 
+    public int findTypeIndex(String rtype) {
+
+        int typeIndex = THING_TYPE_INDEX;
+        if (rtype.equals(STRING_TYPE)) {
+            typeIndex = STRING_TYPE_INDEX;
+        } else if (rtype.equals(BOOLEAN_TYPE)) {
+            typeIndex = BOOLEAN_TYPE_INDEX;
+        } else if (rtype.equals(DATETIME_TYPE)) {
+            typeIndex = DATETIME_TYPE_INDEX;
+        } else if (rtype.equals(INTEGER_TYPE)) {
+            typeIndex = INTEGER_TYPE_INDEX;
+        } else if (rtype.equals(FLOAT_TYPE)) {
+            typeIndex = FLOAT_TYPE_INDEX;
+        }
+        return typeIndex;
+    }
+
     public void addStmtToGraph(Resource sub, Property prop, RDFNode val) {
 
         String subStr = sub.toString().toLowerCase();
+//        String propStr = prop.getLocalName().toLowerCase();
         String propStr = prop.toString().toLowerCase();
 
         String valStr = "";
         String valLocalName = "";
-        int type = STRING_TYPE;
+        int typeIndex = THING_TYPE_INDEX;
 
         if (val.isResource()) {
 
             valStr = val.asResource().getURI().toLowerCase();
             valLocalName = formatWords(val.asResource().getLocalName());
-            type = URI_TYPE;
+            typeIndex = URI_TYPE_INDEX;
 
             if (propStr.equals(TYPE_FULL_NAME)) {
                 if (valStr.equals(CLASS_TYPE)) {
@@ -71,66 +89,35 @@ public class VirtualDoc {
 
             valStr = formatWords(val.asLiteral().getLexicalForm());
 
+            try {
+
+                String rtype = val.asLiteral().getDatatypeURI();
+                typeIndex = findTypeIndex(rtype);
+
+            } catch (Exception e) {
+
+            }
             if (valStr.equals("")) {
 
 //                logger.info("The val is null after being formated.");
 //                logger.info(val.asLiteral().getLexicalForm());
                 return;
             }
-
-            type = STRING_TYPE;
         }
 
 
         if (graph.containsKey(subStr)) {
 
             Instance myInstance = graph.get(subStr);
-            myInstance.addValueToProp(valStr, propStr, valLocalName, type);
+            myInstance.addValueToProp(valStr, propStr, valLocalName, typeIndex);
         } else {
 
-            graph.put(subStr, new Instance(subStr, propStr, valStr, valLocalName, type));
+            graph.put(subStr, new Instance(subStr, propStr, valStr, valLocalName, typeIndex));
         }
     }
 
     private void filterTarType() {
 
-//        Queue<String> queue = new LinkedList<String>();
-//
-//        for (String str : tarTypeSet) {
-//
-//            queue.offer(str);
-//        }
-//
-//        tarTypeSet.clear();
-//        while (!queue.isEmpty()) {
-//
-//            String str = queue.peek();
-//            queue.poll();
-//
-//            if (!tarTypeSet.contains(str.toLowerCase())) {
-//                tarTypeSet.add(str.toLowerCase());
-//            } else {
-//                continue;
-//            }
-//
-//            String queryString =
-//                    "PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>" +
-//                            "PREFIX target:<" + str.split("#")[0] + "#>" +
-//                            "select ?subject where " +
-//                            "{ ?subject rdfs:subClassOf target:" + str.split("#")[1] + "}";
-//
-//            ResultSet results = execSelect(queryString, model);
-//
-//            while (results.hasNext()) {
-//
-//                QuerySolution soln = results.nextSolution();
-//                String tempSubject = soln.get("subject").toString();
-//
-//                if (!tarTypeSet.contains(tempSubject.toLowerCase())) {
-//                    queue.offer(tempSubject);
-//                }
-//            }
-//        }
         Map<String, Set<String>> classTree = new HashMap<String, Set<String>>();
 
         for (String strClass : classSet) {
@@ -143,7 +130,7 @@ public class VirtualDoc {
                 subClassOf = myInst.getPropUri().get(SUBCLASSOF_FULL_NAME);
             }
 
-            if(subClassOf == null ) continue;
+            if (subClassOf == null) continue;
 
             for (Value strSubClass : subClassOf) {
 

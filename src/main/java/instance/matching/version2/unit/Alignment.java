@@ -71,6 +71,7 @@ public class Alignment {
 
         for (CounterPart cp : counterPartList) {
             bf.append(cp.toString());
+            bf.append("\n");
         }
         return String.valueOf(bf);
     }

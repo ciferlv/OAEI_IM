@@ -5,7 +5,11 @@ import instance.matching.version2.unit.CounterPart;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.FileNotFoundException;
 import java.util.List;
+
+import static instance.matching.version2.utility.FileWriter.printToFile;
+import static instance.matching.version2.utility.VariableDef.*;
 
 /**
  * Created by ciferlv on 17-3-30.
@@ -56,6 +60,14 @@ public class Metrics {
         logger.info("precision: " + precision);
         logger.info("recall: " + recall);
         logger.info("f1_score: " + f1_score);
+
+        try {
+            printToFile(CORRECT_RESULT_FILE_PATH[DATASET_INDEX],correctAlign.toString());
+            printToFile(WRONG_RESULT_FILE_PATH[DATASET_INDEX],wrongAlign.toString());
+            printToFile(UNFOUND_RESULT_FILE_PATH[DATASET_INDEX],unfoundAlign.toString());
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
 
     }
 

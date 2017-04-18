@@ -1,4 +1,4 @@
-package instance.matching.version2.unit;
+package instance.matching.version2.nlp;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,9 +13,9 @@ import java.util.Set;
 /**
  * Created by xinzelv on 17-3-28.
  */
-public class StopWords {
+public class FormatData {
 
-    private static Logger logger = LoggerFactory.getLogger(StopWords.class);
+    private static Logger logger = LoggerFactory.getLogger(FormatData.class);
 
     private static String filePath = "src/main/resources/config/stopwords.txt";
 
@@ -65,6 +65,10 @@ public class StopWords {
         }
 
         return String.valueOf(buffer);
+    }
+
+    public static String formatDateTime() {
+        return "";
     }
 
 }

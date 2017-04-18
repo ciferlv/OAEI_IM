@@ -54,10 +54,11 @@ public class PropPair implements Comparable {
     public String toString() {
 
         StringBuffer buffer = new StringBuffer();
-
-        buffer.append("pred1: " + pred1 + "\n");
-        buffer.append("pred2: " + pred2 + "\n");
-        buffer.append("token: " + token + "\n");
+//        buffer.append("pred1: " + pred1 + "\n");
+        buffer.append("pred1: " + pred1.split("/")[pred1.split("/").length - 1] + "\n");
+//        buffer.append("pred2: " + pred2 + "\n");
+        buffer.append("pred2: " + pred1.split("/")[pred1.split("/").length - 1] + "\n");
+//        buffer.append("token: " + token + "\n");
         buffer.append("time: " + time + "\n");
         buffer.append("infoGain: " + infoGain + "\n");
 

@@ -59,7 +59,6 @@ public class InfoGainCalculator {
 
         ppl.filterPropPairByInfoGain();
         ppl.sort();
-        logger.info(ppl.toString());
 //        ppl.resize(PROP_PAIR_SIZE);
     }
 }

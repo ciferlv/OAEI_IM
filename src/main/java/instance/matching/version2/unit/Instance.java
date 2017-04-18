@@ -45,7 +45,7 @@ public class Instance {
             Map<String, Set<Value>> ptr;
 
             if (USE_REINFORCE) {
-                if (valType == URI_TYPE) {
+                if (valType == URI_TYPE_INDEX) {
                     ptr = propUri;
                 } else {
                     ptr = propValue;
@@ -115,13 +115,16 @@ public class Instance {
 
         for (String key : propValue.keySet()) {
 
-            out.append("property: " + key + "\n");
+            out.append("property: " + key.split("/")[key.split("/").length-1] + "\n");
 
             Set<Value> myValueSet = propValue.get(key);
 
             for (Value myValue : myValueSet) {
 
                 out.append("value: " + myValue.getValue() + "\n");
+                if(myValue.getType() == URI_TYPE_INDEX){
+                    out.append("value localname: "+ myValue.getLocalName() + "\n");
+                }
             }
         }
 
@@ -134,6 +137,10 @@ public class Instance {
             for (Value myValue : myValueSet) {
 
                 out.append("value: " + myValue.getValue() + "\n");
+                if(myValue.getType() == URI_TYPE_INDEX){
+                    out.append("value localname: "+ myValue.getLocalName() + "\n");
+                }
+
             }
         }
 

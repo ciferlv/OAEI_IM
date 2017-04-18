@@ -14,8 +14,8 @@ public class testCalSim {
     public static void main(String[] args) {
 
 
-        String str1 = "ok";
-        String str2 = "ofgjjjjjjjjjjjyiygisdgfhjkhd" ;
+        String str1 = "20110214t1520163610200";
+        String str2 = "20110214t1520163610200" ;
 
         logger.info("EditDistance: " + editDistance(str1,str2));
         logger.info("I_SUB: " + I_SUBScore(str1,str2));

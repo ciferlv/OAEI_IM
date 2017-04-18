@@ -24,7 +24,7 @@
 <http://dbpedia.org/resource/1950_Italian_Grand_Prix> <http://www.w3.org/2000/01/rdf-schema#comment> "The 1950 Italian Grand Prix was a Formula One motor race held on 3 September 1950 at Monza. It was the seventh and final event of the 1950 World Drivers' Championship. In this race, Nino Farina became the first World Drivers' Champion, and the only driver to win the title in his home country." .
 <http://dbpedia.org/resource/1950_Italian_Grand_Prix> <http://dbpedia.org/property/country> "Italy" .
 <http://dbpedia.org/resource/1950_Italian_Grand_Prix> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:1950_in_Italian_motorsport> .
-<http://www.bbc.co.uk/things/2#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bbc.co.uk/ontologies/creativework/NewsItem> .
+<http://www.bbc.co.uk/things/2#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bbc.co.uk/ontologies/creativework/NewsItemhttp://www.bbc.co.uk/ontologies/creativework/NewsItem> .
 <http://www.bbc.co.uk/things/2#id> <http://www.bbc.co.uk/ontologies/creativework/title> "Stuart Andrew evident representative name modern accept royal a higher bargaining demolition." .
 <http://www.bbc.co.uk/things/2#id> <http://www.bbc.co.uk/ontologies/creativework/shortTitle> " modern provider liability christendom attendance successful had educated well audiences." .
 <http://www.bbc.co.uk/things/2#id> <http://www.bbc.co.uk/ontologies/creativework/category> <http://www.bbc.co.uk/category/Persons> .

@@ -52,8 +52,8 @@ public class prMatching {
         doc1.processGraph();
         doc2.processGraph();
 
-        printToFile("target/rdf1.txt", doc1.graphToString());
-        printToFile("target/rdf2.txt", doc2.graphToString());
+        printToFile(INSTANCE_SET1_FILE_PATH[DATASET_INDEX], doc1.graphToString());
+        printToFile(INSTANCE_SET2_FILE_PATH[DATASET_INDEX], doc2.graphToString());
 
         Alignment refAlign = new Alignment();
         parseAlignFile(STANDARD_PATH[DATASET_INDEX], refAlign);
@@ -67,6 +67,7 @@ public class prMatching {
         PropPairList ppl = new PropPairList();
         findPropPair(positives, doc1, doc2, ppl);
         calInfoGain(positives, negetives, doc1, doc2, ppl);
+        printToFile(PROPPAIRLIST_FILE_PATH[DATASET_INDEX],ppl.toString());
 
         Alignment resultAlign = new Alignment();
         findResultAlign(doc1, doc2, ppl, resultAlign);
@@ -92,11 +93,9 @@ public class prMatching {
                 + "\t\t</Ontology>\n"
                 + "\t</onto1>\n";
 
-        String resultFilePath = "target/result.txt";
-
         String tail = "</Alignment>\n</rdf:RDF>";
 
-        printAlign(resultFilePath, head, tail, resultAlign);
+        printAlign(RESULT_FILE_PATH[DATASET_INDEX], head, tail, resultAlign);
 
         calMetrics(refAlign, resultAlign);
     }

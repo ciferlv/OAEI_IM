@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 
 import java.io.InputStream;
 
-import static instance.matching.version2.unit.StopWords.getStopWords;
+import static instance.matching.version2.nlp.FormatData.getStopWords;
 
 /**
  * Created by xinzelv on 3/19/17.
