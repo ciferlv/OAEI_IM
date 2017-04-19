@@ -1,0 +1,24 @@
+person1
+[main] INFO instance.matching.version2.eval.Metrics - precision: 1.0
+[main] INFO instance.matching.version2.eval.Metrics - recall: 1.0
+[main] INFO instance.matching.version2.eval.Metrics - f1_score: 1.0
+
+person2
+[main] INFO instance.matching.version2.eval.Metrics - precision: 1.0
+[main] INFO instance.matching.version2.eval.Metrics - recall: 1.0
+[main] INFO instance.matching.version2.eval.Metrics - f1_score: 1.0
+
+restaurants
+[main] INFO instance.matching.version2.eval.Metrics - precision: 0.9
+[main] INFO instance.matching.version2.eval.Metrics - recall: 0.9642857142857143
+[main] INFO instance.matching.version2.eval.Metrics - f1_score: 0.9310344827586207
+
+SPIMBENCH_small
+[main] INFO instance.matching.version2.eval.Metrics - precision: 0.8494318181818182
+[main] INFO instance.matching.version2.eval.Metrics - recall: 1.0
+[main] INFO instance.matching.version2.eval.Metrics - f1_score: 0.9185867895545314
+
+SPIMBENCH_large
+[main] INFO instance.matching.version2.eval.Metrics - precision: 0.8546380090497737
+[main] INFO instance.matching.version2.eval.Metrics - recall: 1.0
+[main] INFO instance.matching.version2.eval.Metrics - f1_score: 0.9216224458676425

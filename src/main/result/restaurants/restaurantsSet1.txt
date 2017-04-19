@@ -1,0 +1,3501 @@
+sub: http://www.okkam.org/oaie/restaurant1-address77
+
+property: ontology_restaurant1.owl#street
+value: 3393peachtreerdlenoxsquaremallnearneimanmarcus
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address76
+
+property: ontology_restaurant1.owl#street
+value: 3130piedmontroad
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address79
+
+property: ontology_restaurant1.owl#street
+value: 1529piedmontave
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address78
+
+property: ontology_restaurant1.owl#street
+value: 3073piedmontroad
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address80
+
+property: ontology_restaurant1.owl#street
+value: 1margaretmitchellsq
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address82
+
+property: ontology_restaurant1.owl#street
+value: 490pacesferryrd
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address81
+
+property: ontology_restaurant1.owl#street
+value: 2290peachtreerdpeachtreesquareshoppingcenter
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address84
+
+property: ontology_restaurant1.owl#street
+value: 1397highlandave
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address83
+
+property: ontology_restaurant1.owl#street
+value: 595piedmontaverioshoppingmall
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address86
+
+property: ontology_restaurant1.owl#street
+value: 224ponceleonave
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address85
+
+property: ontology_restaurant1.owl#street
+value: 2637peachtreerdpeachtreehousecondominium
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city98
+
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city97
+
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city99
+
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city94
+
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city93
+
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city96
+
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city95
+
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city90
+
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address66
+
+property: ontology_restaurant1.owl#street
+value: 15244th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address65
+
+property: ontology_restaurant1.owl#street
+value: 2116th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city92
+
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address68
+
+property: ontology_restaurant1.owl#street
+value: 3799lasvegasblvd
+property: ontology_restaurant1.owl#name
+value: lasvegas
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city91
+
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address67
+
+property: ontology_restaurant1.owl#street
+value: 3200lasvegasblvd
+property: ontology_restaurant1.owl#name
+value: lasvegas
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address69
+
+property: ontology_restaurant1.owl#street
+value: 3000paradiserd
+property: ontology_restaurant1.owl#name
+value: lasvegas
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address71
+
+property: ontology_restaurant1.owl#street
+value: 200fremont
+property: ontology_restaurant1.owl#name
+value: lasvegas
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address70
+
+property: ontology_restaurant1.owl#street
+value: 3570lasvegasblvd
+property: ontology_restaurant1.owl#name
+value: lasvegas
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address73
+
+property: ontology_restaurant1.owl#street
+value: 2245flamingord
+property: ontology_restaurant1.owl#name
+value: lasvegas
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address72
+
+property: ontology_restaurant1.owl#street
+value: 2880lasvegasblvd
+property: ontology_restaurant1.owl#name
+value: lasvegas
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address75
+
+property: ontology_restaurant1.owl#street
+value: 3125piedmontrdnearpeachtreerd
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address74
+
+property: ontology_restaurant1.owl#street
+value: 2355peachtreerdpeachtreebattleshoppingcenter
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address103
+
+property: ontology_restaurant1.owl#street
+value: 5937gearyblvd
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city87
+
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address102
+
+property: ontology_restaurant1.owl#street
+value: 22hawthorne
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city86
+
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address101
+
+property: ontology_restaurant1.owl#street
+value: 5704th
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city89
+
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address100
+
+property: ontology_restaurant1.owl#street
+value: 777sutter
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city88
+
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address107
+
+property: ontology_restaurant1.owl#street
+value: 1737post
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city83
+
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city82
+
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address106
+
+property: ontology_restaurant1.owl#street
+value: 648bush
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city85
+
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant10
+
+property: ontology_restaurant1.owl#name
+value: restaurantkatsu
+property: ontology_restaurant1.owl#street
+value: 1972hillhurstave
+property: ontology_restaurant1.owl#category
+value: asian
+property: ontology_restaurant1.owl#name
+value: losangeles
+property: ontology_restaurant1.owl#phone_number
+value: 2136651891
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-address105
+
+property: ontology_restaurant1.owl#street
+value: 816folsom
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city84
+
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address104
+
+property: ontology_restaurant1.owl#street
+value: 2316polk
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address55
+
+property: ontology_restaurant1.owl#street
+value: 30rockefellerplaza
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address54
+
+property: ontology_restaurant1.owl#street
+value: 95ave6th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address109
+
+property: ontology_restaurant1.owl#street
+value: 545post
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city81
+
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address57
+
+property: ontology_restaurant1.owl#street
+value: 240centralpark
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address108
+
+property: ontology_restaurant1.owl#street
+value: 3201fillmore
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city80
+
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address56
+
+property: ontology_restaurant1.owl#street
+value: 1watereastriver
+property: ontology_restaurant1.owl#name
+value: brooklyn
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address59
+
+property: ontology_restaurant1.owl#street
+value: 1153rd
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address58
+
+property: ontology_restaurant1.owl#street
+value: 1562ndave10th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant19
+
+property: ontology_restaurant1.owl#name
+value: rexristorante
+property: ontology_restaurant1.owl#street
+value: 617olive
+property: ontology_restaurant1.owl#category
+value: italian
+property: ontology_restaurant1.owl#name
+value: losangeles
+property: ontology_restaurant1.owl#phone_number
+value: 2136272300
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-address60
+
+property: ontology_restaurant1.owl#street
+value: 4365th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address62
+
+property: ontology_restaurant1.owl#street
+value: 20149th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address61
+
+property: ontology_restaurant1.owl#street
+value: 11103rdave65th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address64
+
+property: ontology_restaurant1.owl#street
+value: 7479thave50th51ststs
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address63
+
+property: ontology_restaurant1.owl#street
+value: centralpark67th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant12
+
+property: ontology_restaurant1.owl#name
+value: lechardonnay
+property: ontology_restaurant1.owl#street
+value: 8284melroseave
+property: ontology_restaurant1.owl#category
+value: french
+property: ontology_restaurant1.owl#name
+value: losangeles
+property: ontology_restaurant1.owl#phone_number
+value: 2136558880
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant11
+
+property: ontology_restaurant1.owl#name
+value: orangerie
+property: ontology_restaurant1.owl#street
+value: 903cienegablvd
+property: ontology_restaurant1.owl#category
+value: french
+property: ontology_restaurant1.owl#name
+value: losangeles
+property: ontology_restaurant1.owl#phone_number
+value: 3106529770
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant14
+
+property: ontology_restaurant1.owl#name
+value: matsuhisa
+property: ontology_restaurant1.owl#street
+value: 129cienegablvd
+property: ontology_restaurant1.owl#category
+value: asian
+property: ontology_restaurant1.owl#name
+value: beverlyhills
+property: ontology_restaurant1.owl#phone_number
+value: 3106599639
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant13
+
+property: ontology_restaurant1.owl#name
+value: locandaveneta
+property: ontology_restaurant1.owl#street
+value: 3rd
+property: ontology_restaurant1.owl#category
+value: italian
+property: ontology_restaurant1.owl#name
+value: losangeles
+property: ontology_restaurant1.owl#phone_number
+value: 3102741893
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant16
+
+property: ontology_restaurant1.owl#name
+value: patina
+property: ontology_restaurant1.owl#street
+value: 5955melroseave
+property: ontology_restaurant1.owl#category
+value: californian
+property: ontology_restaurant1.owl#name
+value: losangeles
+property: ontology_restaurant1.owl#phone_number
+value: 2134671108
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant15
+
+property: ontology_restaurant1.owl#name
+value: palm
+property: ontology_restaurant1.owl#street
+value: 9001santamonicablvd
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: losangeles
+property: ontology_restaurant1.owl#phone_number
+value: 3105508811
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-city79
+
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant18
+
+property: ontology_restaurant1.owl#name
+value: pinotbistro
+property: ontology_restaurant1.owl#street
+value: 12969venturablvd
+property: ontology_restaurant1.owl#category
+value: french
+property: ontology_restaurant1.owl#name
+value: losangeles
+property: ontology_restaurant1.owl#phone_number
+value: 8189900500
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant17
+
+property: ontology_restaurant1.owl#name
+value: philippeoriginal
+property: ontology_restaurant1.owl#street
+value: 1001alameda
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: losangeles
+property: ontology_restaurant1.owl#phone_number
+value: 2136283781
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-city76
+
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city75
+
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city78
+
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address112
+
+property: ontology_restaurant1.owl#street
+value: 2930beverlyglencircle
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city77
+
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address111
+
+property: ontology_restaurant1.owl#street
+value: 532columbusave
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city72
+
+property: ontology_restaurant1.owl#name
+value: lasvegas
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city71
+
+property: ontology_restaurant1.owl#name
+value: lasvegas
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city74
+
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city73
+
+property: ontology_restaurant1.owl#name
+value: lasvegas
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address44
+
+property: ontology_restaurant1.owl#street
+value: 24950th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address43
+
+property: ontology_restaurant1.owl#street
+value: 255th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city70
+
+property: ontology_restaurant1.owl#name
+value: lasvegas
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address46
+
+property: ontology_restaurant1.owl#street
+value: 40558th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address45
+
+property: ontology_restaurant1.owl#street
+value: 5758th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address48
+
+property: ontology_restaurant1.owl#street
+value: 57janehudson
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address47
+
+property: ontology_restaurant1.owl#street
+value: 1025thave15th16thsts
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address49
+
+property: ontology_restaurant1.owl#street
+value: 239broadwaywalkerwhitests
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address51
+
+property: ontology_restaurant1.owl#street
+value: 10063rd
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address50
+
+property: ontology_restaurant1.owl#street
+value: 5554th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address53
+
+property: ontology_restaurant1.owl#street
+value: 3564th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address52
+
+property: ontology_restaurant1.owl#street
+value: 18258th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address110
+
+property: ontology_restaurant1.owl#street
+value: 600stockton
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city69
+
+property: ontology_restaurant1.owl#name
+value: lasvegas
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city68
+
+property: ontology_restaurant1.owl#name
+value: lasvegas
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city65
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city64
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city67
+
+property: ontology_restaurant1.owl#name
+value: lasvegas
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city66
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city61
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city60
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city63
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city62
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address33
+
+property: ontology_restaurant1.owl#street
+value: 24358th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address32
+
+property: ontology_restaurant1.owl#street
+value: 21058th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address35
+
+property: ontology_restaurant1.owl#street
+value: 1212th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address34
+
+property: ontology_restaurant1.owl#street
+value: 9952nd
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address37
+
+property: ontology_restaurant1.owl#street
+value: 40244th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address36
+
+property: ontology_restaurant1.owl#street
+value: 4220thparkavebroadway
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address39
+
+property: ontology_restaurant1.owl#street
+value: 3355th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address38
+
+property: ontology_restaurant1.owl#street
+value: 16064th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address40
+
+property: ontology_restaurant1.owl#street
+value: 6055th5th6thave
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address42
+
+property: ontology_restaurant1.owl#street
+value: 160centralpark
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address41
+
+property: ontology_restaurant1.owl#street
+value: 15551st
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city58
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city57
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city59
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city54
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city112
+
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city53
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address29
+
+property: ontology_restaurant1.owl#street
+value: 8547thave54th55thsts
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city56
+
+property: ontology_restaurant1.owl#name
+value: brooklyn
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city55
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city50
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city111
+
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city52
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city110
+
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city51
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address22
+
+property: ontology_restaurant1.owl#street
+value: 67raymondave
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address21
+
+property: ontology_restaurant1.owl#street
+value: 3115picoblvd
+property: ontology_restaurant1.owl#name
+value: santamonica
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address24
+
+property: ontology_restaurant1.owl#street
+value: 1354th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address23
+
+property: ontology_restaurant1.owl#street
+value: 2152nd
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address26
+
+property: ontology_restaurant1.owl#street
+value: 20183rd
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address25
+
+property: ontology_restaurant1.owl#street
+value: 3461st
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address28
+
+property: ontology_restaurant1.owl#street
+value: 2450broadway90th91ststs
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address27
+
+property: ontology_restaurant1.owl#street
+value: 167th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address31
+
+property: ontology_restaurant1.owl#street
+value: 2076th
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address30
+
+property: ontology_restaurant1.owl#street
+value: 2harrisonnearhudson
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city47
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city46
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city49
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city48
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city43
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address19
+
+property: ontology_restaurant1.owl#street
+value: 617olive
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city42
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address18
+
+property: ontology_restaurant1.owl#street
+value: 12969venturablvd
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city45
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city44
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city41
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city40
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address11
+
+property: ontology_restaurant1.owl#street
+value: 903cienegablvd
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address10
+
+property: ontology_restaurant1.owl#street
+value: 1972hillhurstave
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address13
+
+property: ontology_restaurant1.owl#street
+value: 3rd
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address12
+
+property: ontology_restaurant1.owl#street
+value: 8284melroseave
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address15
+
+property: ontology_restaurant1.owl#street
+value: 9001santamonicablvd
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address14
+
+property: ontology_restaurant1.owl#street
+value: 129cienegablvd
+property: ontology_restaurant1.owl#name
+value: beverlyhills
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address17
+
+property: ontology_restaurant1.owl#street
+value: 1001alameda
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address16
+
+property: ontology_restaurant1.owl#street
+value: 5955melroseave
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address20
+
+property: ontology_restaurant1.owl#street
+value: 1114hornave
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city39
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city36
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city35
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city38
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city37
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city32
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city31
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city34
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city33
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city30
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city29
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city28
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city25
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city24
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city27
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city26
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant70
+
+property: ontology_restaurant1.owl#name
+value: palacecourt
+property: ontology_restaurant1.owl#street
+value: 3570lasvegasblvd
+property: ontology_restaurant1.owl#category
+value: continental
+property: ontology_restaurant1.owl#name
+value: lasvegas
+property: ontology_restaurant1.owl#phone_number
+value: 7027317547
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-city3
+
+property: ontology_restaurant1.owl#name
+value: shermanoaks
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city21
+
+property: ontology_restaurant1.owl#name
+value: santamonica
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city2
+
+property: ontology_restaurant1.owl#name
+value: belair
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city20
+
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant72
+
+property: ontology_restaurant1.owl#name
+value: steakhouse
+property: ontology_restaurant1.owl#street
+value: 2880lasvegasblvd
+property: ontology_restaurant1.owl#category
+value: steakhouses
+property: ontology_restaurant1.owl#name
+value: lasvegas
+property: ontology_restaurant1.owl#phone_number
+value: 7027340410
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-city5
+
+property: ontology_restaurant1.owl#name
+value: santamonica
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city23
+
+property: ontology_restaurant1.owl#name
+value: york
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant71
+
+property: ontology_restaurant1.owl#name
+value: secondstreetgrille
+property: ontology_restaurant1.owl#street
+value: 200fremont
+property: ontology_restaurant1.owl#category
+value: seafood
+property: ontology_restaurant1.owl#name
+value: lasvegas
+property: ontology_restaurant1.owl#phone_number
+value: 7023853232
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-city4
+
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city22
+
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant74
+
+property: ontology_restaurant1.owl#name
+value: abruzzi
+property: ontology_restaurant1.owl#street
+value: 2355peachtreerdpeachtreebattleshoppingcenter
+property: ontology_restaurant1.owl#category
+value: italian
+property: ontology_restaurant1.owl#name
+value: atlanta
+property: ontology_restaurant1.owl#phone_number
+value: 4042618186
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant73
+
+property: ontology_restaurant1.owl#name
+value: tillerman
+property: ontology_restaurant1.owl#street
+value: 2245flamingord
+property: ontology_restaurant1.owl#category
+value: seafood
+property: ontology_restaurant1.owl#name
+value: lasvegas
+property: ontology_restaurant1.owl#phone_number
+value: 7027314036
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-city1
+
+property: ontology_restaurant1.owl#name
+value: studiocity
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant76
+
+property: ontology_restaurant1.owl#name
+value: bone
+property: ontology_restaurant1.owl#street
+value: 3130piedmontroad
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: atlanta
+property: ontology_restaurant1.owl#phone_number
+value: 4042372663
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant75
+
+property: ontology_restaurant1.owl#name
+value: bacchanalia
+property: ontology_restaurant1.owl#street
+value: 3125piedmontrdnearpeachtreerd
+property: ontology_restaurant1.owl#category
+value: international
+property: ontology_restaurant1.owl#name
+value: atlanta
+property: ontology_restaurant1.owl#phone_number
+value: 4043650410
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-city0
+
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city7
+
+property: ontology_restaurant1.owl#name
+value: hollywood
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city6
+
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city9
+
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city8
+
+property: ontology_restaurant1.owl#name
+value: malibu
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city18
+
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant78
+
+property: ontology_restaurant1.owl#name
+value: buckheaddiner
+property: ontology_restaurant1.owl#street
+value: 3073piedmontroad
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: atlanta
+property: ontology_restaurant1.owl#phone_number
+value: 4042623336
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-city17
+
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant77
+
+property: ontology_restaurant1.owl#name
+value: brasserielecoze
+property: ontology_restaurant1.owl#street
+value: 3393peachtreerdlenoxsquaremallnearneimanmarcus
+property: ontology_restaurant1.owl#category
+value: french
+property: ontology_restaurant1.owl#name
+value: atlanta
+property: ontology_restaurant1.owl#phone_number
+value: 4042661440
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant79
+
+property: ontology_restaurant1.owl#name
+value: ciboulette
+property: ontology_restaurant1.owl#street
+value: 1529piedmontave
+property: ontology_restaurant1.owl#category
+value: french
+property: ontology_restaurant1.owl#name
+value: atlanta
+property: ontology_restaurant1.owl#phone_number
+value: 4048747600
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-city19
+
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city14
+
+property: ontology_restaurant1.owl#name
+value: beverlyhills
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city13
+
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city16
+
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city15
+
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address1
+
+property: ontology_restaurant1.owl#street
+value: 12224venturablvd
+property: ontology_restaurant1.owl#name
+value: studiocity
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city10
+
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address2
+
+property: ontology_restaurant1.owl#street
+value: 701stonecanyonrd
+property: ontology_restaurant1.owl#name
+value: belair
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-city12
+
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-address3
+
+property: ontology_restaurant1.owl#street
+value: 14016venturablvd
+property: ontology_restaurant1.owl#name
+value: shermanoaks
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant61
+
+property: ontology_restaurant1.owl#name
+value: signdove
+property: ontology_restaurant1.owl#street
+value: 11103rdave65th
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2128618080
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-address4
+
+property: ontology_restaurant1.owl#street
+value: 624breaave
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant60
+
+property: ontology_restaurant1.owl#name
+value: shunleewest
+property: ontology_restaurant1.owl#street
+value: 4365th
+property: ontology_restaurant1.owl#category
+value: asian
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2123718844
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-city11
+
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant63
+
+property: ontology_restaurant1.owl#name
+value: taverngreen
+property: ontology_restaurant1.owl#street
+value: centralpark67th
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2128733200
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-address5
+
+property: ontology_restaurant1.owl#street
+value: 2709main
+property: ontology_restaurant1.owl#name
+value: santamonica
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address6
+
+property: ontology_restaurant1.owl#street
+value: 6703melroseave
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant62
+
+property: ontology_restaurant1.owl#name
+value: smithwollensky
+property: ontology_restaurant1.owl#street
+value: 20149th
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2127531530
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-address7
+
+property: ontology_restaurant1.owl#street
+value: 8358sunsetblvdwest
+property: ontology_restaurant1.owl#name
+value: hollywood
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant65
+
+property: ontology_restaurant1.owl#name
+value: unionsquarecafe
+property: ontology_restaurant1.owl#street
+value: 2116th
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2122434020
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-address8
+
+property: ontology_restaurant1.owl#street
+value: 23725maliburd
+property: ontology_restaurant1.owl#name
+value: malibu
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant64
+
+property: ontology_restaurant1.owl#name
+value: unclenick
+property: ontology_restaurant1.owl#street
+value: 7479thave50th51ststs
+property: ontology_restaurant1.owl#category
+value: mediterranean
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2123151726
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-address9
+
+property: ontology_restaurant1.owl#street
+value: 9560daytonway
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant67
+
+property: ontology_restaurant1.owl#name
+value: chin
+property: ontology_restaurant1.owl#street
+value: 3200lasvegasblvd
+property: ontology_restaurant1.owl#category
+value: asian
+property: ontology_restaurant1.owl#name
+value: lasvegas
+property: ontology_restaurant1.owl#phone_number
+value: 7027338899
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant66
+
+property: ontology_restaurant1.owl#name
+value: virgil
+property: ontology_restaurant1.owl#street
+value: 15244th
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2129219494
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant69
+
+property: ontology_restaurant1.owl#name
+value: lemontrachet
+property: ontology_restaurant1.owl#street
+value: 3000paradiserd
+property: ontology_restaurant1.owl#category
+value: continental
+property: ontology_restaurant1.owl#name
+value: lasvegas
+property: ontology_restaurant1.owl#phone_number
+value: 7027325111
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant68
+
+property: ontology_restaurant1.owl#name
+value: coyotecafe
+property: ontology_restaurant1.owl#street
+value: 3799lasvegasblvd
+property: ontology_restaurant1.owl#category
+value: southwestern
+property: ontology_restaurant1.owl#name
+value: lasvegas
+property: ontology_restaurant1.owl#phone_number
+value: 7028917349
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-address0
+
+property: ontology_restaurant1.owl#street
+value: 435cienegablv
+property: ontology_restaurant1.owl#name
+value: losangeles
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant92
+
+property: ontology_restaurant1.owl#name
+value: toulouse
+property: ontology_restaurant1.owl#street
+value: peachtreerd
+property: ontology_restaurant1.owl#category
+value: french
+property: ontology_restaurant1.owl#name
+value: atlanta
+property: ontology_restaurant1.owl#phone_number
+value: 4043519533
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-city102
+
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city101
+
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant91
+
+property: ontology_restaurant1.owl#name
+value: restaurantritzcarltonatlanta
+property: ontology_restaurant1.owl#street
+value: 181peachtree
+property: ontology_restaurant1.owl#category
+value: continental
+property: ontology_restaurant1.owl#name
+value: atlanta
+property: ontology_restaurant1.owl#phone_number
+value: 4046590400
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant94
+
+property: ontology_restaurant1.owl#name
+value: alainrondelli
+property: ontology_restaurant1.owl#street
+value: 126clement
+property: ontology_restaurant1.owl#category
+value: french
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+property: ontology_restaurant1.owl#phone_number
+value: 4153870408
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-city104
+
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant93
+
+property: ontology_restaurant1.owl#name
+value: venividivici
+property: ontology_restaurant1.owl#street
+value: 4114th
+property: ontology_restaurant1.owl#category
+value: italian
+property: ontology_restaurant1.owl#name
+value: atlanta
+property: ontology_restaurant1.owl#phone_number
+value: 4048758424
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-city103
+
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant96
+
+property: ontology_restaurant1.owl#name
+value: boulevard
+property: ontology_restaurant1.owl#street
+value: 1mission
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+property: ontology_restaurant1.owl#phone_number
+value: 4155436084
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant95
+
+property: ontology_restaurant1.owl#name
+value: aqua
+property: ontology_restaurant1.owl#street
+value: 252california
+property: ontology_restaurant1.owl#category
+value: seafood
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+property: ontology_restaurant1.owl#phone_number
+value: 4159569662
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant98
+
+property: ontology_restaurant1.owl#name
+value: camptonplace
+property: ontology_restaurant1.owl#street
+value: 340stockton
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+property: ontology_restaurant1.owl#phone_number
+value: 4159555555
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-city100
+
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant97
+
+property: ontology_restaurant1.owl#name
+value: cafeclaude
+property: ontology_restaurant1.owl#street
+value: 7claude
+property: ontology_restaurant1.owl#category
+value: french
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+property: ontology_restaurant1.owl#phone_number
+value: 4153923505
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-city109
+
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city106
+
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city105
+
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-city108
+
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant90
+
+property: ontology_restaurant1.owl#name
+value: diningroomritzcarltonbuckhead
+property: ontology_restaurant1.owl#street
+value: 3434peachtreerd
+property: ontology_restaurant1.owl#category
+value: international
+property: ontology_restaurant1.owl#name
+value: atlanta
+property: ontology_restaurant1.owl#phone_number
+value: 4042372700
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-city107
+
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#city
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant7
+
+property: ontology_restaurant1.owl#name
+value: fenix
+property: ontology_restaurant1.owl#street
+value: 8358sunsetblvdwest
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: hollywood
+property: ontology_restaurant1.owl#phone_number
+value: 2138486677
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant6
+
+property: ontology_restaurant1.owl#name
+value: citrus
+property: ontology_restaurant1.owl#street
+value: 6703melroseave
+property: ontology_restaurant1.owl#category
+value: californian
+property: ontology_restaurant1.owl#name
+value: losangeles
+property: ontology_restaurant1.owl#phone_number
+value: 2138570034
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant5
+
+property: ontology_restaurant1.owl#name
+value: chinoismain
+property: ontology_restaurant1.owl#street
+value: 2709main
+property: ontology_restaurant1.owl#category
+value: french
+property: ontology_restaurant1.owl#name
+value: santamonica
+property: ontology_restaurant1.owl#phone_number
+value: 3103929025
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant4
+
+property: ontology_restaurant1.owl#name
+value: campanile
+property: ontology_restaurant1.owl#street
+value: 624breaave
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: losangeles
+property: ontology_restaurant1.owl#phone_number
+value: 2139381447
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant3
+
+property: ontology_restaurant1.owl#name
+value: cafebizou
+property: ontology_restaurant1.owl#street
+value: 14016venturablvd
+property: ontology_restaurant1.owl#category
+value: french
+property: ontology_restaurant1.owl#name
+value: shermanoaks
+property: ontology_restaurant1.owl#phone_number
+value: 8187883536
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant2
+
+property: ontology_restaurant1.owl#name
+value: hotelbelair
+property: ontology_restaurant1.owl#street
+value: 701stonecanyonrd
+property: ontology_restaurant1.owl#category
+value: californian
+property: ontology_restaurant1.owl#name
+value: belair
+property: ontology_restaurant1.owl#phone_number
+value: 3104721211
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant1
+
+property: ontology_restaurant1.owl#name
+value: artdelicatessen
+property: ontology_restaurant1.owl#street
+value: 12224venturablvd
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: studiocity
+property: ontology_restaurant1.owl#phone_number
+value: 8187621221
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant0
+
+property: ontology_restaurant1.owl#name
+value: arniemortonchicago
+property: ontology_restaurant1.owl#street
+value: 435cienegablv
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: losangeles
+property: ontology_restaurant1.owl#phone_number
+value: 3102461501
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant99
+
+property: ontology_restaurant1.owl#name
+value: chezmichel
+property: ontology_restaurant1.owl#street
+value: 804northpoint
+property: ontology_restaurant1.owl#category
+value: french
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+property: ontology_restaurant1.owl#phone_number
+value: 4157757036
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant9
+
+property: ontology_restaurant1.owl#name
+value: grillalley
+property: ontology_restaurant1.owl#street
+value: 9560daytonway
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: losangeles
+property: ontology_restaurant1.owl#phone_number
+value: 3102760615
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant8
+
+property: ontology_restaurant1.owl#name
+value: granita
+property: ontology_restaurant1.owl#street
+value: 23725maliburd
+property: ontology_restaurant1.owl#category
+value: californian
+property: ontology_restaurant1.owl#name
+value: malibu
+property: ontology_restaurant1.owl#phone_number
+value: 3104560488
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant81
+
+property: ontology_restaurant1.owl#name
+value: georgiagrille
+property: ontology_restaurant1.owl#street
+value: 2290peachtreerdpeachtreesquareshoppingcenter
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: atlanta
+property: ontology_restaurant1.owl#phone_number
+value: 4043523517
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant80
+
+property: ontology_restaurant1.owl#name
+value: delectables
+property: ontology_restaurant1.owl#street
+value: 1margaretmitchellsq
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: atlanta
+property: ontology_restaurant1.owl#phone_number
+value: 4046812909
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant83
+
+property: ontology_restaurant1.owl#name
+value: heeraindia
+property: ontology_restaurant1.owl#street
+value: 595piedmontaverioshoppingmall
+property: ontology_restaurant1.owl#category
+value: asian
+property: ontology_restaurant1.owl#name
+value: atlanta
+property: ontology_restaurant1.owl#phone_number
+value: 4048764408
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant82
+
+property: ontology_restaurant1.owl#name
+value: hedgeroseheightsinn
+property: ontology_restaurant1.owl#street
+value: 490pacesferryrd
+property: ontology_restaurant1.owl#category
+value: international
+property: ontology_restaurant1.owl#name
+value: atlanta
+property: ontology_restaurant1.owl#phone_number
+value: 4042337673
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant85
+
+property: ontology_restaurant1.owl#name
+value: grotta
+property: ontology_restaurant1.owl#street
+value: 2637peachtreerdpeachtreehousecondominium
+property: ontology_restaurant1.owl#category
+value: italian
+property: ontology_restaurant1.owl#name
+value: atlanta
+property: ontology_restaurant1.owl#phone_number
+value: 4042311368
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant84
+
+property: ontology_restaurant1.owl#name
+value: indigocoastalgrill
+property: ontology_restaurant1.owl#street
+value: 1397highlandave
+property: ontology_restaurant1.owl#category
+value: caribbean
+property: ontology_restaurant1.owl#name
+value: atlanta
+property: ontology_restaurant1.owl#phone_number
+value: 4048760676
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant87
+
+property: ontology_restaurant1.owl#name
+value: nikolairoof
+property: ontology_restaurant1.owl#street
+value: 255courtlandharris
+property: ontology_restaurant1.owl#category
+value: continental
+property: ontology_restaurant1.owl#name
+value: atlanta
+property: ontology_restaurant1.owl#phone_number
+value: 4042216362
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant86
+
+property: ontology_restaurant1.owl#name
+value: marymactearoom
+property: ontology_restaurant1.owl#street
+value: 224ponceleonave
+property: ontology_restaurant1.owl#category
+value: southern
+property: ontology_restaurant1.owl#name
+value: atlanta
+property: ontology_restaurant1.owl#phone_number
+value: 4048761800
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant89
+
+property: ontology_restaurant1.owl#name
+value: caferitzcarltonbuckhead
+property: ontology_restaurant1.owl#street
+value: 3434peachtreerd
+property: ontology_restaurant1.owl#category
+value: ext6108international
+property: ontology_restaurant1.owl#name
+value: atlanta
+property: ontology_restaurant1.owl#phone_number
+value: 4042372700
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant88
+
+property: ontology_restaurant1.owl#name
+value: panopaul
+property: ontology_restaurant1.owl#street
+value: 1232pacesferryrd
+property: ontology_restaurant1.owl#category
+value: international
+property: ontology_restaurant1.owl#name
+value: atlanta
+property: ontology_restaurant1.owl#phone_number
+value: 4042613662
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant30
+
+property: ontology_restaurant1.owl#name
+value: chanterelle
+property: ontology_restaurant1.owl#street
+value: 2harrisonnearhudson
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2129666960
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant32
+
+property: ontology_restaurant1.owl#name
+value: dawat
+property: ontology_restaurant1.owl#street
+value: 21058th
+property: ontology_restaurant1.owl#category
+value: asian
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2123557555
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant31
+
+property: ontology_restaurant1.owl#name
+value: daniel
+property: ontology_restaurant1.owl#street
+value: 2076th
+property: ontology_restaurant1.owl#category
+value: french
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2122880033
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant34
+
+property: ontology_restaurant1.owl#name
+value: seasonsgrillroom
+property: ontology_restaurant1.owl#street
+value: 9952nd
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2127549494
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant33
+
+property: ontology_restaurant1.owl#name
+value: felidia
+property: ontology_restaurant1.owl#street
+value: 24358th
+property: ontology_restaurant1.owl#category
+value: italian
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2127581479
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant36
+
+property: ontology_restaurant1.owl#name
+value: gramercytavern
+property: ontology_restaurant1.owl#street
+value: 4220thparkavebroadway
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2124770777
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant35
+
+property: ontology_restaurant1.owl#name
+value: gothambargrill
+property: ontology_restaurant1.owl#street
+value: 1212th
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2126204020
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant38
+
+property: ontology_restaurant1.owl#street
+value: 16064th
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2122235656
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant37
+
+property: ontology_restaurant1.owl#name
+value: islandspice
+property: ontology_restaurant1.owl#street
+value: 40244th
+property: ontology_restaurant1.owl#category
+value: telcaribbean
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2127651737
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant39
+
+property: ontology_restaurant1.owl#name
+value: caravelle
+property: ontology_restaurant1.owl#street
+value: 3355th
+property: ontology_restaurant1.owl#category
+value: french
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2125864252
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant106
+
+property: ontology_restaurant1.owl#name
+value: masa
+property: ontology_restaurant1.owl#street
+value: 648bush
+property: ontology_restaurant1.owl#category
+value: french
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+property: ontology_restaurant1.owl#phone_number
+value: 4159897154
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant105
+
+property: ontology_restaurant1.owl#name
+value: lulu
+property: ontology_restaurant1.owl#street
+value: 816folsom
+property: ontology_restaurant1.owl#category
+value: mediterranean
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+property: ontology_restaurant1.owl#phone_number
+value: 4154955775
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant104
+
+property: ontology_restaurant1.owl#name
+value: folie
+property: ontology_restaurant1.owl#street
+value: 2316polk
+property: ontology_restaurant1.owl#category
+value: french
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+property: ontology_restaurant1.owl#phone_number
+value: 4157765577
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant103
+
+property: ontology_restaurant1.owl#name
+value: khantokethaihouse
+property: ontology_restaurant1.owl#street
+value: 5937gearyblvd
+property: ontology_restaurant1.owl#category
+value: asian
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+property: ontology_restaurant1.owl#phone_number
+value: 4156686654
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant102
+
+property: ontology_restaurant1.owl#name
+value: hawthornelane
+property: ontology_restaurant1.owl#street
+value: 22hawthorne
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+property: ontology_restaurant1.owl#phone_number
+value: 4157779779
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant101
+
+property: ontology_restaurant1.owl#name
+value: fringale
+property: ontology_restaurant1.owl#street
+value: 5704th
+property: ontology_restaurant1.owl#category
+value: french
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+property: ontology_restaurant1.owl#phone_number
+value: 4155430573
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant100
+
+property: ontology_restaurant1.owl#name
+value: fleurlys
+property: ontology_restaurant1.owl#street
+value: 777sutter
+property: ontology_restaurant1.owl#category
+value: french
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+property: ontology_restaurant1.owl#phone_number
+value: 4156737779
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant21
+
+property: ontology_restaurant1.owl#name
+value: valentino
+property: ontology_restaurant1.owl#street
+value: 3115picoblvd
+property: ontology_restaurant1.owl#category
+value: italian
+property: ontology_restaurant1.owl#name
+value: santamonica
+property: ontology_restaurant1.owl#phone_number
+value: 3108294313
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant20
+
+property: ontology_restaurant1.owl#name
+value: spago
+property: ontology_restaurant1.owl#street
+value: 1114hornave
+property: ontology_restaurant1.owl#category
+value: californian
+property: ontology_restaurant1.owl#name
+value: losangeles
+property: ontology_restaurant1.owl#phone_number
+value: 3106524025
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant109
+
+property: ontology_restaurant1.owl#name
+value: postrio
+property: ontology_restaurant1.owl#street
+value: 545post
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+property: ontology_restaurant1.owl#phone_number
+value: 4157767825
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant108
+
+property: ontology_restaurant1.owl#name
+value: plumpjackcafe
+property: ontology_restaurant1.owl#street
+value: 3201fillmore
+property: ontology_restaurant1.owl#category
+value: mediterranean
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+property: ontology_restaurant1.owl#phone_number
+value: 4155634755
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant107
+
+property: ontology_restaurant1.owl#name
+value: mifunejapancenterkintetsubuilding
+property: ontology_restaurant1.owl#street
+value: 1737post
+property: ontology_restaurant1.owl#category
+value: asian
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+property: ontology_restaurant1.owl#phone_number
+value: 4159220337
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant23
+
+property: ontology_restaurant1.owl#name
+value: 21club
+property: ontology_restaurant1.owl#street
+value: 2152nd
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2125827200
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant22
+
+property: ontology_restaurant1.owl#name
+value: yujeankanggourmetchinesecuisine
+property: ontology_restaurant1.owl#street
+value: 67raymondave
+property: ontology_restaurant1.owl#category
+value: asian
+property: ontology_restaurant1.owl#name
+value: losangeles
+property: ontology_restaurant1.owl#phone_number
+value: 8185850855
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant25
+
+property: ontology_restaurant1.owl#name
+value: aureole
+property: ontology_restaurant1.owl#street
+value: 3461st
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2123191660
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant24
+
+property: ontology_restaurant1.owl#name
+value: aquavit
+property: ontology_restaurant1.owl#street
+value: 1354th
+property: ontology_restaurant1.owl#category
+value: continental
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2123077311
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant27
+
+property: ontology_restaurant1.owl#name
+value: cafedesartistes
+property: ontology_restaurant1.owl#street
+value: 167th
+property: ontology_restaurant1.owl#category
+value: continental
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2128773500
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant26
+
+property: ontology_restaurant1.owl#name
+value: cafelalo
+property: ontology_restaurant1.owl#street
+value: 20183rd
+property: ontology_restaurant1.owl#category
+value: coffeebar
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2124966031
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant29
+
+property: ontology_restaurant1.owl#name
+value: carnegiedeli
+property: ontology_restaurant1.owl#street
+value: 8547thave54th55thsts
+property: ontology_restaurant1.owl#category
+value: delicatessen
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2127572245
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant28
+
+property: ontology_restaurant1.owl#name
+value: carmine
+property: ontology_restaurant1.owl#street
+value: 2450broadway90th91ststs
+property: ontology_restaurant1.owl#category
+value: italian
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2123622200
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant50
+
+property: ontology_restaurant1.owl#name
+value: oceana
+property: ontology_restaurant1.owl#street
+value: 5554th
+property: ontology_restaurant1.owl#category
+value: seafood
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2127595941
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant52
+
+property: ontology_restaurant1.owl#name
+value: petrossian
+property: ontology_restaurant1.owl#street
+value: 18258th
+property: ontology_restaurant1.owl#category
+value: french
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2122452214
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant112
+
+property: ontology_restaurant1.owl#name
+value: adrianoristorante
+property: ontology_restaurant1.owl#street
+value: 2930beverlyglencircle
+property: ontology_restaurant1.owl#category
+value: italian
+property: ontology_restaurant1.owl#name
+value: losangeles
+property: ontology_restaurant1.owl#phone_number
+value: 3104759807
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant51
+
+property: ontology_restaurant1.owl#name
+value: parkavenuecafe
+property: ontology_restaurant1.owl#street
+value: 10063rd
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2126441900
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant111
+
+property: ontology_restaurant1.owl#name
+value: rosepistola
+property: ontology_restaurant1.owl#street
+value: 532columbusave
+property: ontology_restaurant1.owl#category
+value: italian
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+property: ontology_restaurant1.owl#phone_number
+value: 4153990499
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant54
+
+property: ontology_restaurant1.owl#name
+value: pisces
+property: ontology_restaurant1.owl#street
+value: 95ave6th
+property: ontology_restaurant1.owl#category
+value: seafood
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2122606660
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant53
+
+property: ontology_restaurant1.owl#name
+value: picholine
+property: ontology_restaurant1.owl#street
+value: 3564th
+property: ontology_restaurant1.owl#category
+value: mediterranean
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2127248585
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant110
+
+property: ontology_restaurant1.owl#name
+value: ritzcarltonrestaurantdiningroom
+property: ontology_restaurant1.owl#street
+value: 600stockton
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+property: ontology_restaurant1.owl#phone_number
+value: 4152967465
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-address99
+
+property: ontology_restaurant1.owl#street
+value: 804northpoint
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address98
+
+property: ontology_restaurant1.owl#street
+value: 340stockton
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant56
+
+property: ontology_restaurant1.owl#name
+value: rivercafe
+property: ontology_restaurant1.owl#street
+value: 1watereastriver
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: brooklyn
+property: ontology_restaurant1.owl#phone_number
+value: 7185225200
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant55
+
+property: ontology_restaurant1.owl#name
+value: rainbowroom
+property: ontology_restaurant1.owl#street
+value: 30rockefellerplaza
+property: ontology_restaurant1.owl#category
+value: 2126325100american
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2126325000
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant58
+
+property: ontology_restaurant1.owl#name
+value: secondavenuedeli
+property: ontology_restaurant1.owl#street
+value: 1562ndave10th
+property: ontology_restaurant1.owl#category
+value: delicatessen
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2126770606
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant57
+
+property: ontology_restaurant1.owl#name
+value: sandomenico
+property: ontology_restaurant1.owl#street
+value: 240centralpark
+property: ontology_restaurant1.owl#category
+value: italian
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2122655959
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant59
+
+property: ontology_restaurant1.owl#name
+value: seryna
+property: ontology_restaurant1.owl#street
+value: 1153rd
+property: ontology_restaurant1.owl#category
+value: asian
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2129809393
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant41
+
+property: ontology_restaurant1.owl#name
+value: lebernardin
+property: ontology_restaurant1.owl#street
+value: 15551st
+property: ontology_restaurant1.owl#category
+value: french
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2124891515
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant40
+
+property: ontology_restaurant1.owl#name
+value: cotebasque
+property: ontology_restaurant1.owl#street
+value: 6055th5th6thave
+property: ontology_restaurant1.owl#category
+value: french
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2126886525
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant43
+
+property: ontology_restaurant1.owl#name
+value: lespinasse
+property: ontology_restaurant1.owl#street
+value: 255th
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2123396719
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant42
+
+property: ontology_restaurant1.owl#name
+value: lescelebrites
+property: ontology_restaurant1.owl#street
+value: 160centralpark
+property: ontology_restaurant1.owl#category
+value: french
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2124845113
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-address88
+
+property: ontology_restaurant1.owl#street
+value: 1232pacesferryrd
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address87
+
+property: ontology_restaurant1.owl#street
+value: 255courtlandharris
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address89
+
+property: ontology_restaurant1.owl#street
+value: 3434peachtreerd
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address91
+
+property: ontology_restaurant1.owl#street
+value: 181peachtree
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address90
+
+property: ontology_restaurant1.owl#street
+value: 3434peachtreerd
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address93
+
+property: ontology_restaurant1.owl#street
+value: 4114th
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address92
+
+property: ontology_restaurant1.owl#street
+value: peachtreerd
+property: ontology_restaurant1.owl#name
+value: atlanta
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address95
+
+property: ontology_restaurant1.owl#street
+value: 252california
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address94
+
+property: ontology_restaurant1.owl#street
+value: 126clement
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address97
+
+property: ontology_restaurant1.owl#street
+value: 7claude
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-address96
+
+property: ontology_restaurant1.owl#street
+value: 1mission
+property: ontology_restaurant1.owl#name
+value: sanfrancisco
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#address
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant45
+
+property: ontology_restaurant1.owl#name
+value: manhattanoceanclub
+property: ontology_restaurant1.owl#street
+value: 5758th
+property: ontology_restaurant1.owl#category
+value: seafood
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2123717777
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant44
+
+property: ontology_restaurant1.owl#name
+value: lutece
+property: ontology_restaurant1.owl#street
+value: 24950th
+property: ontology_restaurant1.owl#category
+value: french
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2127522225
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant47
+
+property: ontology_restaurant1.owl#name
+value: mesagrill
+property: ontology_restaurant1.owl#street
+value: 1025thave15th16thsts
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2128077400
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant46
+
+property: ontology_restaurant1.owl#name
+value: march
+property: ontology_restaurant1.owl#street
+value: 40558th
+property: ontology_restaurant1.owl#category
+value: american
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2127546272
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant49
+
+property: ontology_restaurant1.owl#name
+value: montrachet
+property: ontology_restaurant1.owl#street
+value: 239broadwaywalkerwhitests
+property: ontology_restaurant1.owl#category
+value: french
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2122192777
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+
+sub: http://www.okkam.org/oaie/restaurant1-restaurant48
+
+property: ontology_restaurant1.owl#name
+value: micocina
+property: ontology_restaurant1.owl#street
+value: 57janehudson
+property: ontology_restaurant1.owl#category
+value: mexican
+property: ontology_restaurant1.owl#name
+value: york
+property: ontology_restaurant1.owl#phone_number
+value: 2126278273
+predicate: type
+value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
+

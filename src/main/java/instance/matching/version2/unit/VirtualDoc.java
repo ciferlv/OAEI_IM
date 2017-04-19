@@ -53,6 +53,8 @@ public class VirtualDoc {
             typeIndex = INTEGER_TYPE_INDEX;
         } else if (rtype.equals(FLOAT_TYPE)) {
             typeIndex = FLOAT_TYPE_INDEX;
+        } else if (rtype.equals(DATE_TYPE)) {
+            typeIndex = DATE_TYPE_INDEX;
         }
         return typeIndex;
     }
@@ -70,7 +72,13 @@ public class VirtualDoc {
         if (val.isResource()) {
 
             valStr = val.asResource().getURI().toLowerCase();
-            valLocalName = formatWords(val.asResource().getLocalName());
+            valLocalName = val.asResource().getLocalName();
+            if (valLocalName.equals("") || valLocalName == null) {
+
+                String[] tempSplit = valStr.split("/");
+                valLocalName = tempSplit[tempSplit.length - 1];
+            }
+            valLocalName = formatWords(valLocalName);
             typeIndex = URI_TYPE_INDEX;
 
             if (propStr.equals(TYPE_FULL_NAME)) {

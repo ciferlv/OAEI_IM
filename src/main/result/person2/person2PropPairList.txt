@@ -1,0 +1,41 @@
+size: 8
+pred1: ontology_person1.owl#postcode
+pred2: ontology_person1.owl#postcode
+time: 35
+infoGain: 0.7169171866886992
+
+pred1: ontology_person1.owl#phone_numer
+pred2: ontology_person1.owl#phone_numer
+time: 35
+infoGain: 0.7169171866886992
+
+pred1: ontology_person1.owl#street
+pred2: ontology_person1.owl#street
+time: 35
+infoGain: 0.7169171866886992
+
+pred1: ontology_person1.owl#name
+pred2: ontology_person1.owl#name
+time: 34
+infoGain: 0.6787881102649854
+
+pred1: ontology_person1.owl#soc_sec_id
+pred2: ontology_person1.owl#soc_sec_id
+time: 30
+infoGain: 0.5487949406953986
+
+pred1: ontology_person1.owl#surname
+pred2: ontology_person1.owl#surname
+time: 26
+infoGain: 0.4427020948434205
+
+pred1: ontology_person1.owl#given_name
+pred2: ontology_person1.owl#given_name
+time: 21
+infoGain: 0.3313975829821748
+
+pred1: ontology_person1.owl#date_of_birth
+pred2: ontology_person1.owl#date_of_birth
+time: 23
+infoGain: 0.3051063021707645
+

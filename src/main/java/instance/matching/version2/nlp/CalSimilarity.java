@@ -64,6 +64,7 @@ public class CalSimilarity {
                     if (val1Type == INTEGER_TYPE_INDEX
                             || val1Type == FLOAT_TYPE_INDEX
                             || val1Type == DATETIME_TYPE_INDEX
+                            || val1Type == DATE_TYPE_INDEX
                             || val1Type == BOOLEAN_TYPE_INDEX) {
 
                         myRes = indiFunc(value1, value2);

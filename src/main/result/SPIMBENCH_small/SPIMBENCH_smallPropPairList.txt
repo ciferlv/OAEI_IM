@@ -1,4 +1,4 @@
-size: 7
+size: 9
 pred1: datecreated
 pred2: datecreated
 time: 29
@@ -9,8 +9,28 @@ pred2: datemodified
 time: 29
 infoGain: 1.0
 
+pred1: thumbnail
+pred2: thumbnail
+time: 29
+infoGain: 1.0
+
+pred1: mentions
+pred2: mentions
+time: 25
+infoGain: 0.6968352227563901
+
+pred1: title
+pred2: title
+time: 23
+infoGain: 0.6011434184474604
+
 pred1: shorttitle
 pred2: shorttitle
+time: 22
+infoGain: 0.5588902286410271
+
+pred1: description
+pred2: description
 time: 21
 infoGain: 0.5195116263866975
 
@@ -21,16 +41,6 @@ infoGain: 0.5024965722660665
 
 pred1: category
 pred2: category
-time: 25
-infoGain: 0.37814637155593467
-
-pred1: description
-pred2: description
-time: 16
-infoGain: 0.3536178178935492
-
-pred1: title
-pred2: title
-time: 15
-infoGain: 0.32508678129854895
+time: 26
+infoGain: 0.4250519393994765
 
