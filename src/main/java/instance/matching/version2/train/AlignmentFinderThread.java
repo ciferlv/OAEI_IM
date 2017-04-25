@@ -10,6 +10,8 @@ import org.slf4j.LoggerFactory;
 import java.util.Iterator;
 import java.util.Map;
 
+import static instance.matching.version2.utility.ParamDef.ALIGN_THRESHOLD;
+import static instance.matching.version2.utility.ParamDef.PROP_PAIR_NUM_NEED_THRESHOLD;
 import static instance.matching.version2.utility.ParamDef.*;
 
 /**
@@ -47,15 +49,7 @@ public class AlignmentFinderThread implements Runnable {
         double simi = ((Double) entry.getKey()).doubleValue();
         int cntMatched = ((Integer) entry.getValue()).intValue();
 
-//        String sub1 = inst1.getSub();
-//        String sub2 = inst2.getSub();
-//        if (sub1.equals("http://www.bbc.co.uk/things/4#id")
-//                && sub2.equals("http://www.bbc.co.uk/things/4#id")) {
-//            logger.info("simi:" + simi);
-//            logger.info("cntMatched:" + cntMatched);
-//        }
-
-        if (!USE_AVERAGE_SIMI) {
+        if (!use_average_simi) {
 
             if (cntMatched > PROP_PAIR_NUM_NEED_THRESHOLD) {
 

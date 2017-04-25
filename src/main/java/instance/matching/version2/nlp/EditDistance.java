@@ -3,8 +3,6 @@ package instance.matching.version2.nlp;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static instance.matching.version1.helper.TrimStringHelper.trimString;
-
 /**
  * Created by ciferlv on 17-3-5.
  */
@@ -13,10 +11,6 @@ public class EditDistance {
     private static Logger logger = LoggerFactory.getLogger(EditDistance.class);
 
     public static double editDistance(String str1, String str2) {
-
-        //去掉str1和str2中的空格、/、-，并将它们都改成小写
-        str1 = trimString(str1);
-        str2 = trimString(str2);
 
         int result = 0;
         int n = str1.length();

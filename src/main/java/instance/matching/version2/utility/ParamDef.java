@@ -3,130 +3,49 @@ package instance.matching.version2.utility;
 import instance.matching.version2.unit.Property;
 
 import java.util.HashMap;
-import java.util.List;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 /**
- * Created by ciferlv on 17-2-28.
+ * Created by ciferlv on 17-4-25.
  */
 public class ParamDef {
 
-    public static String[] INST1_PATH = {
-            "src/main/resources/dataSet/PR/person1/person11.rdf",
-            "src/main/resources/dataSet/PR/person2/person21.rdf",
-            "src/main/resources/dataSet/PR/restaurants/restaurant1.rdf",
-//            "src/main/resources/dataSet/UOBM_small/Abox1.nt",
-            "src/main/resources/dataSet/SPIMBENCH_small/Abox1.nt",
-            "src/main/resources/dataSet/SPIMBENCH_large/Abox1.nt"
+    public static int confFileIndex;
+
+    public static final String[] CONF_FILE_PATH = {
+            "src/main/resources/config/person1.properties",
+            "src/main/resources/config/person2.properties",
+            "src/main/resources/config/restaurants.properties",
+            "src/main/resources/config/spimbench_small.properties",
+            "src/main/resources/config/spimbench_large.properties"
     };
 
-    public static String[] INST2_PATH = {
-            "src/main/resources/dataSet/PR/person1/person12.rdf",
-            "src/main/resources/dataSet/PR/person2/person22.rdf",
-            "src/main/resources/dataSet/PR/restaurants/restaurant2.rdf",
-//            "src/main/resources/dataSet/UOBM_small/Abox2.nt",
-            "src/main/resources/dataSet/SPIMBENCH_small/Abox2.nt",
-            "src/main/resources/dataSet/SPIMBENCH_large/Abox2.nt"
-    };
+    public static String inst1_path;
+    public static String inst2_path;
+    public static String supp1_path;
+    public static String supp2_path;
+    public static String standard_path;
+    public static String result_file_path;
+    public static String correct_result_file_path;
+    public static String wrong_result_file_path;
+    public static String unfound_result_file_path;
+    public static String instance_set1_file_path;
+    public static String instance_set2_file_path;
+    public static String prop_pair_list_file_path;
+    public static String stopwords_file_path;
 
-    public static String[] SUPP1_PATH = {
-            "src/main/resources/dataSet/PR/person1/ontology_people1.owl",
-            "src/main/resources/dataSet/PR/person2/ontology_people1.owl",
-            "src/main/resources/dataSet/PR/restaurants/ontology_restaurant1.owl"
-    };
+    public static boolean use_reinforce;
+    public static boolean use_average_simi;
 
-    public static String[] SUPP2_PATH = {
-            "src/main/resources/dataSet/PR/person1/ontology_people2.owl",
-            "src/main/resources/dataSet/PR/person2/ontology_people2.owl",
-            "src/main/resources/dataSet/PR/restaurants/ontology_restaurant2.owl"
-    };
+    public static Set<String> tarTypeSet1 = new HashSet<String>();
+    public static Set<String> tarTypeSet2 = new HashSet<String>();
 
-    public static String[] STANDARD_PATH = {
-            "src/main/resources/dataSet/PR/person1/dataset11_dataset12_goldstandard_person.xml",
-            "src/main/resources/dataSet/PR/person2/dataset21_dataset22_goldstandard_person.xml",
-            "src/main/resources/dataSet/PR/restaurants/restaurant1_restaurant2_goldstandard.rdf",
-            "src/main/resources/dataSet/SPIMBENCH_small/refalign.rdf",
-            "src/main/resources/dataSet/SPIMBENCH_large/refalign.rdf"
+    public static Set<String> stopWordSet = new HashSet<String>();
 
-
-    };
-
-    public static String[] TARGET_TYPE1 = {
-            "http://www.okkam.org/ontology_person1.owl#Person",
-            "http://www.okkam.org/ontology_person1.owl#Person",
-            "http://www.okkam.org/ontology_restaurant1.owl#Restaurant",
-//            "http://semantics.crl.ibm.com/univ-bench-dl.owl#woman",
-            "http://www.bbc.co.uk/ontologies/creativework/NewsItem",
-            "http://www.bbc.co.uk/ontologies/creativework/NewsItem"
-    };
-
-    public static String[] TARGET_TYPE2 = {
-            "http://www.okkam.org/ontology_person2.owl#Person",
-            "http://www.okkam.org/ontology_person2.owl#Person",
-            "http://www.okkam.org/ontology_restaurant2.owl#Restaurant",
-//            "http://semantics.crl.ibm.com/univ-bench-dl.owl#person",
-            "http://www.bbc.co.uk/ontologies/creativework/NewsItem",
-            "http://www.bbc.co.uk/ontologies/creativework/NewsItem"
-    };
-
-    public static String[] AIM_LOCAL_NAME = {
-            "person[0-9]-person.*",
-            "person[0-9]-person.*",
-            "restaurant[0-9]-restaurant.*"
-    };
-
-    public static String[] RESULT_FILE_PATH = {
-            "src/main/result/person1/person1Result.xml",
-            "src/main/result/person2/person2Result.xml",
-            "src/main/result/restaurants/restaurantsResult.xml",
-            "src/main/result/SPIMBENCH_small/SPIMBENCH_smallResult.xml",
-            "src/main/result/SPIMBENCH_large/SPIMBENCH_largeResult.xml",
-    };
-    public static String[] CORRECT_RESULT_FILE_PATH = {
-            "src/main/result/person1/person1CorrectResult.txt",
-            "src/main/result/person2/person2CorrectResult.txt",
-            "src/main/result/restaurants/restaurantsCorrectResult.txt",
-            "src/main/result/SPIMBENCH_small/SPIMBENCH_smallCorrectResult.txt",
-            "src/main/result/SPIMBENCH_large/SPIMBENCH_largeCorrectResult.txt"
-    };
-    public static String[] WRONG_RESULT_FILE_PATH = {
-            "src/main/result/person1/person1WrongResult.txt",
-            "src/main/result/person2/person2WrongResult.txt",
-            "src/main/result/restaurants/restaurantsWrongResult.txt",
-            "src/main/result/SPIMBENCH_small/SPIMBENCH_smallWrongResult.txt",
-            "src/main/result/SPIMBENCH_large/SPIMBENCH_largeWrongResult.txt"
-    };
-
-    public static String[] INSTANCE_SET1_FILE_PATH = {
-            "src/main/result/person1/person1Set1.txt",
-            "src/main/result/person2/person2Set1.txt",
-            "src/main/result/restaurants/restaurantsSet1.txt",
-            "src/main/result/SPIMBENCH_small/SPIMBENCH_smallSet1.txt",
-            "src/main/result/SPIMBENCH_large/SPIMBENCH_largeSet1.txt"
-    };
-    public static String[] INSTANCE_SET2_FILE_PATH = {
-            "src/main/result/person1/person1Set2.txt",
-            "src/main/result/person2/person2Set2.txt",
-            "src/main/result/restaurants/restaurantsSet2.txt",
-            "src/main/result/SPIMBENCH_small/SPIMBENCH_smallSet2.txt",
-            "src/main/result/SPIMBENCH_large/SPIMBENCH_largeSet2.txt"
-    };
-    public static String[] PROPPAIRLIST_FILE_PATH = {
-            "src/main/result/person1/person1PropPairList.txt",
-            "src/main/result/person2/person2PropPairList.txt",
-            "src/main/result/restaurants/restaurantsPropPairList.txt",
-            "src/main/result/SPIMBENCH_small/SPIMBENCH_smallPropPairList.txt",
-            "src/main/result/SPIMBENCH_large/SPIMBENCH_largePropPairList.txt"
-    };
-    public static String[] UNFOUND_RESULT_FILE_PATH = {
-            "src/main/result/person1/person1UnFoundResult.txt",
-            "src/main/result/person2/person2UnFoundResult.txt",
-            "src/main/result/restaurants/restaurantsUnFoundResult.txt",
-            "src/main/result/SPIMBENCH_small/SPIMBENCH_smallUnFoundResult.txt",
-            "src/main/result/SPIMBENCH_large/SPIMBENCH_largeUnFoundResult.txt"
-    };
-
-    public static final String STOPWORDS_FILE_PATH = "src/main/resources/config/stopwords_more.txt";
+    public static Map<String, Property> propDetail1 = new HashMap<String, Property>();
+    public static Map<String, Property> propDetail2 = new HashMap<String, Property>();
 
     public static final double SIMILAR_RATE = 0.618;
 
@@ -177,18 +96,4 @@ public class ParamDef {
     public static final int OBJECT_PROPERTY_INDEX = 8;
     public static final int DATA_PROPERTY_INDEX = 9;
 
-    public static final boolean USE_REINFORCE = false;
-
-    public static final boolean USE_AVERAGE_SIMI = false;
-
-    public static final int DATASET_INDEX = 4;
-
-    public static Map<String, Property> propDetail1 = new HashMap<String, Property>();
-
-    public static Map<String, Property> propDetail2 = new HashMap<String, Property>();
-
-    public static Map<String, List<String>> subClassList1 = new HashMap<String, List<String>>();
-
-    public static Map<String, List<String>> subClassList2 = new HashMap<String, List<String>>();
 }
-

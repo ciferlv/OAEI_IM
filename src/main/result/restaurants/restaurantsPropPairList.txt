@@ -1,21 +1,21 @@
 size: 4
-pred1: ontology_restaurant1.owl#name
-pred2: ontology_restaurant1.owl#name
+pred1: ontology_restaurant1.owl#phone_number
+pred2: ontology_restaurant1.owl#phone_number
 time: 11
 infoGain: 1.0
 
+pred1: ontology_restaurant1.owl#name
+pred2: ontology_restaurant1.owl#name
+time: 11
+infoGain: 0.7742817180161998
+
 pred1: ontology_restaurant1.owl#street
 pred2: ontology_restaurant1.owl#street
-time: 9
-infoGain: 0.6340014304170941
-
-pred1: ontology_restaurant1.owl#phone_number
-pred2: ontology_restaurant1.owl#phone_number
-time: 9
-infoGain: 0.6340014304170941
+time: 10
+infoGain: 0.7742817180161998
 
 pred1: ontology_restaurant1.owl#name
 pred2: ontology_restaurant1.owl#name
-time: 10
-infoGain: 0.432262500196679
+time: 8
+infoGain: 0.5229848362894218
 

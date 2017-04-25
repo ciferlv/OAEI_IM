@@ -62,9 +62,9 @@ public class Metrics {
         logger.info("f1_score: " + f1_score);
 
         try {
-            printToFile(CORRECT_RESULT_FILE_PATH[DATASET_INDEX],correctAlign.toString());
-            printToFile(WRONG_RESULT_FILE_PATH[DATASET_INDEX],wrongAlign.toString());
-            printToFile(UNFOUND_RESULT_FILE_PATH[DATASET_INDEX],unfoundAlign.toString());
+            printToFile(correct_result_file_path,correctAlign.toString());
+            printToFile(wrong_result_file_path,wrongAlign.toString());
+            printToFile(unfound_result_file_path,unfoundAlign.toString());
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

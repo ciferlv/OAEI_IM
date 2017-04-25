@@ -44,7 +44,7 @@ public class Instance {
 
             Map<String, Set<Value>> ptr;
 
-            if (USE_REINFORCE) {
+            if (use_reinforce) {
                 if (valType == URI_TYPE_INDEX) {
                     ptr = propUri;
                 } else {

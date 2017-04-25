@@ -275,8 +275,8 @@
 	</map>
 	<map>
 		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/restaurant1-restaurant68'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/restaurant2-restaurant666'/>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/restaurant1-restaurant92'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/restaurant2-restaurant92'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -291,8 +291,8 @@
 	</map>
 	<map>
 		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/restaurant1-restaurant92'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/restaurant2-restaurant92'/>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/restaurant1-restaurant68'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/restaurant2-restaurant666'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>

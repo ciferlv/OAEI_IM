@@ -35,7 +35,7 @@ public class VirtualDoc {
 
         filterTarType();
         getTarSub();
-        if (USE_REINFORCE) {
+        if (use_reinforce) {
             reinforceGraph();
         }
     }

@@ -15,10 +15,10 @@ sub1: http://www.okkam.org/oaie/restaurant1-restaurant68
 sub2: http://www.okkam.org/oaie/restaurant2-restaurant674
 
 sub1: http://www.okkam.org/oaie/restaurant1-restaurant68
-sub2: http://www.okkam.org/oaie/restaurant2-restaurant666
+sub2: http://www.okkam.org/oaie/restaurant2-restaurant659
 
 sub1: http://www.okkam.org/oaie/restaurant1-restaurant68
-sub2: http://www.okkam.org/oaie/restaurant2-restaurant659
+sub2: http://www.okkam.org/oaie/restaurant2-restaurant666
 
 sub1: http://www.okkam.org/oaie/restaurant1-restaurant91
 sub2: http://www.okkam.org/oaie/restaurant2-restaurant711

@@ -7,10 +7,10 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.HashSet;
-import java.util.Set;
 
-import static instance.matching.version2.utility.ParamDef.STOPWORDS_FILE_PATH;
+
+import static instance.matching.version2.utility.ParamDef.stopwords_file_path;
+import static instance.matching.version2.utility.ParamDef.stopWordSet;
 
 /**
  * Created by xinzelv on 17-3-28.
@@ -19,12 +19,11 @@ public class FormatData {
 
     private static Logger logger = LoggerFactory.getLogger(FormatData.class);
 
-    private static Set<String> stopWordSet = new HashSet<String>();
 
     public static void getStopWords() {
 
         try {
-            FileReader fr = new FileReader(STOPWORDS_FILE_PATH);
+            FileReader fr = new FileReader(stopwords_file_path);
             BufferedReader br = new BufferedReader(fr);
             String s = br.readLine();
             while (s != null) {
