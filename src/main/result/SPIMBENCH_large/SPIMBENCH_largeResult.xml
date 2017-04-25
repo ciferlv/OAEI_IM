@@ -1516,7 +1516,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.bbc.co.uk/things/1750#id'/>
-			<entity2 rdf:resource='http://www.bbc.co.uk/things/1489#id'/>
+			<entity2 rdf:resource='http://www.bbc.co.uk/things/52681069#id'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1524,7 +1524,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.bbc.co.uk/things/1750#id'/>
-			<entity2 rdf:resource='http://www.bbc.co.uk/things/52681069#id'/>
+			<entity2 rdf:resource='http://www.bbc.co.uk/things/1489#id'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -3148,7 +3148,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.bbc.co.uk/things/1706#id'/>
-			<entity2 rdf:resource='http://www.bbc.co.uk/things/782016770#id'/>
+			<entity2 rdf:resource='http://www.bbc.co.uk/things/1281644611#id'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -3156,7 +3156,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.bbc.co.uk/things/1706#id'/>
-			<entity2 rdf:resource='http://www.bbc.co.uk/things/1281644611#id'/>
+			<entity2 rdf:resource='http://www.bbc.co.uk/things/782016770#id'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -3787,16 +3787,16 @@
 	</map>
 	<map>
 		<Cell>
-			<entity1 rdf:resource='http://www.bbc.co.uk/things/552#id'/>
-			<entity2 rdf:resource='http://www.bbc.co.uk/things/1237076586#id'/>
+			<entity1 rdf:resource='http://www.bbc.co.uk/things/290#id'/>
+			<entity2 rdf:resource='http://www.bbc.co.uk/things/514379927#id'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
 	</map>
 	<map>
 		<Cell>
-			<entity1 rdf:resource='http://www.bbc.co.uk/things/290#id'/>
-			<entity2 rdf:resource='http://www.bbc.co.uk/things/514379927#id'/>
+			<entity1 rdf:resource='http://www.bbc.co.uk/things/552#id'/>
+			<entity2 rdf:resource='http://www.bbc.co.uk/things/1237076586#id'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -5268,7 +5268,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.bbc.co.uk/things/1039#id'/>
-			<entity2 rdf:resource='http://www.bbc.co.uk/things/1039#id'/>
+			<entity2 rdf:resource='http://www.bbc.co.uk/things/1299230763#id'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -5276,7 +5276,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.bbc.co.uk/things/1039#id'/>
-			<entity2 rdf:resource='http://www.bbc.co.uk/things/1299230763#id'/>
+			<entity2 rdf:resource='http://www.bbc.co.uk/things/1039#id'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -10140,7 +10140,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.bbc.co.uk/things/1369#id'/>
-			<entity2 rdf:resource='http://www.bbc.co.uk/things/318407769#id'/>
+			<entity2 rdf:resource='http://www.bbc.co.uk/things/1369#id'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -10148,7 +10148,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.bbc.co.uk/things/1369#id'/>
-			<entity2 rdf:resource='http://www.bbc.co.uk/things/1369#id'/>
+			<entity2 rdf:resource='http://www.bbc.co.uk/things/318407769#id'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>

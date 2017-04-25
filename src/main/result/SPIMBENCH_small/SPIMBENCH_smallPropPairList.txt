@@ -14,33 +14,33 @@ pred2: thumbnail
 time: 29
 infoGain: 1.0
 
-pred1: mentions
-pred2: mentions
-time: 25
-infoGain: 0.6968352227563901
-
-pred1: title
-pred2: title
-time: 23
-infoGain: 0.6011434184474604
-
-pred1: shorttitle
-pred2: shorttitle
+pred1: description
+pred2: description
 time: 22
 infoGain: 0.5588902286410271
 
-pred1: description
-pred2: description
+pred1: mentions
+pred2: mentions
 time: 21
 infoGain: 0.5195116263866975
 
+pred1: shorttitle
+pred2: shorttitle
+time: 21
+infoGain: 0.5195116263866975
+
+pred1: title
+pred2: title
+time: 19
+infoGain: 0.44775936675768147
+
 pred1: about
 pred2: about
-time: 23
-infoGain: 0.5024965722660665
+time: 21
+infoGain: 0.42447944886246725
 
 pred1: category
 pred2: category
-time: 26
-infoGain: 0.4250519393994765
+time: 25
+infoGain: 0.42120537536788016
 

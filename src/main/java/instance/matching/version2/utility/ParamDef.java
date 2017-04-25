@@ -1,5 +1,11 @@
 package instance.matching.version2.utility;
 
+import instance.matching.version2.unit.Property;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 /**
  * Created by ciferlv on 17-2-28.
  */
@@ -166,15 +172,23 @@ public class ParamDef {
     public static final int FLOAT_TYPE_INDEX = 3;
     public static final int DATETIME_TYPE_INDEX = 4;
     public static final int THING_TYPE_INDEX = 5;
-    public static final int BOOLEAN_TYPE_INDEX=6;
-    public static final int DATE_TYPE_INDEX=6;
+    public static final int BOOLEAN_TYPE_INDEX = 6;
+    public static final int DATE_TYPE_INDEX = 7;
+    public static final int OBJECT_PROPERTY_INDEX = 8;
+    public static final int DATA_PROPERTY_INDEX = 9;
 
-    public static final boolean USE_REINFORCE = true;
+    public static final boolean USE_REINFORCE = false;
 
     public static final boolean USE_AVERAGE_SIMI = false;
 
-    public static final int DATASET_INDEX = 2;
+    public static final int DATASET_INDEX = 4;
 
+    public static Map<String, Property> propDetail1 = new HashMap<String, Property>();
 
+    public static Map<String, Property> propDetail2 = new HashMap<String, Property>();
+
+    public static Map<String, List<String>> subClassList1 = new HashMap<String, List<String>>();
+
+    public static Map<String, List<String>> subClassList2 = new HashMap<String, List<String>>();
 }
 

@@ -69,8 +69,21 @@ public class VirtualDoc {
         String valLocalName = "";
         int typeIndex = THING_TYPE_INDEX;
 
+        if (val == null) {
+            logger.info("val is null");
+            logger.info("sub:" + subStr);
+            logger.info("propStr:" + propStr);
+            return;
+        }
+
         if (val.isResource()) {
 
+            if (val.asResource().getURI() == null) {
+                logger.info("valURI is null");
+                logger.info("sub:" + subStr);
+                logger.info("propStr:" + propStr);
+                return;
+            }
             valStr = val.asResource().getURI().toLowerCase();
             valLocalName = val.asResource().getLocalName();
             if (valLocalName.equals("") || valLocalName == null) {
