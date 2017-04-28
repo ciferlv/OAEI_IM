@@ -124,6 +124,7 @@ public class Instance {
                 if(myValue.getType() == URI_TYPE_INDEX){
                     out.append("value localname: "+ myValue.getLocalName() + "\n");
                 }
+                out.append("value type: " + myValue.getTypeName()+"\n");
             }
         }
 

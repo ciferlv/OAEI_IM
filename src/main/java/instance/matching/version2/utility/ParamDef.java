@@ -1,11 +1,10 @@
 package instance.matching.version2.utility;
 
-import instance.matching.version2.unit.Property;
+import instance.matching.version2.unit.Disjoint;
+import instance.matching.version2.unit.PropertyDetail;
+import instance.matching.version2.unit.SubClass;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Created by ciferlv on 17-4-25.
@@ -44,8 +43,11 @@ public class ParamDef {
 
     public static Set<String> stopWordSet = new HashSet<String>();
 
-    public static Map<String, Property> propDetail1 = new HashMap<String, Property>();
-    public static Map<String, Property> propDetail2 = new HashMap<String, Property>();
+    public static Map<String, PropertyDetail> propDetailMap1 = new HashMap<String, PropertyDetail>();
+    public static Map<String, PropertyDetail> propDetailMap2 = new HashMap<String, PropertyDetail>();
+
+    public static Disjoint disjoint = new Disjoint();
+    public static SubClass subClass = new SubClass();
 
     public static final double SIMILAR_RATE = 0.618;
 

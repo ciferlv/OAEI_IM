@@ -16,7 +16,7 @@ import java.util.Properties;
 
 import static instance.matching.version2.eval.Metrics.calMetrics;
 import static instance.matching.version2.fileParser.AlignFileParser.parseAlignFile;
-import static instance.matching.version2.fileParser.MetaDataFileParser.parseMetaDataPR;
+import static instance.matching.version2.fileParser.MetaDataFileParser.parseMetaDataSPIM;
 import static instance.matching.version2.fileParser.TaskFileParser.parseTaskFile;
 import static instance.matching.version2.nlp.FormatData.getStopWords;
 import static instance.matching.version2.train.AlignmentFinder.findResultAlign;
@@ -36,7 +36,7 @@ public class PRMatchingEntry {
 
     private static void init() throws IOException, OWLOntologyCreationException {
 
-        confFileIndex = 0;
+        confFileIndex = 3;
         Properties pro = new Properties();
         FileInputStream in = new FileInputStream(CONF_FILE_PATH[confFileIndex]);
         pro.load(in);
@@ -70,8 +70,16 @@ public class PRMatchingEntry {
 
         getStopWords();
 
-        parseMetaDataPR(supp1_path,propDetail1);
-        parseMetaDataPR(supp2_path,propDetail2);
+//        if (confFileIndex < 3) {
+//            parseMetaDataPR(supp1_path, propDetailMap1);
+//            parseMetaDataPR(supp2_path, propDetailMap2);
+//        }
+        if (confFileIndex > 2) {
+
+            parseMetaDataSPIM(supp1_path);
+            parseMetaDataSPIM(supp2_path);
+        }
+
     }
 
     private static void matching() throws FileNotFoundException {
@@ -83,13 +91,17 @@ public class PRMatchingEntry {
         Model model2 = ModelFactory.createDefaultModel();
 
         parseTaskFile(inst1_path, doc1, model1);
+        logger.info(String.valueOf(doc1.getGraph().size()));
+
         parseTaskFile(inst2_path, doc2, model2);
+        logger.info(String.valueOf(doc2.getGraph().size()));
 
         doc1.processGraph();
         doc2.processGraph();
 
         Alignment refAlign = new Alignment();
         parseAlignFile(standard_path, refAlign);
+        logger.info(String.valueOf(refAlign.size()));
 
         Alignment positives = refAlign.generatePositives();
 

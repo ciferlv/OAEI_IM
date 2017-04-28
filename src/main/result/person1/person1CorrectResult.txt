@@ -5,11 +5,11 @@ sub2: http://www.okkam.org/oaie/person2-person781
 sub1: http://www.okkam.org/oaie/person1-person300
 sub2: http://www.okkam.org/oaie/person2-person301
 
-sub1: http://www.okkam.org/oaie/person1-person2950
-sub2: http://www.okkam.org/oaie/person2-person2951
-
 sub1: http://www.okkam.org/oaie/person1-person1620
 sub2: http://www.okkam.org/oaie/person2-person1621
+
+sub1: http://www.okkam.org/oaie/person1-person2950
+sub2: http://www.okkam.org/oaie/person2-person2951
 
 sub1: http://www.okkam.org/oaie/person1-person3800
 sub2: http://www.okkam.org/oaie/person2-person3801
@@ -452,11 +452,11 @@ sub2: http://www.okkam.org/oaie/person2-person3051
 sub1: http://www.okkam.org/oaie/person1-person4380
 sub2: http://www.okkam.org/oaie/person2-person4381
 
-sub1: http://www.okkam.org/oaie/person1-person4370
-sub2: http://www.okkam.org/oaie/person2-person4371
-
 sub1: http://www.okkam.org/oaie/person1-person460
 sub2: http://www.okkam.org/oaie/person2-person461
+
+sub1: http://www.okkam.org/oaie/person1-person4370
+sub2: http://www.okkam.org/oaie/person2-person4371
 
 sub1: http://www.okkam.org/oaie/person1-person3040
 sub2: http://www.okkam.org/oaie/person2-person3041
@@ -953,11 +953,11 @@ sub2: http://www.okkam.org/oaie/person2-person2261
 sub1: http://www.okkam.org/oaie/person1-person3110
 sub2: http://www.okkam.org/oaie/person2-person3111
 
-sub1: http://www.okkam.org/oaie/person1-person160
-sub2: http://www.okkam.org/oaie/person2-person161
-
 sub1: http://www.okkam.org/oaie/person1-person3590
 sub2: http://www.okkam.org/oaie/person2-person3591
+
+sub1: http://www.okkam.org/oaie/person1-person160
+sub2: http://www.okkam.org/oaie/person2-person161
 
 sub1: http://www.okkam.org/oaie/person1-person2250
 sub2: http://www.okkam.org/oaie/person2-person2251
@@ -1118,11 +1118,11 @@ sub2: http://www.okkam.org/oaie/person2-person651
 sub1: http://www.okkam.org/oaie/person1-person1970
 sub2: http://www.okkam.org/oaie/person2-person1971
 
-sub1: http://www.okkam.org/oaie/person1-person2820
-sub2: http://www.okkam.org/oaie/person2-person2821
-
 sub1: http://www.okkam.org/oaie/person1-person90
 sub2: http://www.okkam.org/oaie/person2-person91
+
+sub1: http://www.okkam.org/oaie/person1-person2820
+sub2: http://www.okkam.org/oaie/person2-person2821
 
 sub1: http://www.okkam.org/oaie/person1-person640
 sub2: http://www.okkam.org/oaie/person2-person641
@@ -1178,11 +1178,11 @@ sub2: http://www.okkam.org/oaie/person2-person2811
 sub1: http://www.okkam.org/oaie/person1-person1950
 sub2: http://www.okkam.org/oaie/person2-person1951
 
-sub1: http://www.okkam.org/oaie/person1-person60
-sub2: http://www.okkam.org/oaie/person2-person61
-
 sub1: http://www.okkam.org/oaie/person1-person2800
 sub2: http://www.okkam.org/oaie/person2-person2801
+
+sub1: http://www.okkam.org/oaie/person1-person60
+sub2: http://www.okkam.org/oaie/person2-person61
 
 sub1: http://www.okkam.org/oaie/person1-person4180
 sub2: http://www.okkam.org/oaie/person2-person4181

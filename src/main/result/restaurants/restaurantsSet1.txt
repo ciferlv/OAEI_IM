@@ -2,8 +2,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address77
 
 property: ontology_restaurant1.owl#street
 value: 3393peachtreerdlenoxsquaremallnearneimanmarcus
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -11,8 +13,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address76
 
 property: ontology_restaurant1.owl#street
 value: 3130piedmontroad
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -20,8 +24,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address79
 
 property: ontology_restaurant1.owl#street
 value: 1529piedmontave
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -29,8 +35,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address78
 
 property: ontology_restaurant1.owl#street
 value: 3073piedmontroad
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -38,8 +46,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address80
 
 property: ontology_restaurant1.owl#street
 value: 1margaretmitchellsq
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -47,8 +57,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address82
 
 property: ontology_restaurant1.owl#street
 value: 490pacesferryrd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -56,8 +68,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address81
 
 property: ontology_restaurant1.owl#street
 value: 2290peachtreerdpeachtreesquareshoppingcenter
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -65,8 +79,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address84
 
 property: ontology_restaurant1.owl#street
 value: 1397highlandave
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -74,8 +90,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address83
 
 property: ontology_restaurant1.owl#street
 value: 595piedmontaverioshoppingmall
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -83,8 +101,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address86
 
 property: ontology_restaurant1.owl#street
 value: 224ponceleonave
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -92,8 +112,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address85
 
 property: ontology_restaurant1.owl#street
 value: 2637peachtreerdpeachtreehousecondominium
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -101,6 +123,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city98
 
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -108,6 +131,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city97
 
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -115,6 +139,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city99
 
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -122,6 +147,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city94
 
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -129,6 +155,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city93
 
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -136,6 +163,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city96
 
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -143,6 +171,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city95
 
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -150,6 +179,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city90
 
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -157,8 +187,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address66
 
 property: ontology_restaurant1.owl#street
 value: 15244th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -166,8 +198,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address65
 
 property: ontology_restaurant1.owl#street
 value: 2116th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -175,6 +209,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city92
 
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -182,8 +217,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address68
 
 property: ontology_restaurant1.owl#street
 value: 3799lasvegasblvd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: lasvegas
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -191,6 +228,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city91
 
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -198,8 +236,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address67
 
 property: ontology_restaurant1.owl#street
 value: 3200lasvegasblvd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: lasvegas
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -207,8 +247,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address69
 
 property: ontology_restaurant1.owl#street
 value: 3000paradiserd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: lasvegas
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -216,8 +258,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address71
 
 property: ontology_restaurant1.owl#street
 value: 200fremont
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: lasvegas
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -225,8 +269,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address70
 
 property: ontology_restaurant1.owl#street
 value: 3570lasvegasblvd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: lasvegas
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -234,8 +280,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address73
 
 property: ontology_restaurant1.owl#street
 value: 2245flamingord
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: lasvegas
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -243,8 +291,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address72
 
 property: ontology_restaurant1.owl#street
 value: 2880lasvegasblvd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: lasvegas
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -252,8 +302,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address75
 
 property: ontology_restaurant1.owl#street
 value: 3125piedmontrdnearpeachtreerd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -261,8 +313,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address74
 
 property: ontology_restaurant1.owl#street
 value: 2355peachtreerdpeachtreebattleshoppingcenter
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -270,8 +324,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address103
 
 property: ontology_restaurant1.owl#street
 value: 5937gearyblvd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -279,6 +335,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city87
 
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -286,8 +343,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address102
 
 property: ontology_restaurant1.owl#street
 value: 22hawthorne
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -295,6 +354,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city86
 
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -302,8 +362,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address101
 
 property: ontology_restaurant1.owl#street
 value: 5704th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -311,6 +373,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city89
 
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -318,8 +381,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address100
 
 property: ontology_restaurant1.owl#street
 value: 777sutter
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -327,6 +392,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city88
 
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -334,8 +400,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address107
 
 property: ontology_restaurant1.owl#street
 value: 1737post
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -343,6 +411,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city83
 
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -350,6 +419,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city82
 
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -357,8 +427,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address106
 
 property: ontology_restaurant1.owl#street
 value: 648bush
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -366,6 +438,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city85
 
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -373,14 +446,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant10
 
 property: ontology_restaurant1.owl#name
 value: restaurantkatsu
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 1972hillhurstave
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: asian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2136651891
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -388,8 +466,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address105
 
 property: ontology_restaurant1.owl#street
 value: 816folsom
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -397,6 +477,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city84
 
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -404,8 +485,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address104
 
 property: ontology_restaurant1.owl#street
 value: 2316polk
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -413,8 +496,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address55
 
 property: ontology_restaurant1.owl#street
 value: 30rockefellerplaza
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -422,8 +507,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address54
 
 property: ontology_restaurant1.owl#street
 value: 95ave6th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -431,8 +518,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address109
 
 property: ontology_restaurant1.owl#street
 value: 545post
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -440,6 +529,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city81
 
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -447,8 +537,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address57
 
 property: ontology_restaurant1.owl#street
 value: 240centralpark
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -456,8 +548,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address108
 
 property: ontology_restaurant1.owl#street
 value: 3201fillmore
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -465,6 +559,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city80
 
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -472,8 +567,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address56
 
 property: ontology_restaurant1.owl#street
 value: 1watereastriver
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: brooklyn
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -481,8 +578,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address59
 
 property: ontology_restaurant1.owl#street
 value: 1153rd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -490,8 +589,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address58
 
 property: ontology_restaurant1.owl#street
 value: 1562ndave10th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -499,14 +600,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant19
 
 property: ontology_restaurant1.owl#name
 value: rexristorante
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 617olive
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: italian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2136272300
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -514,8 +620,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address60
 
 property: ontology_restaurant1.owl#street
 value: 4365th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -523,8 +631,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address62
 
 property: ontology_restaurant1.owl#street
 value: 20149th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -532,8 +642,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address61
 
 property: ontology_restaurant1.owl#street
 value: 11103rdave65th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -541,8 +653,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address64
 
 property: ontology_restaurant1.owl#street
 value: 7479thave50th51ststs
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -550,8 +664,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address63
 
 property: ontology_restaurant1.owl#street
 value: centralpark67th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -559,14 +675,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant12
 
 property: ontology_restaurant1.owl#name
 value: lechardonnay
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 8284melroseave
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: french
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2136558880
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -574,14 +695,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant11
 
 property: ontology_restaurant1.owl#name
 value: orangerie
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 903cienegablvd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: french
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 3106529770
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -589,14 +715,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant14
 
 property: ontology_restaurant1.owl#name
 value: matsuhisa
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 129cienegablvd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: asian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: beverlyhills
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 3106599639
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -604,14 +735,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant13
 
 property: ontology_restaurant1.owl#name
 value: locandaveneta
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 3rd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: italian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 3102741893
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -619,14 +755,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant16
 
 property: ontology_restaurant1.owl#name
 value: patina
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 5955melroseave
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: californian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2134671108
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -634,14 +775,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant15
 
 property: ontology_restaurant1.owl#name
 value: palm
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 9001santamonicablvd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 3105508811
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -649,6 +795,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city79
 
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -656,14 +803,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant18
 
 property: ontology_restaurant1.owl#name
 value: pinotbistro
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 12969venturablvd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: french
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 8189900500
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -671,14 +823,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant17
 
 property: ontology_restaurant1.owl#name
 value: philippeoriginal
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 1001alameda
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2136283781
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -686,6 +843,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city76
 
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -693,6 +851,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city75
 
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -700,6 +859,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city78
 
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -707,8 +867,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address112
 
 property: ontology_restaurant1.owl#street
 value: 2930beverlyglencircle
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -716,6 +878,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city77
 
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -723,8 +886,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address111
 
 property: ontology_restaurant1.owl#street
 value: 532columbusave
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -732,6 +897,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city72
 
 property: ontology_restaurant1.owl#name
 value: lasvegas
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -739,6 +905,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city71
 
 property: ontology_restaurant1.owl#name
 value: lasvegas
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -746,6 +913,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city74
 
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -753,6 +921,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city73
 
 property: ontology_restaurant1.owl#name
 value: lasvegas
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -760,8 +929,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address44
 
 property: ontology_restaurant1.owl#street
 value: 24950th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -769,8 +940,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address43
 
 property: ontology_restaurant1.owl#street
 value: 255th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -778,6 +951,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city70
 
 property: ontology_restaurant1.owl#name
 value: lasvegas
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -785,8 +959,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address46
 
 property: ontology_restaurant1.owl#street
 value: 40558th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -794,8 +970,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address45
 
 property: ontology_restaurant1.owl#street
 value: 5758th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -803,8 +981,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address48
 
 property: ontology_restaurant1.owl#street
 value: 57janehudson
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -812,8 +992,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address47
 
 property: ontology_restaurant1.owl#street
 value: 1025thave15th16thsts
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -821,8 +1003,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address49
 
 property: ontology_restaurant1.owl#street
 value: 239broadwaywalkerwhitests
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -830,8 +1014,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address51
 
 property: ontology_restaurant1.owl#street
 value: 10063rd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -839,8 +1025,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address50
 
 property: ontology_restaurant1.owl#street
 value: 5554th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -848,8 +1036,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address53
 
 property: ontology_restaurant1.owl#street
 value: 3564th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -857,8 +1047,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address52
 
 property: ontology_restaurant1.owl#street
 value: 18258th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -866,8 +1058,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address110
 
 property: ontology_restaurant1.owl#street
 value: 600stockton
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -875,6 +1069,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city69
 
 property: ontology_restaurant1.owl#name
 value: lasvegas
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -882,6 +1077,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city68
 
 property: ontology_restaurant1.owl#name
 value: lasvegas
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -889,6 +1085,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city65
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -896,6 +1093,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city64
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -903,6 +1101,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city67
 
 property: ontology_restaurant1.owl#name
 value: lasvegas
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -910,6 +1109,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city66
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -917,6 +1117,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city61
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -924,6 +1125,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city60
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -931,6 +1133,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city63
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -938,6 +1141,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city62
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -945,8 +1149,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address33
 
 property: ontology_restaurant1.owl#street
 value: 24358th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -954,8 +1160,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address32
 
 property: ontology_restaurant1.owl#street
 value: 21058th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -963,8 +1171,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address35
 
 property: ontology_restaurant1.owl#street
 value: 1212th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -972,8 +1182,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address34
 
 property: ontology_restaurant1.owl#street
 value: 9952nd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -981,8 +1193,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address37
 
 property: ontology_restaurant1.owl#street
 value: 40244th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -990,8 +1204,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address36
 
 property: ontology_restaurant1.owl#street
 value: 4220thparkavebroadway
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -999,8 +1215,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address39
 
 property: ontology_restaurant1.owl#street
 value: 3355th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1008,8 +1226,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address38
 
 property: ontology_restaurant1.owl#street
 value: 16064th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1017,8 +1237,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address40
 
 property: ontology_restaurant1.owl#street
 value: 6055th5th6thave
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1026,8 +1248,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address42
 
 property: ontology_restaurant1.owl#street
 value: 160centralpark
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1035,8 +1259,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address41
 
 property: ontology_restaurant1.owl#street
 value: 15551st
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1044,6 +1270,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city58
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1051,6 +1278,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city57
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1058,6 +1286,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city59
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1065,6 +1294,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city54
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1072,6 +1302,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city112
 
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1079,6 +1310,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city53
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1086,8 +1318,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address29
 
 property: ontology_restaurant1.owl#street
 value: 8547thave54th55thsts
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1095,6 +1329,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city56
 
 property: ontology_restaurant1.owl#name
 value: brooklyn
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1102,6 +1337,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city55
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1109,6 +1345,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city50
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1116,6 +1353,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city111
 
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1123,6 +1361,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city52
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1130,6 +1369,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city110
 
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1137,6 +1377,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city51
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1144,8 +1385,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address22
 
 property: ontology_restaurant1.owl#street
 value: 67raymondave
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1153,8 +1396,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address21
 
 property: ontology_restaurant1.owl#street
 value: 3115picoblvd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: santamonica
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1162,8 +1407,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address24
 
 property: ontology_restaurant1.owl#street
 value: 1354th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1171,8 +1418,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address23
 
 property: ontology_restaurant1.owl#street
 value: 2152nd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1180,8 +1429,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address26
 
 property: ontology_restaurant1.owl#street
 value: 20183rd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1189,8 +1440,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address25
 
 property: ontology_restaurant1.owl#street
 value: 3461st
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1198,8 +1451,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address28
 
 property: ontology_restaurant1.owl#street
 value: 2450broadway90th91ststs
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1207,8 +1462,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address27
 
 property: ontology_restaurant1.owl#street
 value: 167th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1216,8 +1473,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address31
 
 property: ontology_restaurant1.owl#street
 value: 2076th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1225,8 +1484,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address30
 
 property: ontology_restaurant1.owl#street
 value: 2harrisonnearhudson
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1234,6 +1495,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city47
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1241,6 +1503,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city46
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1248,6 +1511,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city49
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1255,6 +1519,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city48
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1262,6 +1527,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city43
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1269,8 +1535,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address19
 
 property: ontology_restaurant1.owl#street
 value: 617olive
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1278,6 +1546,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city42
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1285,8 +1554,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address18
 
 property: ontology_restaurant1.owl#street
 value: 12969venturablvd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1294,6 +1565,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city45
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1301,6 +1573,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city44
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1308,6 +1581,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city41
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1315,6 +1589,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city40
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1322,8 +1597,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address11
 
 property: ontology_restaurant1.owl#street
 value: 903cienegablvd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1331,8 +1608,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address10
 
 property: ontology_restaurant1.owl#street
 value: 1972hillhurstave
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1340,8 +1619,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address13
 
 property: ontology_restaurant1.owl#street
 value: 3rd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1349,8 +1630,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address12
 
 property: ontology_restaurant1.owl#street
 value: 8284melroseave
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1358,8 +1641,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address15
 
 property: ontology_restaurant1.owl#street
 value: 9001santamonicablvd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1367,8 +1652,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address14
 
 property: ontology_restaurant1.owl#street
 value: 129cienegablvd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: beverlyhills
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1376,8 +1663,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address17
 
 property: ontology_restaurant1.owl#street
 value: 1001alameda
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1385,8 +1674,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address16
 
 property: ontology_restaurant1.owl#street
 value: 5955melroseave
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1394,8 +1685,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address20
 
 property: ontology_restaurant1.owl#street
 value: 1114hornave
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1403,6 +1696,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city39
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1410,6 +1704,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city36
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1417,6 +1712,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city35
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1424,6 +1720,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city38
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1431,6 +1728,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city37
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1438,6 +1736,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city32
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1445,6 +1744,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city31
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1452,6 +1752,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city34
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1459,6 +1760,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city33
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1466,6 +1768,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city30
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1473,6 +1776,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city29
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1480,6 +1784,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city28
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1487,6 +1792,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city25
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1494,6 +1800,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city24
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1501,6 +1808,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city27
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1508,6 +1816,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city26
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1515,14 +1824,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant70
 
 property: ontology_restaurant1.owl#name
 value: palacecourt
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 3570lasvegasblvd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: continental
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: lasvegas
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 7027317547
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -1530,6 +1844,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city3
 
 property: ontology_restaurant1.owl#name
 value: shermanoaks
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1537,6 +1852,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city21
 
 property: ontology_restaurant1.owl#name
 value: santamonica
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1544,6 +1860,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city2
 
 property: ontology_restaurant1.owl#name
 value: belair
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1551,6 +1868,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city20
 
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1558,14 +1876,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant72
 
 property: ontology_restaurant1.owl#name
 value: steakhouse
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 2880lasvegasblvd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: steakhouses
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: lasvegas
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 7027340410
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -1573,6 +1896,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city5
 
 property: ontology_restaurant1.owl#name
 value: santamonica
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1580,6 +1904,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city23
 
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1587,14 +1912,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant71
 
 property: ontology_restaurant1.owl#name
 value: secondstreetgrille
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 200fremont
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: seafood
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: lasvegas
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 7023853232
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -1602,6 +1932,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city4
 
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1609,6 +1940,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city22
 
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1616,14 +1948,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant74
 
 property: ontology_restaurant1.owl#name
 value: abruzzi
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 2355peachtreerdpeachtreebattleshoppingcenter
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: italian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4042618186
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -1631,14 +1968,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant73
 
 property: ontology_restaurant1.owl#name
 value: tillerman
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 2245flamingord
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: seafood
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: lasvegas
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 7027314036
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -1646,6 +1988,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city1
 
 property: ontology_restaurant1.owl#name
 value: studiocity
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1653,14 +1996,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant76
 
 property: ontology_restaurant1.owl#name
 value: bone
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 3130piedmontroad
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4042372663
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -1668,14 +2016,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant75
 
 property: ontology_restaurant1.owl#name
 value: bacchanalia
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 3125piedmontrdnearpeachtreerd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: international
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4043650410
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -1683,6 +2036,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city0
 
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1690,6 +2044,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city7
 
 property: ontology_restaurant1.owl#name
 value: hollywood
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1697,6 +2052,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city6
 
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1704,6 +2060,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city9
 
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1711,6 +2068,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city8
 
 property: ontology_restaurant1.owl#name
 value: malibu
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1718,6 +2076,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city18
 
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1725,14 +2084,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant78
 
 property: ontology_restaurant1.owl#name
 value: buckheaddiner
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 3073piedmontroad
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4042623336
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -1740,6 +2104,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city17
 
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1747,14 +2112,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant77
 
 property: ontology_restaurant1.owl#name
 value: brasserielecoze
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 3393peachtreerdlenoxsquaremallnearneimanmarcus
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: french
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4042661440
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -1762,14 +2132,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant79
 
 property: ontology_restaurant1.owl#name
 value: ciboulette
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 1529piedmontave
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: french
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4048747600
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -1777,6 +2152,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city19
 
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1784,6 +2160,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city14
 
 property: ontology_restaurant1.owl#name
 value: beverlyhills
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1791,6 +2168,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city13
 
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1798,6 +2176,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city16
 
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1805,6 +2184,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city15
 
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1812,8 +2192,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address1
 
 property: ontology_restaurant1.owl#street
 value: 12224venturablvd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: studiocity
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1821,6 +2203,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city10
 
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1828,8 +2211,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address2
 
 property: ontology_restaurant1.owl#street
 value: 701stonecanyonrd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: belair
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1837,6 +2222,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city12
 
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1844,8 +2230,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address3
 
 property: ontology_restaurant1.owl#street
 value: 14016venturablvd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: shermanoaks
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1853,14 +2241,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant61
 
 property: ontology_restaurant1.owl#name
 value: signdove
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 11103rdave65th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2128618080
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -1868,8 +2261,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address4
 
 property: ontology_restaurant1.owl#street
 value: 624breaave
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1877,14 +2272,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant60
 
 property: ontology_restaurant1.owl#name
 value: shunleewest
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 4365th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: asian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2123718844
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -1892,6 +2292,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city11
 
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -1899,14 +2300,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant63
 
 property: ontology_restaurant1.owl#name
 value: taverngreen
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: centralpark67th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2128733200
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -1914,8 +2320,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address5
 
 property: ontology_restaurant1.owl#street
 value: 2709main
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: santamonica
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1923,8 +2331,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address6
 
 property: ontology_restaurant1.owl#street
 value: 6703melroseave
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1932,14 +2342,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant62
 
 property: ontology_restaurant1.owl#name
 value: smithwollensky
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 20149th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2127531530
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -1947,8 +2362,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address7
 
 property: ontology_restaurant1.owl#street
 value: 8358sunsetblvdwest
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: hollywood
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1956,14 +2373,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant65
 
 property: ontology_restaurant1.owl#name
 value: unionsquarecafe
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 2116th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2122434020
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -1971,8 +2393,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address8
 
 property: ontology_restaurant1.owl#street
 value: 23725maliburd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: malibu
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -1980,14 +2404,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant64
 
 property: ontology_restaurant1.owl#name
 value: unclenick
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 7479thave50th51ststs
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: mediterranean
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2123151726
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -1995,8 +2424,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address9
 
 property: ontology_restaurant1.owl#street
 value: 9560daytonway
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -2004,14 +2435,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant67
 
 property: ontology_restaurant1.owl#name
 value: chin
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 3200lasvegasblvd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: asian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: lasvegas
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 7027338899
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2019,14 +2455,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant66
 
 property: ontology_restaurant1.owl#name
 value: virgil
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 15244th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2129219494
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2034,14 +2475,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant69
 
 property: ontology_restaurant1.owl#name
 value: lemontrachet
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 3000paradiserd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: continental
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: lasvegas
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 7027325111
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2049,14 +2495,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant68
 
 property: ontology_restaurant1.owl#name
 value: coyotecafe
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 3799lasvegasblvd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: southwestern
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: lasvegas
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 7028917349
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2064,8 +2515,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address0
 
 property: ontology_restaurant1.owl#street
 value: 435cienegablv
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -2073,14 +2526,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant92
 
 property: ontology_restaurant1.owl#name
 value: toulouse
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: peachtreerd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: french
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4043519533
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2088,6 +2546,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city102
 
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -2095,6 +2554,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city101
 
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -2102,14 +2562,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant91
 
 property: ontology_restaurant1.owl#name
 value: restaurantritzcarltonatlanta
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 181peachtree
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: continental
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4046590400
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2117,14 +2582,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant94
 
 property: ontology_restaurant1.owl#name
 value: alainrondelli
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 126clement
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: french
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4153870408
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2132,6 +2602,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city104
 
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -2139,14 +2610,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant93
 
 property: ontology_restaurant1.owl#name
 value: venividivici
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 4114th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: italian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4048758424
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2154,6 +2630,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city103
 
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -2161,14 +2638,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant96
 
 property: ontology_restaurant1.owl#name
 value: boulevard
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 1mission
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4155436084
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2176,14 +2658,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant95
 
 property: ontology_restaurant1.owl#name
 value: aqua
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 252california
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: seafood
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4159569662
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2191,14 +2678,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant98
 
 property: ontology_restaurant1.owl#name
 value: camptonplace
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 340stockton
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4159555555
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2206,6 +2698,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city100
 
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -2213,14 +2706,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant97
 
 property: ontology_restaurant1.owl#name
 value: cafeclaude
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 7claude
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: french
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4153923505
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2228,6 +2726,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city109
 
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -2235,6 +2734,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city106
 
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -2242,6 +2742,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city105
 
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -2249,6 +2750,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city108
 
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -2256,14 +2758,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant90
 
 property: ontology_restaurant1.owl#name
 value: diningroomritzcarltonbuckhead
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 3434peachtreerd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: international
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4042372700
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2271,6 +2778,7 @@ sub: http://www.okkam.org/oaie/restaurant1-city107
 
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#city
 
@@ -2278,14 +2786,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant7
 
 property: ontology_restaurant1.owl#name
 value: fenix
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 8358sunsetblvdwest
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: hollywood
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2138486677
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2293,14 +2806,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant6
 
 property: ontology_restaurant1.owl#name
 value: citrus
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 6703melroseave
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: californian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2138570034
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2308,14 +2826,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant5
 
 property: ontology_restaurant1.owl#name
 value: chinoismain
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 2709main
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: french
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: santamonica
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 3103929025
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2323,14 +2846,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant4
 
 property: ontology_restaurant1.owl#name
 value: campanile
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 624breaave
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2139381447
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2338,14 +2866,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant3
 
 property: ontology_restaurant1.owl#name
 value: cafebizou
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 14016venturablvd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: french
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: shermanoaks
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 8187883536
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2353,14 +2886,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant2
 
 property: ontology_restaurant1.owl#name
 value: hotelbelair
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 701stonecanyonrd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: californian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: belair
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 3104721211
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2368,14 +2906,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant1
 
 property: ontology_restaurant1.owl#name
 value: artdelicatessen
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 12224venturablvd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: studiocity
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 8187621221
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2383,14 +2926,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant0
 
 property: ontology_restaurant1.owl#name
 value: arniemortonchicago
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 435cienegablv
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 3102461501
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2398,14 +2946,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant99
 
 property: ontology_restaurant1.owl#name
 value: chezmichel
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 804northpoint
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: french
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4157757036
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2413,14 +2966,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant9
 
 property: ontology_restaurant1.owl#name
 value: grillalley
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 9560daytonway
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 3102760615
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2428,14 +2986,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant8
 
 property: ontology_restaurant1.owl#name
 value: granita
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 23725maliburd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: californian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: malibu
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 3104560488
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2443,14 +3006,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant81
 
 property: ontology_restaurant1.owl#name
 value: georgiagrille
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 2290peachtreerdpeachtreesquareshoppingcenter
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4043523517
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2458,14 +3026,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant80
 
 property: ontology_restaurant1.owl#name
 value: delectables
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 1margaretmitchellsq
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4046812909
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2473,14 +3046,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant83
 
 property: ontology_restaurant1.owl#name
 value: heeraindia
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 595piedmontaverioshoppingmall
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: asian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4048764408
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2488,14 +3066,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant82
 
 property: ontology_restaurant1.owl#name
 value: hedgeroseheightsinn
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 490pacesferryrd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: international
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4042337673
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2503,14 +3086,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant85
 
 property: ontology_restaurant1.owl#name
 value: grotta
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 2637peachtreerdpeachtreehousecondominium
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: italian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4042311368
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2518,14 +3106,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant84
 
 property: ontology_restaurant1.owl#name
 value: indigocoastalgrill
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 1397highlandave
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: caribbean
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4048760676
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2533,14 +3126,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant87
 
 property: ontology_restaurant1.owl#name
 value: nikolairoof
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 255courtlandharris
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: continental
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4042216362
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2548,14 +3146,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant86
 
 property: ontology_restaurant1.owl#name
 value: marymactearoom
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 224ponceleonave
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: southern
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4048761800
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2563,14 +3166,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant89
 
 property: ontology_restaurant1.owl#name
 value: caferitzcarltonbuckhead
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 3434peachtreerd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: ext6108international
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4042372700
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2578,14 +3186,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant88
 
 property: ontology_restaurant1.owl#name
 value: panopaul
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 1232pacesferryrd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: international
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4042613662
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2593,14 +3206,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant30
 
 property: ontology_restaurant1.owl#name
 value: chanterelle
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 2harrisonnearhudson
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2129666960
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2608,14 +3226,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant32
 
 property: ontology_restaurant1.owl#name
 value: dawat
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 21058th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: asian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2123557555
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2623,14 +3246,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant31
 
 property: ontology_restaurant1.owl#name
 value: daniel
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 2076th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: french
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2122880033
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2638,14 +3266,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant34
 
 property: ontology_restaurant1.owl#name
 value: seasonsgrillroom
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 9952nd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2127549494
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2653,14 +3286,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant33
 
 property: ontology_restaurant1.owl#name
 value: felidia
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 24358th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: italian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2127581479
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2668,14 +3306,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant36
 
 property: ontology_restaurant1.owl#name
 value: gramercytavern
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 4220thparkavebroadway
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2124770777
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2683,14 +3326,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant35
 
 property: ontology_restaurant1.owl#name
 value: gothambargrill
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 1212th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2126204020
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2698,12 +3346,16 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant38
 
 property: ontology_restaurant1.owl#street
 value: 16064th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2122235656
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2711,14 +3363,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant37
 
 property: ontology_restaurant1.owl#name
 value: islandspice
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 40244th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: telcaribbean
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2127651737
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2726,14 +3383,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant39
 
 property: ontology_restaurant1.owl#name
 value: caravelle
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 3355th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: french
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2125864252
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2741,14 +3403,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant106
 
 property: ontology_restaurant1.owl#name
 value: masa
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 648bush
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: french
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4159897154
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2756,14 +3423,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant105
 
 property: ontology_restaurant1.owl#name
 value: lulu
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 816folsom
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: mediterranean
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4154955775
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2771,14 +3443,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant104
 
 property: ontology_restaurant1.owl#name
 value: folie
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 2316polk
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: french
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4157765577
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2786,14 +3463,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant103
 
 property: ontology_restaurant1.owl#name
 value: khantokethaihouse
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 5937gearyblvd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: asian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4156686654
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2801,14 +3483,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant102
 
 property: ontology_restaurant1.owl#name
 value: hawthornelane
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 22hawthorne
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4157779779
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2816,14 +3503,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant101
 
 property: ontology_restaurant1.owl#name
 value: fringale
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 5704th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: french
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4155430573
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2831,14 +3523,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant100
 
 property: ontology_restaurant1.owl#name
 value: fleurlys
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 777sutter
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: french
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4156737779
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2846,14 +3543,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant21
 
 property: ontology_restaurant1.owl#name
 value: valentino
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 3115picoblvd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: italian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: santamonica
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 3108294313
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2861,14 +3563,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant20
 
 property: ontology_restaurant1.owl#name
 value: spago
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 1114hornave
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: californian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 3106524025
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2876,14 +3583,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant109
 
 property: ontology_restaurant1.owl#name
 value: postrio
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 545post
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4157767825
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2891,14 +3603,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant108
 
 property: ontology_restaurant1.owl#name
 value: plumpjackcafe
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 3201fillmore
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: mediterranean
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4155634755
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2906,14 +3623,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant107
 
 property: ontology_restaurant1.owl#name
 value: mifunejapancenterkintetsubuilding
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 1737post
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: asian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4159220337
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2921,14 +3643,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant23
 
 property: ontology_restaurant1.owl#name
 value: 21club
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 2152nd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2125827200
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2936,14 +3663,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant22
 
 property: ontology_restaurant1.owl#name
 value: yujeankanggourmetchinesecuisine
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 67raymondave
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: asian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 8185850855
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2951,14 +3683,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant25
 
 property: ontology_restaurant1.owl#name
 value: aureole
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 3461st
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2123191660
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2966,14 +3703,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant24
 
 property: ontology_restaurant1.owl#name
 value: aquavit
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 1354th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: continental
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2123077311
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2981,14 +3723,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant27
 
 property: ontology_restaurant1.owl#name
 value: cafedesartistes
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 167th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: continental
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2128773500
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -2996,14 +3743,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant26
 
 property: ontology_restaurant1.owl#name
 value: cafelalo
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 20183rd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: coffeebar
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2124966031
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3011,14 +3763,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant29
 
 property: ontology_restaurant1.owl#name
 value: carnegiedeli
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 8547thave54th55thsts
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: delicatessen
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2127572245
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3026,14 +3783,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant28
 
 property: ontology_restaurant1.owl#name
 value: carmine
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 2450broadway90th91ststs
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: italian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2123622200
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3041,14 +3803,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant50
 
 property: ontology_restaurant1.owl#name
 value: oceana
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 5554th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: seafood
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2127595941
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3056,14 +3823,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant52
 
 property: ontology_restaurant1.owl#name
 value: petrossian
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 18258th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: french
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2122452214
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3071,14 +3843,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant112
 
 property: ontology_restaurant1.owl#name
 value: adrianoristorante
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 2930beverlyglencircle
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: italian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: losangeles
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 3104759807
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3086,14 +3863,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant51
 
 property: ontology_restaurant1.owl#name
 value: parkavenuecafe
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 10063rd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2126441900
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3101,14 +3883,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant111
 
 property: ontology_restaurant1.owl#name
 value: rosepistola
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 532columbusave
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: italian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4153990499
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3116,14 +3903,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant54
 
 property: ontology_restaurant1.owl#name
 value: pisces
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 95ave6th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: seafood
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2122606660
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3131,14 +3923,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant53
 
 property: ontology_restaurant1.owl#name
 value: picholine
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 3564th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: mediterranean
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2127248585
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3146,14 +3943,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant110
 
 property: ontology_restaurant1.owl#name
 value: ritzcarltonrestaurantdiningroom
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 600stockton
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 4152967465
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3161,8 +3963,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address99
 
 property: ontology_restaurant1.owl#street
 value: 804northpoint
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -3170,8 +3974,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address98
 
 property: ontology_restaurant1.owl#street
 value: 340stockton
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -3179,14 +3985,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant56
 
 property: ontology_restaurant1.owl#name
 value: rivercafe
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 1watereastriver
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: brooklyn
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 7185225200
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3194,14 +4005,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant55
 
 property: ontology_restaurant1.owl#name
 value: rainbowroom
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 30rockefellerplaza
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: 2126325100american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2126325000
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3209,14 +4025,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant58
 
 property: ontology_restaurant1.owl#name
 value: secondavenuedeli
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 1562ndave10th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: delicatessen
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2126770606
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3224,14 +4045,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant57
 
 property: ontology_restaurant1.owl#name
 value: sandomenico
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 240centralpark
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: italian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2122655959
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3239,14 +4065,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant59
 
 property: ontology_restaurant1.owl#name
 value: seryna
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 1153rd
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: asian
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2129809393
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3254,14 +4085,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant41
 
 property: ontology_restaurant1.owl#name
 value: lebernardin
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 15551st
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: french
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2124891515
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3269,14 +4105,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant40
 
 property: ontology_restaurant1.owl#name
 value: cotebasque
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 6055th5th6thave
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: french
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2126886525
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3284,14 +4125,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant43
 
 property: ontology_restaurant1.owl#name
 value: lespinasse
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 255th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2123396719
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3299,14 +4145,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant42
 
 property: ontology_restaurant1.owl#name
 value: lescelebrites
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 160centralpark
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: french
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2124845113
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3314,8 +4165,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address88
 
 property: ontology_restaurant1.owl#street
 value: 1232pacesferryrd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -3323,8 +4176,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address87
 
 property: ontology_restaurant1.owl#street
 value: 255courtlandharris
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -3332,8 +4187,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address89
 
 property: ontology_restaurant1.owl#street
 value: 3434peachtreerd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -3341,8 +4198,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address91
 
 property: ontology_restaurant1.owl#street
 value: 181peachtree
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -3350,8 +4209,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address90
 
 property: ontology_restaurant1.owl#street
 value: 3434peachtreerd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -3359,8 +4220,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address93
 
 property: ontology_restaurant1.owl#street
 value: 4114th
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -3368,8 +4231,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address92
 
 property: ontology_restaurant1.owl#street
 value: peachtreerd
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: atlanta
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -3377,8 +4242,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address95
 
 property: ontology_restaurant1.owl#street
 value: 252california
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -3386,8 +4253,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address94
 
 property: ontology_restaurant1.owl#street
 value: 126clement
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -3395,8 +4264,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address97
 
 property: ontology_restaurant1.owl#street
 value: 7claude
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -3404,8 +4275,10 @@ sub: http://www.okkam.org/oaie/restaurant1-address96
 
 property: ontology_restaurant1.owl#street
 value: 1mission
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: sanfrancisco
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#address
 
@@ -3413,14 +4286,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant45
 
 property: ontology_restaurant1.owl#name
 value: manhattanoceanclub
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 5758th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: seafood
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2123717777
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3428,14 +4306,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant44
 
 property: ontology_restaurant1.owl#name
 value: lutece
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 24950th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: french
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2127522225
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3443,14 +4326,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant47
 
 property: ontology_restaurant1.owl#name
 value: mesagrill
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 1025thave15th16thsts
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2128077400
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3458,14 +4346,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant46
 
 property: ontology_restaurant1.owl#name
 value: march
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 40558th
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: american
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2127546272
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3473,14 +4366,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant49
 
 property: ontology_restaurant1.owl#name
 value: montrachet
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 239broadwaywalkerwhitests
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: french
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2122192777
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 
@@ -3488,14 +4386,19 @@ sub: http://www.okkam.org/oaie/restaurant1-restaurant48
 
 property: ontology_restaurant1.owl#name
 value: micocina
+value type: STRING
 property: ontology_restaurant1.owl#street
 value: 57janehudson
+value type: STRING
 property: ontology_restaurant1.owl#category
 value: mexican
+value type: STRING
 property: ontology_restaurant1.owl#name
 value: york
+value type: STRING
 property: ontology_restaurant1.owl#phone_number
 value: 2126278273
+value type: STRING
 predicate: type
 value: http://www.okkam.org/ontology_restaurant1.owl#restaurant
 

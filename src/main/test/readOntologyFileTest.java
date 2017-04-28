@@ -3,8 +3,9 @@ import org.semanticweb.owlapi.model.OWLOntologyStorageException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static instance.matching.version2.fileParser.MetaDataFileParser.parseMetaDataPR;
-import static instance.matching.version2.utility.ParamDef.propDetail1;
+import static instance.matching.version2.fileParser.MetaDataFileParser.parseMetaDataSPIM;
+import static instance.matching.version2.utility.ParamDef.disjoint;
+import static instance.matching.version2.utility.ParamDef.subClass;
 
 /**
  * Created by ciferlv on 17-4-24.
@@ -34,11 +35,18 @@ public class readOntologyFileTest {
 //        }
 
 
-        parseMetaDataPR("src/main/resources/dataSet/PR/person2/ontology_people2.owl", propDetail1);
-//        parseMetaDataPR("src/main/resources/dataSet/PR/restaurants/ontology_restaurant2.owl", propDetail1);
-        for (String key : propDetail1.keySet()) {
-            System.out.println(propDetail1.get(key).toString());
-        }
+//        parseMetaDataPR("src/main/resources/dataSet/PR/person2/ontology_people2.owl", propDetailMap1);
+//        parseMetaDataPR("src/main/resources/dataSet/PR/restaurants/ontology_restaurant2.owl", propDetailMap1);
+//        for (String key : propDetailMap1.keySet()) {
+//            System.out.println(propDetailMap1.get(key).toString());
+//        }
+
+
+        String filePath = "src/main/resources/dataSet/SPIMBENCH_small/Tbox2.nt";
+        parseMetaDataSPIM(filePath);
+
+        logger.info(subClass.toString());
+        logger.info(disjoint.toString());
 
     }
 }

@@ -1,18 +1,20 @@
 package instance.matching.version2.fileParser;
 
-import instance.matching.version2.unit.Property;
+import instance.matching.version2.unit.PropertyDetail;
+import org.apache.jena.rdf.model.*;
+import org.apache.jena.util.FileManager;
 import org.semanticweb.owlapi.apibinding.OWLManager;
 import org.semanticweb.owlapi.model.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.File;
+import java.io.InputStream;
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import static instance.matching.version2.utility.ParamDef.DATA_PROPERTY_INDEX;
-import static instance.matching.version2.utility.ParamDef.OBJECT_PROPERTY_INDEX;
+import static instance.matching.version2.utility.ParamDef.*;
 //import java.util.stream.Stream;
 
 /**
@@ -23,35 +25,35 @@ public class MetaDataFileParser {
     private static Logger logger = LoggerFactory.getLogger(MetaDataFileParser.class);
 
     private static void addToPropDetailMap(boolean isRange,
-                                           int PropType,
+                                           int propType,
                                            String propName,
                                            String propVal,
-                                           Map<String, Property> propDetail) {
+                                           Map<String, PropertyDetail> propDetail) {
 
         if (isRange) {
             if (propDetail.containsKey(propName)) {
 
-                Property myProp = propDetail.get(propName);
+                PropertyDetail myProp = propDetail.get(propName);
                 myProp.addRange(propVal);
             } else {
-                Property myProp = new Property(propName, PropType);
+                PropertyDetail myProp = new PropertyDetail(propName, propType);
                 myProp.addRange(propVal);
                 propDetail.put(propName, myProp);
             }
         } else {
             if (propDetail.containsKey(propName)) {
 
-                Property myProp = propDetail.get(propName);
+                PropertyDetail myProp = propDetail.get(propName);
                 myProp.addDomain(propVal);
             } else {
-                Property myProp = new Property(propName, PropType);
+                PropertyDetail myProp = new PropertyDetail(propName, propType);
                 myProp.addDomain(propVal);
                 propDetail.put(propName, myProp);
             }
         }
     }
 
-    public static void parseMetaDataPR(String filePath, Map<String, Property> propDetail) throws OWLOntologyCreationException {
+    public static void parseMetaDataPR(String filePath, Map<String, PropertyDetail> propDetail) throws OWLOntologyCreationException {
 
         OWLOntologyManager manager = OWLManager.createOWLOntologyManager();
 
@@ -91,7 +93,7 @@ public class MetaDataFileParser {
             for (OWLEntity entity : entitySet) {
 
                 String entityType = entity.getEntityType().getName().toLowerCase().toLowerCase();
-                logger.info(entityType);
+
                 if (entityType.equals("dataproperty") || entityType.equals("objectproperty")) {
 
                     propName = entity.getIRI().getIRIString();
@@ -106,7 +108,39 @@ public class MetaDataFileParser {
         }
     }
 
-    public static void parseMetaDataSPIM(String filePath, Map<String, Property> propDetail) {
+    public static void parseMetaDataSPIM(String filePath) {
 
+        Model model = ModelFactory.createDefaultModel();
+
+        InputStream in = FileManager.get().open(filePath);
+        if (in == null) {
+            throw new IllegalArgumentException("File: " + filePath + " not found");
+        }
+
+        if (filePath.endsWith(".nt")) {
+            model.read(in, "", "N3");
+        } else {
+            model.read(in, "");
+        }
+
+        StmtIterator iter = model.listStatements();
+
+        while (iter.hasNext()) {
+
+            Statement stmt = iter.nextStatement();
+            Resource sub = stmt.getSubject();
+            Property prop = stmt.getPredicate();
+            RDFNode val = stmt.getObject();
+
+            if (prop.getLocalName().toLowerCase().equals("disjointwith")) {
+
+                disjoint.addDisjoint(sub.getURI(), val.asResource().getURI());
+            }
+            if (prop.getLocalName().toLowerCase().equals("subclassof")) {
+
+                subClass.addsSubClass(val.asResource().getURI(),sub.getURI());
+            }
+
+        }
     }
 }

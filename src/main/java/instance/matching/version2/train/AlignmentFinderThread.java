@@ -10,6 +10,7 @@ import org.slf4j.LoggerFactory;
 import java.util.Iterator;
 import java.util.Map;
 
+import static instance.matching.version2.unit.Disjoint.isDisjoint;
 import static instance.matching.version2.utility.ParamDef.ALIGN_THRESHOLD;
 import static instance.matching.version2.utility.ParamDef.PROP_PAIR_NUM_NEED_THRESHOLD;
 import static instance.matching.version2.utility.ParamDef.*;
@@ -39,6 +40,10 @@ public class AlignmentFinderThread implements Runnable {
     }
 
     public void run() {
+
+        if (isDisjoint(inst1, inst2)) {
+            return;
+        }
 
         Map<Double, Integer> result = inst1.calSimToInst(inst2, propPairList);
 

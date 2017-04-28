@@ -126,6 +126,9 @@ public class VirtualDoc {
             }
         }
 
+        if (typeIndex == THING_TYPE_INDEX) {
+            logger.info("********************NO TYPE****************");
+        }
 
         if (graph.containsKey(subStr)) {
 
@@ -139,35 +142,7 @@ public class VirtualDoc {
 
     private void filterTarType() {
 
-        Map<String, Set<String>> classTree = new HashMap<String, Set<String>>();
-
-        for (String strClass : classSet) {
-
-            Instance myInst = graph.get(strClass);
-            Set<Value> subClassOf;
-            if (myInst.propUriIsEmpty()) {
-                subClassOf = myInst.getPropValue().get(SUBCLASSOF_FULL_NAME);
-            } else {
-                subClassOf = myInst.getPropUri().get(SUBCLASSOF_FULL_NAME);
-            }
-
-            if (subClassOf == null) continue;
-
-            for (Value strSubClass : subClassOf) {
-
-                String myValue = strSubClass.getValue();
-                if (classTree.containsKey(myValue)) {
-                    Set<String> mySet = classTree.get(myValue);
-                    mySet.add(strClass);
-                } else {
-                    Set<String> mySet = new HashSet<String>();
-                    mySet.add(strClass);
-                    classTree.put(myValue, mySet);
-                }
-            }
-        }
-
-        Queue<String> queue = new LinkedList<String>();
+        Queue<String> queue = new LinkedList<>();
 
         for (String str : tarTypeSet) {
 
@@ -175,6 +150,7 @@ public class VirtualDoc {
         }
 
         tarTypeSet.clear();
+
         while (!queue.isEmpty()) {
 
             String top = queue.peek();
@@ -186,7 +162,7 @@ public class VirtualDoc {
                 continue;
             }
 
-            Set<String> subClassSet = classTree.get(top);
+            Set<String> subClassSet = subClass.getSubClass(top);
             if (subClassSet == null) continue;
             for (String subClass : subClassSet) {
 
