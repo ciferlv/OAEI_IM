@@ -1,11 +1,11 @@
-import instance.matching.version2.unit.VirtualDoc;
+import instance.matching.unit.VirtualDoc;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import static instance.matching.version2.fileParser.TaskFileParser.parseTaskFile;
+import static instance.matching.fileParser.TaskFileParser.parseTaskFile;
 
 /**
  * Created by ciferlv on 17-4-16.

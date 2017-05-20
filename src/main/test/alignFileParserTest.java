@@ -1,6 +1,6 @@
-import instance.matching.version2.unit.Alignment;
+import instance.matching.unit.Alignment;
 
-import static instance.matching.version2.fileParser.AlignFileParser.parseAlignFile;
+import static instance.matching.fileParser.AlignFileParser.parseAlignFile;
 
 /**
  * Created by ciferlv on 17-4-17.

@@ -3,9 +3,9 @@ import org.semanticweb.owlapi.model.OWLOntologyStorageException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static instance.matching.version2.fileParser.MetaDataFileParser.parseMetaDataSPIM;
-import static instance.matching.version2.utility.ParamDef.disjoint;
-import static instance.matching.version2.utility.ParamDef.subClass;
+import static instance.matching.fileParser.MetaDataFileParser.parseMetaDataSPIM;
+import static instance.matching.utility.ParamDef.disjoint;
+import static instance.matching.utility.ParamDef.subClass;
 
 /**
  * Created by ciferlv on 17-4-24.

@@ -1451,9 +1451,6 @@ sub2: http://www.okkam.org/oaie/person2-person2761
 sub1: http://www.okkam.org/oaie/person1-person1420
 sub2: http://www.okkam.org/oaie/person2-person1421
 
-sub1: http://www.okkam.org/oaie/person1-person2750
-sub2: http://www.okkam.org/oaie/person2-person2751
-
 sub1: http://www.okkam.org/oaie/person1-person4930
 sub2: http://www.okkam.org/oaie/person2-person4931
 
@@ -1468,6 +1465,9 @@ sub2: http://www.okkam.org/oaie/person2-person2741
 
 sub1: http://www.okkam.org/oaie/person1-person4920
 sub2: http://www.okkam.org/oaie/person2-person4921
+
+sub1: http://www.okkam.org/oaie/person1-person2750
+sub2: http://www.okkam.org/oaie/person2-person2751
 
 sub1: http://www.okkam.org/oaie/person1-person4960
 sub2: http://www.okkam.org/oaie/person2-person4961

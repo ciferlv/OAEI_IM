@@ -1,8 +1,8 @@
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static instance.matching.version2.nlp.EditDistance.editDistance;
-import static instance.matching.version2.nlp.I_SUB.I_SUBScore;
+import static instance.matching.nlp.EditDistance.editDistance;
+import static instance.matching.nlp.I_SUB.I_SUBScore;
 
 /**
  * Created by Administrator on 2017/4/12.
