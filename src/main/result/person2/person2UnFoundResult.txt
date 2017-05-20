@@ -1,10 +1,1 @@
-size: 3
-sub1: http://www.okkam.org/oaie/person1-person1300
-sub2: http://www.okkam.org/oaie/person2-person1301
-
-sub1: http://www.okkam.org/oaie/person1-person1770
-sub2: http://www.okkam.org/oaie/person2-person1777
-
-sub1: http://www.okkam.org/oaie/person1-person5490
-sub2: http://www.okkam.org/oaie/person2-person5497
-
+size: 0

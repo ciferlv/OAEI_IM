@@ -35,16 +35,16 @@
 	</map>
 	<map>
 		<Cell>
-			<entity1 rdf:resource='http://www.bbc.co.uk/things/61#id'/>
-			<entity2 rdf:resource='http://www.bbc.co.uk/things/723685516#id'/>
+			<entity1 rdf:resource='http://www.bbc.co.uk/things/208#id'/>
+			<entity2 rdf:resource='http://www.bbc.co.uk/things/1023741141#id'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
 	</map>
 	<map>
 		<Cell>
-			<entity1 rdf:resource='http://www.bbc.co.uk/things/208#id'/>
-			<entity2 rdf:resource='http://www.bbc.co.uk/things/1023741141#id'/>
+			<entity1 rdf:resource='http://www.bbc.co.uk/things/61#id'/>
+			<entity2 rdf:resource='http://www.bbc.co.uk/things/723685516#id'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>

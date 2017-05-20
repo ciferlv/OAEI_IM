@@ -3003,16 +3003,16 @@
 	</map>
 	<map>
 		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person90'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person91'/>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2820'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2821'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
 	</map>
 	<map>
 		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2820'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2821'/>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person90'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person91'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>

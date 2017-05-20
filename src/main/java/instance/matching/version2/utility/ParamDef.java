@@ -27,6 +27,7 @@ public class ParamDef {
     public static String supp2_path;
     public static String standard_path;
     public static String result_file_path;
+    public static String metrics_file_path;
     public static String correct_result_file_path;
     public static String wrong_result_file_path;
     public static String unfound_result_file_path;
@@ -79,7 +80,7 @@ public class ParamDef {
 
     public static final int PROP_PAIR_SIZE = 3;
 
-    public static final int PROP_PAIR_NUM_NEED_THRESHOLD = 2;
+    public static int PROP_PAIR_NUM_NEED_THRESHOLD = 2;
 
     public static final double PROP_PAIR_THRESHOLD = 0.65;
 

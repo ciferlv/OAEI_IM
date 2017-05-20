@@ -30,13 +30,14 @@ import static instance.matching.version2.utility.ParamDef.*;
 /**
  * Created by ciferlv on 17-4-25.
  */
-public class PRMatchingEntry {
+public class MatchingEntry {
 
-    private static Logger logger = LoggerFactory.getLogger(PRMatchingEntry.class);
+    private static Logger logger = LoggerFactory.getLogger(MatchingEntry.class);
 
-    private static void init() throws IOException, OWLOntologyCreationException {
+    public static void init() throws IOException, OWLOntologyCreationException {
 
-        confFileIndex = 3;
+        confFileIndex--;
+
         Properties pro = new Properties();
         FileInputStream in = new FileInputStream(CONF_FILE_PATH[confFileIndex]);
         pro.load(in);
@@ -48,6 +49,7 @@ public class PRMatchingEntry {
         supp2_path = pro.getProperty("supp2_path");
         standard_path = pro.getProperty("standard_path");
         result_file_path = pro.getProperty("result_file_path");
+        metrics_file_path = pro.getProperty("metrics_file_path");
         correct_result_file_path = pro.getProperty("correct_result_file_path");
         wrong_result_file_path = pro.getProperty("wrong_result_file_path");
         unfound_result_file_path = pro.getProperty("unfound_result_file_path");
@@ -82,7 +84,7 @@ public class PRMatchingEntry {
 
     }
 
-    private static void matching() throws FileNotFoundException {
+    public static void matching() throws FileNotFoundException {
 
         VirtualDoc doc1 = new VirtualDoc(tarTypeSet1);
         VirtualDoc doc2 = new VirtualDoc(tarTypeSet2);
@@ -149,7 +151,10 @@ public class PRMatchingEntry {
 
     public static void main(String[] args) throws IOException, OWLOntologyCreationException {
 
+        confFileIndex = 5;
         init();
         matching();
     }
+
+
 }

@@ -57,14 +57,15 @@ public class Metrics {
         recall = 1.0 * correctNum / refSize;
         f1_score = (2.0 * precision * recall) / (precision + recall);
 
-        logger.info("precision: " + precision);
-        logger.info("recall: " + recall);
-        logger.info("f1_score: " + f1_score);
+        String metrics = "precision: " + precision + "\nrecall: " + recall + "\nf1-score: " + f1_score;
+        logger.info(metrics);
 
         try {
-            printToFile(correct_result_file_path,correctAlign.toString());
-            printToFile(wrong_result_file_path,wrongAlign.toString());
-            printToFile(unfound_result_file_path,unfoundAlign.toString());
+
+            printToFile(correct_result_file_path, correctAlign.toString());
+            printToFile(wrong_result_file_path, wrongAlign.toString());
+            printToFile(unfound_result_file_path, unfoundAlign.toString());
+            printToFile(metrics_file_path, metrics);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

@@ -1118,11 +1118,11 @@ sub2: http://www.okkam.org/oaie/person2-person651
 sub1: http://www.okkam.org/oaie/person1-person1970
 sub2: http://www.okkam.org/oaie/person2-person1971
 
-sub1: http://www.okkam.org/oaie/person1-person90
-sub2: http://www.okkam.org/oaie/person2-person91
-
 sub1: http://www.okkam.org/oaie/person1-person2820
 sub2: http://www.okkam.org/oaie/person2-person2821
+
+sub1: http://www.okkam.org/oaie/person1-person90
+sub2: http://www.okkam.org/oaie/person2-person91
 
 sub1: http://www.okkam.org/oaie/person1-person640
 sub2: http://www.okkam.org/oaie/person2-person641
