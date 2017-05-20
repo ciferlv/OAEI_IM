@@ -151,7 +151,7 @@ public class MatchingEntry {
 
     public static void main(String[] args) throws IOException, OWLOntologyCreationException {
 
-        confFileIndex = 5;
+        confFileIndex = 4;
         init();
         matching();
     }

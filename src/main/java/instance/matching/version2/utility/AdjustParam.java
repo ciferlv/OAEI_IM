@@ -19,7 +19,7 @@ public class AdjustParam {
 
         for (int i = 1; i <= 5; i++) {
 
-            confFileIndex = 4;
+            confFileIndex = 5;
             PROP_PAIR_NUM_NEED_THRESHOLD = i;
             init();
             matching();
