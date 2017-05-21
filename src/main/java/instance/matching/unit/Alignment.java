@@ -58,6 +58,7 @@ public class Alignment {
         while (positives.size() < positiveSize) {
 
             int index = r.nextInt(size());
+//            System.out.println(index);
             positives.addCounterPart(findCounterPart(index));
         }
         return positives;

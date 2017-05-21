@@ -92,17 +92,17 @@ public class MatchingEntry {
         Model model2 = ModelFactory.createDefaultModel();
 
         parseTaskFile(inst1_path, doc1, model1);
-        logger.info("InstSet1 Num: " + String.valueOf(doc1.getGraph().size()));
+//        logger.info("InstSet1 Num: " + String.valueOf(doc1.getGraph().size()));
 
         parseTaskFile(inst2_path, doc2, model2);
-        logger.info("InstSet2 Num: " + String.valueOf(doc2.getGraph().size()));
+//        logger.info("InstSet2 Num: " + String.valueOf(doc2.getGraph().size()));
 
         doc1.processGraph();
         doc2.processGraph();
 
         Alignment refAlign = new Alignment();
         parseAlignFile(standard_path, refAlign);
-        logger.info("Aligment Num: " +String.valueOf(refAlign.size()));
+//        logger.info("Aligment Num: " +String.valueOf(refAlign.size()));
 
         Alignment positives = refAlign.generatePositives();
 
@@ -150,7 +150,7 @@ public class MatchingEntry {
 
     public static void main(String[] args) throws IOException, OWLOntologyCreationException {
 
-        confFileIndex = 1;
+        confFileIndex = 2;
         init();
         matching();
     }

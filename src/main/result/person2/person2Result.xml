@@ -20,47 +20,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1620'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1623'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1620'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1626'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1620'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1622'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1620'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1625'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1620'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1627'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1620'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1621'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -76,23 +36,47 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1620'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1627'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1620'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1623'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1620'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1621'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1620'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1625'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1620'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1622'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1620'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1628'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2970'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2976'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2970'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2975'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -108,7 +92,23 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2970'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2972'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2975'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2970'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2976'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2970'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2974'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -124,7 +124,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2970'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2974'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2972'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -172,23 +172,15 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3810'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3817'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3810'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3812'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3810'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3811'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3810'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3817'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -204,15 +196,15 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3810'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3813'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3812'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
 	</map>
 	<map>
 		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person710'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person711'/>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3810'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3813'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -228,7 +220,23 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person710'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person711'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person710'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person714'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person710'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person715'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -253,14 +261,6 @@
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person710'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person718'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person710'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person715'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -332,7 +332,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person5140'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5146'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5145'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -340,7 +340,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person5140'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5145'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5146'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -380,7 +380,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person5160'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5162'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5161'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -388,7 +388,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person5160'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5161'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5162'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -468,7 +468,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4670'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4672'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4673'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -476,7 +476,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4670'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4673'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4672'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -532,6 +532,22 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3310'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3313'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3310'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3312'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3310'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3315'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
@@ -548,31 +564,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3310'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3312'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3310'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3313'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3310'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3311'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2460'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2466'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -588,7 +580,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2460'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2465'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2466'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -620,7 +612,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2460'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2464'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2461'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -628,7 +620,15 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2460'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2461'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2465'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2460'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2464'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -660,7 +660,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4630'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4632'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4633'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -668,7 +668,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4630'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4633'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4632'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -700,7 +700,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person5920'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5921'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5922'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -708,7 +708,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person5920'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5922'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5921'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -732,22 +732,6 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2400'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2406'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2400'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2405'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2400'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2403'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
@@ -756,15 +740,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2400'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2404'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2400'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2402'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2406'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -780,7 +756,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2400'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2401'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2405'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -795,24 +771,24 @@
 	</map>
 	<map>
 		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1770'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1778'/>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2400'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2404'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
 	</map>
 	<map>
 		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1770'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1776'/>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2400'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2401'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
 	</map>
 	<map>
 		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1770'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1773'/>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2400'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2402'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -821,14 +797,6 @@
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1770'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1772'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1770'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1774'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -851,32 +819,32 @@
 	</map>
 	<map>
 		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1750'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1755'/>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1770'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1774'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
 	</map>
 	<map>
 		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1750'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1753'/>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1770'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1773'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
 	</map>
 	<map>
 		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1750'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1756'/>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1770'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1776'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
 	</map>
 	<map>
 		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1750'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1752'/>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1770'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1778'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -900,7 +868,39 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1750'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1755'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1750'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1753'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1750'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1751'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1750'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1752'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1750'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1756'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -924,7 +924,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person840'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person841'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person845'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -940,7 +940,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person840'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person845'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person841'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -956,7 +956,23 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3050'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3055'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3051'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3050'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3053'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3050'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3054'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -980,23 +996,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3050'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3051'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3050'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3054'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3050'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3053'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3055'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1020,14 +1020,6 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person5660'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5662'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person5660'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5661'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
@@ -1035,16 +1027,8 @@
 	</map>
 	<map>
 		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4360'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4367'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4360'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4366'/>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person5660'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5662'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1060,6 +1044,14 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4360'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4366'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4360'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4365'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
@@ -1068,7 +1060,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4360'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4363'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4362'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1076,7 +1068,15 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4360'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4362'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4367'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4360'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4363'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1156,15 +1156,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person5620'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5626'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person5620'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5622'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5628'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1196,14 +1188,6 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person5620'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5628'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person5620'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5624'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
@@ -1211,8 +1195,16 @@
 	</map>
 	<map>
 		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2140'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2147'/>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person5620'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5622'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person5620'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5626'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1228,6 +1220,14 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2140'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2148'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2140'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2149'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
@@ -1236,7 +1236,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2140'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2148'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2147'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1252,7 +1252,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2140'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2142'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2145'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1260,7 +1260,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2140'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2145'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2142'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1284,6 +1284,14 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1290'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1292'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1290'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1291'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
@@ -1293,14 +1301,6 @@
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1290'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1293'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1290'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1292'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1332,7 +1332,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1220'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1222'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1223'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1340,7 +1340,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1220'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1223'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1222'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1460,7 +1460,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2530'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2537'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2532'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1468,7 +1468,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2530'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2532'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2537'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1604,14 +1604,6 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1870'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1872'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1870'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1871'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
@@ -1621,6 +1613,14 @@
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1870'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1873'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1870'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1872'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1684,7 +1684,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3180'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3181'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3182'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1692,7 +1692,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3180'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3182'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3181'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1764,7 +1764,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4460'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4468'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4467'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1772,7 +1772,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4460'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4467'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4468'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1796,7 +1796,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4460'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4464'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4463'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1804,7 +1804,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4460'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4463'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4464'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1884,23 +1884,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3150'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3154'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3150'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3155'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3150'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3157'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1916,7 +1900,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3150'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3151'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3157'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1924,7 +1908,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3150'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3152'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3151'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1939,8 +1923,16 @@
 	</map>
 	<map>
 		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2290'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2292'/>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3150'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3154'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3150'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3152'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1949,6 +1941,14 @@
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2290'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2291'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2290'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2292'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1988,7 +1988,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3560'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3561'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3563'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -1996,7 +1996,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3560'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3563'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3561'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2036,47 +2036,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4410'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4418'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4410'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4419'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4410'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4416'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4410'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4417'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4410'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4414'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4410'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4415'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2093,6 +2053,46 @@
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4410'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4413'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4410'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4415'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4410'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4419'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4410'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4418'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4410'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4417'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4410'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4414'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2124,23 +2124,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2210'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2213'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2210'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2212'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2210'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2215'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2211'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2156,15 +2140,23 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2210'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2211'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2215'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
 	</map>
 	<map>
 		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1300'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1307'/>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2210'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2213'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2210'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2212'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2180,7 +2172,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1300'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1304'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1302'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2204,7 +2196,15 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1300'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1302'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1304'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1300'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1307'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2213,14 +2213,6 @@
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2630'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2634'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2630'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2631'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2243,8 +2235,8 @@
 	</map>
 	<map>
 		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1320'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1325'/>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2630'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2631'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2253,6 +2245,14 @@
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1320'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1326'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1320'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1325'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2300,22 +2300,6 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person620'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person623'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person620'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person622'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person620'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person624'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
@@ -2332,6 +2316,22 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person620'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person622'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person620'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person623'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person620'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person625'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
@@ -2340,7 +2340,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2810'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2811'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2813'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2348,7 +2348,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2810'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2813'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2811'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2380,14 +2380,6 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person5020'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5022'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person5020'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5021'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
@@ -2395,16 +2387,8 @@
 	</map>
 	<map>
 		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person250'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person253'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4170'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4171'/>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person5020'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5022'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2419,40 +2403,8 @@
 	</map>
 	<map>
 		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person240'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person241'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1920'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1921'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1920'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1922'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4190'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4191'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4190'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4192'/>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person250'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person253'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2469,6 +2421,54 @@
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person250'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person254'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4170'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4171'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person240'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person241'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1920'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1922'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1920'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1921'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4190'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4191'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person4190'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person4192'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2508,6 +2508,14 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person5490'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5494'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person5490'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5493'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
@@ -2517,14 +2525,6 @@
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person5490'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5491'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person5490'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person5494'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2580,7 +2580,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3250'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3253'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3255'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2588,7 +2588,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3250'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3255'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3253'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2636,14 +2636,6 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2390'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2396'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2390'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2395'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
@@ -2652,7 +2644,23 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2390'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2396'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2390'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2392'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2390'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2394'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2669,14 +2677,6 @@
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2390'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2393'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2390'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2394'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2700,14 +2700,6 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3200'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3203'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3200'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3202'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
@@ -2717,6 +2709,14 @@
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3200'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3205'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3200'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3203'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2748,7 +2748,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2350'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2354'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2353'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2756,7 +2756,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person2350'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2353'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person2354'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2804,22 +2804,6 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3220'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3225'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3220'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3224'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3220'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3228'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
@@ -2828,7 +2812,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3220'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3227'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3225'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2844,6 +2828,22 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3220'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3227'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3220'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3224'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3220'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3221'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
@@ -2852,7 +2852,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3220'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3223'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3222'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2860,7 +2860,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3220'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3222'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3223'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2876,7 +2876,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1470'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1472'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1473'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2892,7 +2892,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1470'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1471'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1472'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2900,7 +2900,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person1470'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1473'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person1471'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2932,14 +2932,6 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3640'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3648'/>
-			<relation>=</relation>
-			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
-		</Cell>
-	</map>
-	<map>
-		<Cell>
-			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3640'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3643'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
@@ -2948,7 +2940,7 @@
 	<map>
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3640'/>
-			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3642'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3648'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>
@@ -2957,6 +2949,14 @@
 		<Cell>
 			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3640'/>
 			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3645'/>
+			<relation>=</relation>
+			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource='http://www.okkam.org/oaie/person1-person3640'/>
+			<entity2 rdf:resource='http://www.okkam.org/oaie/person2-person3642'/>
 			<relation>=</relation>
 			<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
 		</Cell>

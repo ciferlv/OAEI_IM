@@ -26,11 +26,11 @@ public class AdjustAlgorithm {
         }
     }
 
-    public static void filterResultToPresent() throws IOException, OWLOntologyCreationException {
+    public static void testStability() throws IOException, OWLOntologyCreationException {
 
         for(int i = 0; i < 10; i ++ )
         {
-            confFileIndex = 3;
+            confFileIndex = 5;
             init();
             matching();
         }
@@ -38,7 +38,6 @@ public class AdjustAlgorithm {
 
     public static void main(String[] args) throws IOException, OWLOntologyCreationException {
 
-
+        testStability();
     }
-
 }
